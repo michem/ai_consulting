@@ -1,3 +1,10 @@
+---
+title: "FAQ & Troubleshooting"
+description: "Answers to common questions on setup, usage, security, billing, and performance."
+category: "Claude Code Enterprise Toolkit"
+order: 15
+---
+
 # Claude Code Enterprise FAQ & Troubleshooting
 
 ## Table of Contents

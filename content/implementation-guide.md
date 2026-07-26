@@ -1,3 +1,10 @@
+---
+title: "Implementation Guide"
+description: "The complete deployment lifecycle for Claude Code in the enterprise, from pilot to full-scale rollout."
+category: "Claude Code Enterprise Toolkit"
+order: 12
+---
+
 # Claude Code Enterprise Implementation Guide
 
 ## Table of Contents

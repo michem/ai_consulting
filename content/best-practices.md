@@ -1,3 +1,10 @@
+---
+title: "Enterprise Best Practices"
+description: "Security, code quality, prompting, and team collaboration practices for Claude Code at scale."
+category: "Claude Code Enterprise Toolkit"
+order: 14
+---
+
 # Claude Code Enterprise Best Practices
 
 ## Table of Contents

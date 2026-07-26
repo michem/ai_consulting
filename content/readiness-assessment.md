@@ -1,3 +1,10 @@
+---
+title: "Enterprise Readiness Assessment"
+description: "A structured 30–45 minute assessment to determine organizational readiness for Claude Code deployment."
+category: "Claude Code Enterprise Toolkit"
+order: 11
+---
+
 # Claude Code Enterprise Readiness Assessment
 
 ## Purpose
