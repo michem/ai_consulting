@@ -1,3 +1,10 @@
+---
+title: "Training Workshop"
+description: "Complete 3-hour workshop materials: introduction, core skills, advanced patterns, and hands-on exercises."
+category: "Claude Code Enterprise Toolkit"
+order: 13
+---
+
 # Claude Code Enterprise Training
 
 ## Workshop Overview

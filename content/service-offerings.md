@@ -1,3 +1,10 @@
+---
+title: "Service Offerings"
+description: "Consulting packages and à la carte services for enterprise Claude Code deployment — scope, timelines, and pricing."
+category: "Claude Code Enterprise Toolkit"
+order: 10
+---
+
 # Claude Code Enterprise Consulting Services
 
 ## Overview

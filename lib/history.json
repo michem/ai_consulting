@@ -1,0 +1,126 @@
+{
+  "ai-architect-perspective": [
+    {
+      "hash": "02b2f8633085ae5971f65cbdf94ba86bf3689b2b",
+      "shortHash": "02b2f86",
+      "date": "2026-07-26T12:28:08+00:00",
+      "subject": "Add core AI consulting articles"
+    }
+  ],
+  "ai-in-business-functions": [
+    {
+      "hash": "02b2f8633085ae5971f65cbdf94ba86bf3689b2b",
+      "shortHash": "02b2f86",
+      "date": "2026-07-26T12:28:08+00:00",
+      "subject": "Add core AI consulting articles"
+    }
+  ],
+  "ai-maturity-assessment": [
+    {
+      "hash": "02b2f8633085ae5971f65cbdf94ba86bf3689b2b",
+      "shortHash": "02b2f86",
+      "date": "2026-07-26T12:28:08+00:00",
+      "subject": "Add core AI consulting articles"
+    }
+  ],
+  "best-practices": [
+    {
+      "hash": "02be90d698348cda3b9f643dbb20953462070252",
+      "shortHash": "02be90d",
+      "date": "2026-07-26T12:28:08+00:00",
+      "subject": "Move Claude Code toolkit docs into content/ with frontmatter"
+    },
+    {
+      "hash": "ec125e96c8f0f7ba30bf2d326eaf82875da1775c",
+      "shortHash": "ec125e9",
+      "date": "2026-02-12T20:52:10+00:00",
+      "subject": "Add comprehensive Claude Code enterprise consulting package"
+    }
+  ],
+  "faq-troubleshooting": [
+    {
+      "hash": "02be90d698348cda3b9f643dbb20953462070252",
+      "shortHash": "02be90d",
+      "date": "2026-07-26T12:28:08+00:00",
+      "subject": "Move Claude Code toolkit docs into content/ with frontmatter"
+    },
+    {
+      "hash": "ec125e96c8f0f7ba30bf2d326eaf82875da1775c",
+      "shortHash": "ec125e9",
+      "date": "2026-02-12T20:52:10+00:00",
+      "subject": "Add comprehensive Claude Code enterprise consulting package"
+    }
+  ],
+  "getting-started-with-ai": [
+    {
+      "hash": "02b2f8633085ae5971f65cbdf94ba86bf3689b2b",
+      "shortHash": "02b2f86",
+      "date": "2026-07-26T12:28:08+00:00",
+      "subject": "Add core AI consulting articles"
+    }
+  ],
+  "history-of-ai": [
+    {
+      "hash": "02b2f8633085ae5971f65cbdf94ba86bf3689b2b",
+      "shortHash": "02b2f86",
+      "date": "2026-07-26T12:28:08+00:00",
+      "subject": "Add core AI consulting articles"
+    }
+  ],
+  "implementation-guide": [
+    {
+      "hash": "02be90d698348cda3b9f643dbb20953462070252",
+      "shortHash": "02be90d",
+      "date": "2026-07-26T12:28:08+00:00",
+      "subject": "Move Claude Code toolkit docs into content/ with frontmatter"
+    },
+    {
+      "hash": "ec125e96c8f0f7ba30bf2d326eaf82875da1775c",
+      "shortHash": "ec125e9",
+      "date": "2026-02-12T20:52:10+00:00",
+      "subject": "Add comprehensive Claude Code enterprise consulting package"
+    }
+  ],
+  "readiness-assessment": [
+    {
+      "hash": "02be90d698348cda3b9f643dbb20953462070252",
+      "shortHash": "02be90d",
+      "date": "2026-07-26T12:28:08+00:00",
+      "subject": "Move Claude Code toolkit docs into content/ with frontmatter"
+    },
+    {
+      "hash": "ec125e96c8f0f7ba30bf2d326eaf82875da1775c",
+      "shortHash": "ec125e9",
+      "date": "2026-02-12T20:52:10+00:00",
+      "subject": "Add comprehensive Claude Code enterprise consulting package"
+    }
+  ],
+  "service-offerings": [
+    {
+      "hash": "02be90d698348cda3b9f643dbb20953462070252",
+      "shortHash": "02be90d",
+      "date": "2026-07-26T12:28:08+00:00",
+      "subject": "Move Claude Code toolkit docs into content/ with frontmatter"
+    },
+    {
+      "hash": "ec125e96c8f0f7ba30bf2d326eaf82875da1775c",
+      "shortHash": "ec125e9",
+      "date": "2026-02-12T20:52:10+00:00",
+      "subject": "Add comprehensive Claude Code enterprise consulting package"
+    }
+  ],
+  "training-deck": [
+    {
+      "hash": "02be90d698348cda3b9f643dbb20953462070252",
+      "shortHash": "02be90d",
+      "date": "2026-07-26T12:28:08+00:00",
+      "subject": "Move Claude Code toolkit docs into content/ with frontmatter"
+    },
+    {
+      "hash": "ec125e96c8f0f7ba30bf2d326eaf82875da1775c",
+      "shortHash": "ec125e9",
+      "date": "2026-02-12T20:52:10+00:00",
+      "subject": "Add comprehensive Claude Code enterprise consulting package"
+    }
+  ]
+}
