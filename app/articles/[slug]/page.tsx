@@ -94,7 +94,7 @@ export default async function ArticlePage({
         <p className="history-note">
           Full diff history for this page lives in{" "}
           <a
-            href={`${site.repoUrl}/commits/main/content/${slug}.md`}
+            href={`${site.repoUrl}/commits/${site.branch}/content/${slug}.md`}
             target="_blank"
             rel="noreferrer"
           >
