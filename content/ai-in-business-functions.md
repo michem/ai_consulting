@@ -86,7 +86,7 @@ Often the fastest payback in the company — high volume, language-heavy, well-d
 
 **Metrics:** time-to-hire, recruiter hours per hire, HR ticket deflection, onboarding time-to-productivity.
 
-**Risk note:** hiring and personnel decisions are **high-risk under the EU AI Act**. AI may assist analysis; humans decide, criteria stay transparent, and outcomes are monitored for bias. This is the domain where governance discipline is most load-bearing.
+**Risk note:** hiring and personnel decisions are **high-risk under the EU AI Act**. AI may assist analysis; humans decide, criteria stay transparent, and outcomes are monitored for bias. This is the domain where governance discipline is most load-bearing. On timing: high-risk (Annex III) obligations were originally set to apply from 2 August 2026, but the ["AI Omnibus" agreement](https://artificialintelligenceact.eu/implementation-timeline/) (political agreement May 2026, formal adoption pending as of mid-2026) defers them to 2 December 2027 — treat the extra time as runway for building the practices above, not as a reason to wait.
 
 ## Legal & Compliance
 
