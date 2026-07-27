@@ -73,7 +73,7 @@ You do not need a data lake and a chief AI officer to start. You do need four th
 
 ## Common Pitfalls
 
-- **The eternal pilot.** Pilots without success criteria and a production path die quietly. Define both on day one.
+- **The eternal pilot.** Pilots without success criteria and a production path die quietly. [MIT's *GenAI Divide* study (August 2025)](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) found that ~95% of enterprise GenAI pilots produced no measurable P&L impact — and that the failure was driven by approach, not model quality: the successful 5% embedded AI deeply into specific workflows instead of running generic tools alongside them. Define success criteria and the production path on day one.
 - **Tool sprawl.** Five overlapping AI subscriptions and no policy. Consolidate early.
 - **Ignoring the middle layer.** Executives are enthusiastic, juniors experiment, but team leads — who control workflows — are skipped in training. They make or break adoption.
 - **Automating a broken process.** AI amplifies the process it's put into. Fix or simplify the workflow first, then apply AI.
