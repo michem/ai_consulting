@@ -97,4 +97,4 @@ From there, the loop runs — and the architect's success metric is deliberately
 - Spend, usage, and outcomes are visible on one page
 - People at every level can say what AI is for *in their own workflow* — not just in the company deck
 
-> **Where to go next:** [The AI Maturity Audit](/articles/ai-maturity-assessment) is the assessment instrument this role runs first; [AI Across Business Functions](/articles/ai-in-business-functions) is the use-case map it draws from.
+> **Where to go next:** the architect's judgment is anchored in [Team-First AI](/articles/team-first-ai) — the six questions every engagement walks through. [The AI Maturity Audit](/articles/ai-maturity-assessment) is the assessment instrument this role runs first; [AI Across Business Functions](/articles/ai-in-business-functions) is the use-case map it draws from.
