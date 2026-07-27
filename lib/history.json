@@ -1,6 +1,12 @@
 {
   "ai-architect-perspective": [
     {
+      "hash": "cc354005808191db62838133895c63a2d1089b99",
+      "shortHash": "cc35400",
+      "date": "2026-07-27T17:55:00+00:00",
+      "subject": "Add Team-First AI core philosophy and editorial charter"
+    },
+    {
       "hash": "02b2f8633085ae5971f65cbdf94ba86bf3689b2b",
       "shortHash": "02b2f86",
       "date": "2026-07-26T12:28:08+00:00",
@@ -52,6 +58,12 @@
     }
   ],
   "getting-started-with-ai": [
+    {
+      "hash": "cc354005808191db62838133895c63a2d1089b99",
+      "shortHash": "cc35400",
+      "date": "2026-07-27T17:55:00+00:00",
+      "subject": "Add Team-First AI core philosophy and editorial charter"
+    },
     {
       "hash": "02b2f8633085ae5971f65cbdf94ba86bf3689b2b",
       "shortHash": "02b2f86",
@@ -107,6 +119,14 @@
       "shortHash": "ec125e9",
       "date": "2026-02-12T20:52:10+00:00",
       "subject": "Add comprehensive Claude Code enterprise consulting package"
+    }
+  ],
+  "team-first-ai": [
+    {
+      "hash": "cc354005808191db62838133895c63a2d1089b99",
+      "shortHash": "cc35400",
+      "date": "2026-07-27T17:55:00+00:00",
+      "subject": "Add Team-First AI core philosophy and editorial charter"
     }
   ],
   "training-deck": [

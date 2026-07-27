@@ -88,4 +88,4 @@ You do not need a data lake and a chief AI officer to start. You do need four th
 - A use-case backlog exists, scored and prioritized; someone owns it.
 - You know your maturity score, and you know which dimension you're deliberately improving next quarter.
 
-> **Where to go next:** [The AI Architect's Perspective](/articles/ai-architect-perspective) on how to structure ownership and architecture decisions, and [AI Across Business Functions](/articles/ai-in-business-functions) for a function-by-function use-case map.
+> **Where to go next:** ground every initiative in the six questions of [Team-First AI](/articles/team-first-ai), then see [The AI Architect's Perspective](/articles/ai-architect-perspective) on how to structure ownership and architecture decisions, and [AI Across Business Functions](/articles/ai-in-business-functions) for a function-by-function use-case map.
