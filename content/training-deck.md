@@ -1269,3 +1269,7 @@ A: No, it's a tool to augment developers, not replace them. You're still in cont
 - Weekly office hours
 - Monthly tips email
 - Quarterly refresher sessions
+
+---
+
+> **Where to go next:** reinforce workshop content with [Enterprise Best Practices](/articles/best-practices), and route lingering questions to [FAQ & Troubleshooting](/articles/faq-troubleshooting).

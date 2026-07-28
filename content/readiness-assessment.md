@@ -710,3 +710,5 @@ Based on your overall score, here are the recommended next steps:
 ---
 
 *This assessment should be reviewed every 90 days during preparation phase and annually once deployed.*
+
+> **Where to go next:** this is the Claude Code–specific counterpart to the org-wide [AI Maturity Audit](/articles/ai-maturity-assessment); once ready, move to the [Implementation Guide](/articles/implementation-guide) to plan rollout.

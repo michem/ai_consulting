@@ -310,3 +310,5 @@ Yes, we offer monthly retainer packages, office hours, and dedicated support cha
 ---
 
 *Last updated: February 2026*
+
+> **Where to go next:** confirm fit with the [Enterprise Readiness Assessment](/articles/readiness-assessment) before scoping an engagement; [The AI Architect's Perspective](/articles/ai-architect-perspective) covers the operating model these packages deliver.

@@ -1430,3 +1430,5 @@ Claude Code @ [Company]
 *This implementation guide is a living document. Update based on your experience and evolving best practices.*
 
 Last updated: February 2026
+
+> **Where to go next:** pair rollout with the [Training Workshop](/articles/training-deck) materials and [Enterprise Best Practices](/articles/best-practices) for day-to-day usage standards.

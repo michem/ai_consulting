@@ -1093,3 +1093,8 @@ Please debug and fix."
 ```
 Human: Navigator (high-level direction)
 Claude: Driver (implementation details)
+```
+
+---
+
+> **Where to go next:** these practices support the operating model in [The AI Architect's Perspective](/articles/ai-architect-perspective); for common issues, see [FAQ & Troubleshooting](/articles/faq-troubleshooting).

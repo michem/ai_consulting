@@ -871,3 +871,5 @@ For new users:
 *Last updated: February 2026*
 
 **Have a question not answered here?** Contact [support channel] or refer to [internal wiki].
+
+> **Where to go next:** for setup and rollout questions, revisit the [Implementation Guide](/articles/implementation-guide); for team usage standards, see [Enterprise Best Practices](/articles/best-practices).
