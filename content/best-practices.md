@@ -13,8 +13,6 @@ order: 14
 3. [Prompting Excellence](#prompting-excellence)
 4. [Workflow Integration](#workflow-integration)
 5. [Team Collaboration](#team-collaboration)
-6. [Cost Optimization](#cost-optimization)
-7. [Continuous Improvement](#continuous-improvement)
 
 ---
 
@@ -1093,3 +1091,16 @@ Please debug and fix."
 ```
 Human: Navigator (high-level direction)
 Claude: Driver (implementation details)
+```
+
+**Pattern 2: Reviewer-Implementer**
+```
+Claude: Implementer (writes the first draft)
+Human: Reviewer (checks correctness, judges tradeoffs, approves)
+```
+
+Rotate patterns by task: use Driver-Navigator when the human knows the domain better than the codebase, Reviewer-Implementer when the reverse is true.
+
+---
+
+> **Where to go next:** these practices support the operating model in [The AI Architect's Perspective](/articles/ai-architect-perspective); for common issues, see [FAQ & Troubleshooting](/articles/faq-troubleshooting).

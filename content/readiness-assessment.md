@@ -10,6 +10,8 @@ order: 11
 ## Purpose
 This assessment helps determine your organization's readiness for Claude Code deployment and identifies areas that need attention before rollout.
 
+Before scoring readiness, name the business problem this solves, the team and workflow it targets, and today's baseline — see [Team-First AI](/articles/team-first-ai), Questions 1–3. Scoring tool readiness without that context produces a technology-first rollout, not a team-first one.
+
 **Time to complete:** 30-45 minutes
 **Completed by:** [Name, Title]
 **Date:** [Date]
@@ -710,3 +712,5 @@ Based on your overall score, here are the recommended next steps:
 ---
 
 *This assessment should be reviewed every 90 days during preparation phase and annually once deployed.*
+
+> **Where to go next:** ground the assessment in [Team-First AI](/articles/team-first-ai) first; this is the Claude Code–specific counterpart to the org-wide [AI Maturity Audit](/articles/ai-maturity-assessment); once ready, move to the [Implementation Guide](/articles/implementation-guide) to plan rollout.

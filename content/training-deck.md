@@ -90,7 +90,7 @@ order: 13
 - 30-50% faster feature development
 - 40% reduction in debugging time
 - 60% less time on boilerplate code
-- 50% faster onboarding for new developers
+- 40% faster onboarding for new developers
 - 25% improvement in test coverage
 
 **But also:**
@@ -158,7 +158,7 @@ order: 13
 ## Slide: Installation & Setup
 
 ### Requirements
-- **OS:** macOS or Linux (Windows support coming)
+- **OS:** macOS or Linux (Windows: see [FAQ](/articles/faq-troubleshooting) for current status)
 - **API Access:** Anthropic API key
 - **Terminal:** Any modern terminal or IDE
 
@@ -1242,7 +1242,7 @@ A: No, it's a tool to augment developers, not replace them. You're still in cont
 ## Troubleshooting
 
 ### Issue: Can't install on Windows
-**Solution:** Windows support coming soon. Use WSL or wait for official support.
+**Solution:** Use WSL2 — see the [FAQ](/articles/faq-troubleshooting) for current native-support status.
 
 ### Issue: API key errors
 **Solution:** Verify key is correct, check billing account is active, ensure network access.
@@ -1269,3 +1269,7 @@ A: No, it's a tool to augment developers, not replace them. You're still in cont
 - Weekly office hours
 - Monthly tips email
 - Quarterly refresher sessions
+
+---
+
+> **Where to go next:** reinforce workshop content with [Enterprise Best Practices](/articles/best-practices), and route lingering questions to [FAQ & Troubleshooting](/articles/faq-troubleshooting).

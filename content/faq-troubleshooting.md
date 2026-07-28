@@ -67,12 +67,7 @@ Yes, Claude Code requires an internet connection to access Anthropic's API. It's
 
 ### Will Claude Code replace developers?
 
-No. Claude Code is a tool to augment developers, not replace them. Think of it like:
-- Spell checkers didn't replace writers
-- Calculators didn't replace mathematicians
-- IDEs didn't replace programmers
-
-It handles routine tasks, allowing developers to focus on creative problem-solving, architecture, and complex challenges that require human judgment.
+No — it augments them. See "Managing Resistance" in the [Implementation Guide](/articles/implementation-guide) for the full case and how to talk your team through this concern.
 
 ### What's the learning curve?
 
@@ -93,7 +88,7 @@ It's much easier than learning a new programming language or framework.
 **Operating System:**
 - ✅ macOS (M1/M2/M3 and Intel)
 - ✅ Linux (Ubuntu, Debian, Fedora, etc.)
-- ⚠️ Windows (coming soon - use WSL2 as interim solution)
+- ⚠️ Windows: not yet natively supported as of Feb 2026 (use WSL2)
 
 **Other requirements:**
 - Internet connection
@@ -138,7 +133,7 @@ npx @anthropic-ai/claude-code
 - Works well for most use cases
 
 **Option 2: Wait for native Windows support**
-- Coming soon
+- Not yet available as of Feb 2026
 - Subscribe to updates at Anthropic's blog
 
 **Option 3: Cloud development environments**
@@ -360,7 +355,7 @@ Yes, Anthropic is GDPR compliant:
 - Heavy users: €60-100/month
 
 **Compare to:**
-- GitHub Copilot: $10-19/user/month (flat rate)
+- GitHub Copilot: ~€10-18/user/month (flat rate, as of Feb 2026)
 - Developer salary: €4,000-8,000/month
 - ROI typically 10-40x
 
@@ -871,3 +866,5 @@ For new users:
 *Last updated: February 2026*
 
 **Have a question not answered here?** Contact [support channel] or refer to [internal wiki].
+
+> **Where to go next:** for setup and rollout questions, revisit the [Implementation Guide](/articles/implementation-guide); for team usage standards, see [Enterprise Best Practices](/articles/best-practices).

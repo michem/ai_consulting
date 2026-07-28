@@ -80,7 +80,7 @@ order: 12
 **Operating System Requirements:**
 - ✅ macOS: Fully supported (M1/M2 and Intel)
 - ✅ Linux: Fully supported (Ubuntu, Debian, Fedora, etc.)
-- ⚠️ Windows: Support coming soon (use WSL2 as interim solution)
+- ⚠️ Windows: use WSL2 as interim solution (see [FAQ](/articles/faq-troubleshooting) for current native-support status)
 
 **Check your distribution:**
 ```bash
@@ -1430,3 +1430,5 @@ Claude Code @ [Company]
 *This implementation guide is a living document. Update based on your experience and evolving best practices.*
 
 Last updated: February 2026
+
+> **Where to go next:** pair rollout with the [Training Workshop](/articles/training-deck) materials and [Enterprise Best Practices](/articles/best-practices) for day-to-day usage standards.
