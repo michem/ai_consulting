@@ -80,7 +80,7 @@ order: 12
 **Operating System Requirements:**
 - ✅ macOS: Fully supported (M1/M2 and Intel)
 - ✅ Linux: Fully supported (Ubuntu, Debian, Fedora, etc.)
-- ⚠️ Windows: Support coming soon (use WSL2 as interim solution)
+- ⚠️ Windows: use WSL2 as interim solution (see [FAQ](/articles/faq-troubleshooting) for current native-support status)
 
 **Check your distribution:**
 ```bash
