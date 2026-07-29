@@ -8,19 +8,24 @@ order: 14
 # Claude Code Enterprise Best Practices
 
 ## Table of Contents
-1. [Security and Compliance](#security-and-compliance)
-2. [Code Quality](#code-quality)
-3. [Prompting Excellence](#prompting-excellence)
-4. [Workflow Integration](#workflow-integration)
-5. [Team Collaboration](#team-collaboration)
+
+This guide covers five areas of enterprise practice, each broken into focused slides:
+
+1. Security and Compliance
+2. Code Quality
+3. Prompting Excellence
+4. Workflow Integration
+5. Team Collaboration
 
 ---
 
 ## Security and Compliance
 
-### Data Classification and Handling
+Claude Code is only as safe as what you feed it. This section covers what to share, how to sanitize it, how to manage API keys, and what compliance regimes to map it against.
 
-#### What to Share with Claude
+## What's Safe to Share with Claude
+
+Draw this line before your team has to guess where it is.
 
 ✅ **Safe to share:**
 - Public repositories and open source code
@@ -37,6 +42,8 @@ order: 14
 - Database schemas (mask sensitive table/field names)
 - Configuration templates (remove actual values)
 
+## What Claude Should Never See
+
 ❌ **Never share:**
 - Production credentials or API keys
 - Database passwords or connection strings
@@ -47,7 +54,7 @@ order: 14
 - NDA-covered third-party code
 - Export-controlled code
 
-#### Sanitization Checklist
+## Sanitizing Error Logs
 
 **Before sharing error logs:**
 ```python
@@ -57,6 +64,8 @@ order: 14
 # ✅ GOOD
 "Failed to connect to database server with credentials"
 ```
+
+## Sanitizing Configuration Files
 
 **Before sharing configuration:**
 ```yaml
@@ -70,6 +79,8 @@ database:
   host: <database-host>
   password: <database-password>
 ```
+
+## Sanitizing Code with Customer Data
 
 **Before sharing code with customer data:**
 ```javascript
@@ -88,11 +99,9 @@ const user = {
 };
 ```
 
-### API Key Management
+## API Keys: Individual Setup
 
-#### Individual Key Setup (Recommended)
-
-**Benefits:**
+**Individual Key Setup (Recommended) — Benefits:**
 - Individual accountability
 - Usage tracking per developer
 - Easy revocation
@@ -112,7 +121,8 @@ export ANTHROPIC_API_KEY="sk-ant-api03-..."
 # - OS keychain
 ```
 
-**Key Rotation Policy:**
+## API Key Rotation Policy
+
 ```
 ✓ Rotate every 90 days
 ✓ Immediately on employee departure
@@ -120,9 +130,7 @@ export ANTHROPIC_API_KEY="sk-ant-api03-..."
 ✓ After any security incident
 ```
 
-#### Secret Scanning
-
-**Prevent accidental commits:**
+## Preventing Committed Secrets
 
 ```bash
 # Add to .gitignore
@@ -141,15 +149,14 @@ if git diff --cached | grep -i "sk-ant-"; then
 fi
 ```
 
-**Use secret scanning tools:**
+## Secret Scanning Tools
+
 - GitHub secret scanning (enabled by default)
 - GitGuardian
 - TruffleHog
 - git-secrets
 
-### Compliance Requirements
-
-#### GDPR Compliance
+## GDPR Compliance
 
 **Data Processing:**
 - Code sent to Anthropic API is processed in US or EU (configurable)
@@ -163,7 +170,7 @@ fi
 - Ensure legal basis for processing
 - Document in your DPIA if needed
 
-#### SOC 2 / ISO 27001
+## SOC 2 / ISO 27001
 
 **Anthropic's Certifications:**
 - SOC 2 Type II certified
@@ -176,7 +183,7 @@ fi
 - Include in security awareness training
 - Audit usage logs
 
-#### Industry-Specific Compliance
+## Industry-Specific Compliance
 
 **HIPAA (Healthcare):**
 - Anthropic offers BAA for enterprise
@@ -194,9 +201,7 @@ fi
 - Follow change management procedures
 - Document AI tool usage in compliance reports
 
-### Security Best Practices
-
-#### Input Validation
+## Input Validation Checklist
 
 **Always validate Claude's code for:**
 - SQL injection vulnerabilities
@@ -218,7 +223,7 @@ specifically looking for:
 - SQL injection risks"
 ```
 
-#### Security Code Review Checklist
+## Security Review: Auth & Input
 
 ```markdown
 Before accepting security-sensitive code:
@@ -234,7 +239,11 @@ Input Validation:
 - [ ] SQL queries parameterized
 - [ ] HTML output escaped
 - [ ] File paths validated
+```
 
+## Security Review: Data & Dependencies
+
+```markdown
 Data Protection:
 - [ ] Sensitive data encrypted at rest
 - [ ] TLS for data in transit
@@ -251,9 +260,9 @@ Dependencies:
 
 ## Code Quality
 
-### Code Review Standards
+AI-generated code still needs a human review discipline — treat it like output from a capable but unproven teammate.
 
-#### Review All AI-Generated Code
+## Review All AI-Generated Code
 
 **Treat Claude like a junior developer:**
 - Review all code before committing
@@ -262,7 +271,7 @@ Dependencies:
 - Check for edge cases
 - Ensure proper error handling
 
-#### Code Review Checklist
+## Code Review: Functionality & Quality
 
 ```markdown
 Functionality:
@@ -277,7 +286,11 @@ Code Quality:
 - [ ] Properly named variables/functions?
 - [ ] Appropriate comments (not excessive)?
 - [ ] No code smells (duplicated code, long functions, etc.)?
+```
 
+## Code Review: Testing, Performance & Security
+
+```markdown
 Testing:
 - [ ] Unit tests included?
 - [ ] Tests cover happy path?
@@ -301,9 +314,7 @@ Documentation:
 - [ ] README updated if needed?
 ```
 
-### Testing Requirements
-
-#### Always Include Tests
+## Always Include Tests
 
 **Prompt pattern:**
 ```
@@ -318,9 +329,8 @@ Use Jest and follow existing test patterns."
 
 **Result:** Function + complete test suite
 
-#### Test-Driven Development with Claude
+## TDD Pattern 1: Tests First
 
-**Pattern 1: Tests First**
 ```
 You: "Write tests for a function that calculates shipping cost
      based on weight and destination"
@@ -332,7 +342,8 @@ You: "Now implement the function to make these tests pass"
 Claude: [Implements function]
 ```
 
-**Pattern 2: Tests with Implementation**
+## TDD Pattern 2: Tests with Implementation
+
 ```
 You: "Implement calculateShippingCost() with tests"
 
@@ -343,7 +354,7 @@ You: "Add test for international shipping"
 Claude: [Adds test and updates implementation]
 ```
 
-#### Test Coverage
+## Test Coverage
 
 **Monitor coverage:**
 ```bash
@@ -360,9 +371,7 @@ npm test -- --coverage
 What's not covered? Add tests to get to 85%."
 ```
 
-### Code Standards Enforcement
-
-#### Configure Claude for Your Standards
+## Configure Claude for Your Standards
 
 **Inform Claude about your setup:**
 ```
@@ -381,7 +390,7 @@ Please follow these standards in all code."
 Follow these rules."
 ```
 
-#### Linting and Formatting
+## Linting and Formatting
 
 **Always run post-generation:**
 ```bash
@@ -401,7 +410,7 @@ npm run lint -- --fix
 Prettier before finishing."
 ```
 
-#### Architecture Patterns
+## Architecture Patterns
 
 **Enforce patterns:**
 ```
@@ -423,11 +432,12 @@ src/routes/users.js but for products"
 
 ## Prompting Excellence
 
-### The Anatomy of Great Prompts
+The gap between a mediocre and a great result from Claude is almost always the prompt, not the model. Here's the anatomy of prompts that work, a pattern library to reuse, and the mistakes to avoid.
 
-#### Structure: Context + Task + Constraints
+## The Anatomy of Great Prompts
 
-**Formula:**
+Great prompts aren't longer — they're structured. Three ingredients, every time:
+
 ```
 [Context about codebase/situation]
 +
@@ -436,7 +446,7 @@ src/routes/users.js but for products"
 [Constraints/requirements/standards]
 ```
 
-**Example:**
+## Vague vs. Excellent: A Real Prompt
 
 ❌ **Vague:**
 ```
@@ -462,9 +472,7 @@ Constraints:
   - Password: min 8 chars, must have uppercase, lowercase, number
 ```
 
-### Prompt Patterns Library
-
-#### Pattern: Code Explanation
+## Pattern: Code Explanation
 
 **When:** Understanding unfamiliar code
 
@@ -485,7 +493,7 @@ Constraints:
 - What happens on final failure"
 ```
 
-#### Pattern: Feature Implementation
+## Pattern: Feature Implementation — Template
 
 **When:** Building new functionality
 
@@ -508,7 +516,8 @@ Include:
 - Error handling"
 ```
 
-**Example:**
+## Pattern: Feature Implementation — Example
+
 ```
 "Implement a product search feature that allows filtering by category and price range
 
@@ -530,7 +539,7 @@ Include:
 - Error handling for invalid inputs"
 ```
 
-#### Pattern: Debugging
+## Pattern: Debugging — Template
 
 **When:** Something isn't working
 
@@ -554,7 +563,8 @@ Please:
 4. Add test to prevent regression"
 ```
 
-**Example:**
+## Pattern: Debugging — Example
+
 ```
 "I'm getting a 500 error when updating user profiles.
 
@@ -578,7 +588,7 @@ Please:
 4. Add test to prevent regression"
 ```
 
-#### Pattern: Refactoring
+## Pattern: Refactoring — Template
 
 **When:** Improving existing code
 
@@ -600,7 +610,8 @@ Constraints:
 - Follow [pattern/principle]"
 ```
 
-**Example:**
+## Pattern: Refactoring — Example
+
 ```
 "Refactor src/controllers/orderController.js to improve testability
 
@@ -620,7 +631,7 @@ Constraints:
 - Follow the pattern in UserController/UserService"
 ```
 
-#### Pattern: Testing
+## Pattern: Testing — Template
 
 **When:** Writing or improving tests
 
@@ -641,7 +652,8 @@ Use:
 Coverage goal: [X]%"
 ```
 
-**Example:**
+## Pattern: Testing — Example
+
 ```
 "Create comprehensive tests for PaymentService.processPayment()
 
@@ -662,9 +674,7 @@ Use:
 Coverage goal: 100% of processPayment() function"
 ```
 
-### Advanced Prompting Techniques
-
-#### Iterative Refinement
+## Iterative Refinement
 
 **Start broad, then refine:**
 
@@ -683,7 +693,7 @@ Iteration 3: "Store refresh tokens in Redis with 7-day expiry"
 Claude: [Final implementation details]
 ```
 
-#### Constraint-Based Prompting
+## Constraint-Based Prompting
 
 **Specify what NOT to do:**
 
@@ -702,7 +712,7 @@ DO:
 - Add JSDoc comments"
 ```
 
-#### Example-Driven Prompting
+## Example-Driven Prompting
 
 **Show what you want:**
 
@@ -721,7 +731,7 @@ But for:
 - In-app notifications"
 ```
 
-#### Socratic Prompting
+## Socratic Prompting
 
 **Ask for options, then decide:**
 
@@ -742,37 +752,24 @@ You: "Let's go with Redis. Implement it following the
 Claude: [Implementation]
 ```
 
-### Common Prompting Mistakes
+## Common Prompting Mistakes
 
-#### Mistake 1: Too Vague
-
-❌ "Make it better"
-❌ "Fix this"
-❌ "Add a feature"
-
+❌ "Make it better" / "Fix this" / "Add a feature"
 ✅ "Refactor this function to reduce cognitive complexity from 15 to under 10"
 ✅ "Fix the race condition in the order processing queue"
 ✅ "Add pagination to the product list API with cursor-based pagination"
 
-#### Mistake 2: No Context
-
-❌ "Write a login function"
-
+❌ "Write a login function" (no context)
 ✅ "Write a login function for our Express API that uses JWT tokens,
    validates against PostgreSQL, and follows our AuthController pattern"
 
-#### Mistake 3: Unclear Success Criteria
-
-❌ "Improve the performance"
-
+❌ "Improve the performance" (unclear success criteria)
 ✅ "Reduce the response time of /api/products from 800ms to under 200ms
    by adding database indexes and caching"
 
-#### Mistake 4: Too Much at Once
-
 ❌ "Refactor the entire authentication system to use OAuth2 instead of
    JWT, migrate the database schema, update all API endpoints, add
-   comprehensive tests, and update the documentation"
+   comprehensive tests, and update the documentation" (too much at once)
 
 ✅ "Let's migrate to OAuth2 in phases. First, can you create a plan
    outlining the steps and what order makes sense?"
@@ -783,9 +780,9 @@ Claude: [Implementation]
 
 ## Workflow Integration
 
-### Git Workflow
+Claude Code earns its keep by fitting into the workflow your team already has — git, CI/CD, the IDE, and code review — not by replacing it.
 
-#### Commit Messages
+## Commit Messages
 
 **Let Claude generate meaningful commits:**
 
@@ -815,7 +812,7 @@ Configure Claude:
 - docs: documentation changes"
 ```
 
-#### Branch Strategy
+## Branch Strategy
 
 **Let Claude handle branching:**
 
@@ -836,7 +833,7 @@ Result:
 git checkout -b feature/DEV-456-user-avatars
 ```
 
-#### Pull Requests
+## Pull Requests
 
 **Generate comprehensive PR descriptions:**
 
@@ -874,9 +871,7 @@ Implements product reviews allowing customers to rate and comment on products.
 - [x] Reviewed my own code
 ```
 
-### CI/CD Integration
-
-#### Pre-commit Hooks
+## Pre-commit Hooks
 
 **Use Claude to pass checks:**
 
@@ -898,7 +893,7 @@ You: "Yes"
 Claude: [Fixes errors, reruns checks, commits]
 ```
 
-#### Failing CI Pipelines
+## Failing CI Pipelines
 
 **Debug CI failures with Claude:**
 
@@ -922,9 +917,7 @@ Now run the tests again:
 npm run test:integration
 ```
 
-### IDE Integration
-
-#### VS Code Extension
+## VS Code Extension
 
 **Features:**
 - Inline code generation
@@ -938,7 +931,7 @@ npm run test:integration
 - `Cmd/Ctrl + K` → Inline generation
 - `Cmd/Ctrl + I` → Open Claude panel
 
-#### Cursor IDE
+## Cursor IDE
 
 **Built-in Claude integration:**
 - Tab completion with AI
@@ -951,9 +944,7 @@ npm run test:integration
 - Chat for complex reasoning
 - Reference files with @ mentions
 
-### Code Review Integration
-
-#### Using Claude for Code Review
+## Using Claude for Code Review
 
 **Review before submitting PR:**
 
@@ -976,7 +967,7 @@ npm run test:integration
 [paste diff]"
 ```
 
-#### Responding to Review Comments
+## Responding to Review Comments
 
 **Address feedback efficiently:**
 
@@ -994,9 +985,9 @@ Claude: [Refactors with explanation]
 
 ## Team Collaboration
 
-### Knowledge Sharing
+Individual productivity gains don't compound until the team shares what works. This section covers building that shared knowledge.
 
-#### Internal Knowledge Base
+## Structuring Your Internal Wiki
 
 **Structure:**
 ```
@@ -1018,7 +1009,10 @@ Company Wiki / Claude Code
 └── Troubleshooting
 ```
 
-**Prompt Library Example:**
+## Prompt Library Example
+
+**One entry from the "Debugging" category, as it would appear in the wiki:**
+
 ```markdown
 ## Debugging API Errors
 
@@ -1060,7 +1054,7 @@ Please debug and fix."
 - Note if it worked before
 ```
 
-#### Team Slack Channel
+## Team Slack Channel
 
 **Use for:**
 - Quick tips and discoveries
@@ -1083,9 +1077,7 @@ Please debug and fix."
 📅 Reminder: Office hours tomorrow at 2pm in #claude-office-hours
 ```
 
-### Pair Programming Patterns
-
-#### Human + Claude Pairing
+## Human + Claude Pairing
 
 **Pattern 1: Driver-Navigator**
 ```
@@ -1100,7 +1092,5 @@ Human: Reviewer (checks correctness, judges tradeoffs, approves)
 ```
 
 Rotate patterns by task: use Driver-Navigator when the human knows the domain better than the codebase, Reviewer-Implementer when the reverse is true.
-
----
 
 > **Where to go next:** these practices support the operating model in [The AI Architect's Perspective](/articles/ai-architect-perspective); for common issues, see [FAQ & Troubleshooting](/articles/faq-troubleshooting).
