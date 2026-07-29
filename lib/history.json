@@ -123,6 +123,12 @@
   ],
   "implementation-guide": [
     {
+      "hash": "f012f25cfddee3355f3c1d4f12fcd78b8e0329da",
+      "shortHash": "f012f25",
+      "date": "2026-07-29T21:42:41+00:00",
+      "subject": "Date the JetBrains IDE support claim in the Implementation Guide"
+    },
+    {
       "hash": "34b4ab10894d01a86f0882852e751dffa000f1f9",
       "shortHash": "34b4ab1",
       "date": "2026-07-28T21:41:54+00:00",
