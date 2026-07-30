@@ -43,6 +43,12 @@
   ],
   "best-practices": [
     {
+      "hash": "28b9cfd6e085a06176c357b5765c065264cc5d2b",
+      "shortHash": "28b9cfd",
+      "date": "2026-07-29T07:11:59+00:00",
+      "subject": "loop: presenter — split Best Practices into slide-sized sections"
+    },
+    {
       "hash": "34b4ab10894d01a86f0882852e751dffa000f1f9",
       "shortHash": "34b4ab1",
       "date": "2026-07-28T21:41:54+00:00",
@@ -68,6 +74,12 @@
     }
   ],
   "faq-troubleshooting": [
+    {
+      "hash": "5eceba07ef471cdfdceb76a900c19bec71b476f2",
+      "shortHash": "5eceba0",
+      "date": "2026-07-30T07:14:51+00:00",
+      "subject": "loop: presenter — split FAQ and Readiness Assessment into slide-sized sections"
+    },
     {
       "hash": "34b4ab10894d01a86f0882852e751dffa000f1f9",
       "shortHash": "34b4ab1",
@@ -148,6 +160,12 @@
     }
   ],
   "readiness-assessment": [
+    {
+      "hash": "5eceba07ef471cdfdceb76a900c19bec71b476f2",
+      "shortHash": "5eceba0",
+      "date": "2026-07-30T07:14:51+00:00",
+      "subject": "loop: presenter — split FAQ and Readiness Assessment into slide-sized sections"
+    },
     {
       "hash": "34b4ab10894d01a86f0882852e751dffa000f1f9",
       "shortHash": "34b4ab1",

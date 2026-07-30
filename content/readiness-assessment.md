@@ -40,7 +40,9 @@ For each section, rate your organization on a scale of 1-5:
 
 ## Section 1: Strategic Alignment
 
-### 1.1 Executive Support
+Is there a named business problem and executive backing, or is this a technology project looking for a reason?
+
+## 1.1 Executive Support
 **Question:** Do you have executive sponsorship and buy-in for AI-assisted development?
 
 - [ ] 5 - Strong executive champion, AI strategy in place, budget approved
@@ -58,7 +60,7 @@ Budget status:
 Concerns to address:
 ```
 
-### 1.2 Business Case
+## 1.2 Business Case
 **Question:** Have you developed a clear business case with ROI justification?
 
 - [ ] 5 - Comprehensive business case with detailed ROI, approved
@@ -76,7 +78,7 @@ Primary business drivers:
 Success metrics defined:
 ```
 
-### 1.3 Strategic Goals
+## 1.3 Strategic Goals
 **Question:** Are your goals for Claude Code clear and measurable?
 
 - [ ] 5 - Clear, specific, measurable goals with KPIs defined
@@ -104,7 +106,9 @@ Primary goals (check all that apply):
 
 ## Section 2: Technical Readiness
 
-### 2.1 Operating System Compatibility
+Can your developers actually reach and run Claude Code day to day?
+
+## 2.1 Operating System Compatibility
 **Question:** What percentage of your developers use compatible operating systems?
 
 - [ ] 5 - 100% on macOS or Linux
@@ -125,7 +129,7 @@ Windows: _____ (___%)
 Plan for Windows users:
 ```
 
-### 2.2 Development Environment
+## 2.2 Development Environment
 **Question:** How standardized are your development environments?
 
 - [ ] 5 - Fully standardized (containerized or scripted setup)
@@ -151,7 +155,7 @@ Environment setup:
 - [ ] None
 ```
 
-### 2.3 Network Access
+## 2.3 Network Access
 **Question:** Can developers access external APIs (api.anthropic.com)?
 
 - [ ] 5 - Direct access, no restrictions
@@ -170,7 +174,7 @@ Firewall rules needed:
 Timeline to enable access:
 ```
 
-### 2.4 Tool Integration
+## 2.4 Tool Integration
 **Question:** How well do your existing tools integrate with new additions?
 
 - [ ] 5 - Modern tooling, easy integration, APIs available
@@ -198,7 +202,9 @@ Integration concerns:
 
 ## Section 3: Security & Compliance
 
-### 3.1 Security Review Process
+The questions that determine how fast — or whether — security signs off.
+
+## 3.1 Security Review Process
 **Question:** How mature is your security review process for new tools?
 
 - [ ] 5 - Formal process, fast track for approved vendors
@@ -217,7 +223,7 @@ Key concerns:
 Approver:
 ```
 
-### 3.2 Data Classification
+## 3.2 Data Classification
 **Question:** Do you have clear data classification and handling policies?
 
 - [ ] 5 - Comprehensive policies, well understood, actively enforced
@@ -235,7 +241,7 @@ Restrictions on external API usage:
 PII handling requirements:
 ```
 
-### 3.3 Compliance Requirements
+## 3.3 Compliance Requirements
 **Question:** What compliance frameworks apply to your organization?
 
 **Check all that apply:**
@@ -257,7 +263,7 @@ PII handling requirements:
 
 **Score:** _____ / 5
 
-### 3.4 API Key Management
+## 3.4 API Key Management
 **Question:** Do you have secure secret management capabilities?
 
 - [ ] 5 - Enterprise secret management (Vault, AWS Secrets, etc.)
@@ -281,7 +287,9 @@ Rotation policy:
 
 ## Section 4: Organizational Readiness
 
-### 4.1 Change Management Capability
+Tooling readiness means nothing if the organization can't absorb the change.
+
+## 4.1 Change Management Capability
 **Question:** How effective is your organization at adopting new tools?
 
 - [ ] 5 - Excellent track record, formal change management
@@ -299,7 +307,7 @@ Success factors:
 Challenges:
 ```
 
-### 4.2 Developer Sentiment
+## 4.2 Developer Sentiment
 **Question:** What is the general developer sentiment toward AI coding tools?
 
 - [ ] 5 - Very positive, developers asking for it
@@ -317,7 +325,7 @@ Main concerns:
 Enthusiastic teams/individuals:
 ```
 
-### 4.3 Training Infrastructure
+## 4.3 Training Infrastructure
 **Question:** How capable is your organization at delivering technical training?
 
 - [ ] 5 - Dedicated training team, LMS, regular programs
@@ -336,7 +344,7 @@ Learning management system:
 Typical training attendance:
 ```
 
-### 4.4 Support Structure
+## 4.4 Support Structure
 **Question:** Can you provide ongoing support for new tools?
 
 - [ ] 5 - Dedicated support team, ticketing system, SLAs
@@ -360,7 +368,9 @@ Escalation process:
 
 ## Section 5: Team & Culture
 
-### 5.1 Developer Skill Level
+The team's baseline habits predict how well it will absorb AI-assisted work.
+
+## 5.1 Developer Skill Level
 **Question:** What is the overall experience level of your development team?
 
 - [ ] 5 - Majority senior developers, strong mentorship culture
@@ -380,7 +390,7 @@ Junior: _____ (___%)
 Mentorship program:
 ```
 
-### 5.2 Code Quality Culture
+## 5.2 Code Quality Culture
 **Question:** How strong is your code quality culture?
 
 - [ ] 5 - Strong quality culture, comprehensive reviews, high standards
@@ -399,7 +409,7 @@ Quality gates:
 Static analysis tools:
 ```
 
-### 5.3 Collaboration
+## 5.3 Collaboration
 **Question:** How collaborative is your development culture?
 
 - [ ] 5 - Highly collaborative, pair programming, strong knowledge sharing
@@ -418,7 +428,7 @@ Documentation culture:
 Cross-team collaboration:
 ```
 
-### 5.4 Innovation Mindset
+## 5.4 Innovation Mindset
 **Question:** How open is your organization to experimentation?
 
 - [ ] 5 - Innovation encouraged, dedicated time, safe to fail
@@ -442,7 +452,9 @@ Attitude toward failure:
 
 ## Section 6: Resource Availability
 
-### 6.1 Budget
+Budget, time, and champions — the resources a rollout actually consumes.
+
+## 6.1 Budget
 **Question:** Is budget allocated for Claude Code deployment?
 
 - [ ] 5 - Full budget approved (API costs, training, consulting)
@@ -465,7 +477,7 @@ Budget status:
 Approval process:
 ```
 
-### 6.2 Time Allocation
+## 6.2 Time Allocation
 **Question:** Can developers dedicate time to learning and adoption?
 
 - [ ] 5 - Dedicated time allocated, project timelines adjusted
@@ -484,7 +496,7 @@ Current team workload:
 Upcoming deadlines:
 ```
 
-### 6.3 Internal Champions
+## 6.3 Internal Champions
 **Question:** Do you have internal champions identified?
 
 - [ ] 5 - Multiple champions identified, committed, trained
@@ -506,7 +518,7 @@ Champion capacity:
 Support for champions:
 ```
 
-### 6.4 Leadership Time
+## 6.4 Leadership Time
 **Question:** Can leadership dedicate time to support adoption?
 
 - [ ] 5 - Leadership committed, regular check-ins planned
@@ -530,7 +542,9 @@ Communication plan:
 
 ## Overall Assessment
 
-### Scores Summary
+Roll the six sections up into one weighted score and a clear-eyed view of gaps.
+
+## Scores Summary
 
 | Section | Score | Weight | Weighted Score |
 |---------|-------|--------|----------------|
@@ -542,7 +556,7 @@ Communication plan:
 | 6. Resource Availability | _____ / 5 | 10% | _____ |
 | **Overall Weighted Score** | | **100%** | **_____ / 5** |
 
-### Readiness Level
+## Readiness Level
 
 **Overall Score: _____ / 5**
 
@@ -551,14 +565,14 @@ Communication plan:
 - [ ] **2.0-2.9: Developing** - Significant preparation needed
 - [ ] **Below 2.0: Not Ready** - Major work required before starting
 
-### Strengths
+## Strengths
 
 **Top 3 strengths:**
 1. _______________________________
 2. _______________________________
 3. _______________________________
 
-### Gaps & Risks
+## Gaps & Risks
 
 **Critical gaps to address:**
 
@@ -568,19 +582,21 @@ Communication plan:
 | | | | |
 | | | | |
 
-### Recommendations
+## Recommendations
 
-#### Immediate Actions (Before Pilot)
+Turn the gaps above into a dated, owned plan across three time horizons.
+
+## Immediate Actions (Before Pilot)
 1. _______________________________
 2. _______________________________
 3. _______________________________
 
-#### Short-term (0-3 months)
+## Short-term (0-3 months)
 1. _______________________________
 2. _______________________________
 3. _______________________________
 
-#### Long-term (3-6 months)
+## Long-term (3-6 months)
 1. _______________________________
 2. _______________________________
 3. _______________________________
@@ -591,7 +607,7 @@ Communication plan:
 
 Based on your overall score, here are the recommended next steps:
 
-### If Score 4.0-5.0 (Ready)
+## If Score 4.0-5.0 (Ready)
 ✅ **You're ready to proceed!**
 
 **Recommended timeline:**
@@ -610,7 +626,7 @@ Based on your overall score, here are the recommended next steps:
 3. Set up billing and API access
 4. Plan training sessions
 
-### If Score 3.0-3.9 (Nearly Ready)
+## If Score 3.0-3.9 (Nearly Ready)
 ⚠️ **Pilot program recommended, but address gaps first**
 
 **Recommended timeline:**
@@ -631,7 +647,7 @@ Based on your overall score, here are the recommended next steps:
 3. Identify quick wins
 4. Start with small pilot (5-10 people)
 
-### If Score 2.0-2.9 (Developing)
+## If Score 2.0-2.9 (Developing)
 🔶 **Significant preparation needed**
 
 **Recommended timeline:**
@@ -651,7 +667,7 @@ Based on your overall score, here are the recommended next steps:
 3. Identify and empower champion
 4. Build business case
 
-### If Score Below 2.0 (Not Ready)
+## If Score Below 2.0 (Not Ready)
 🔴 **Major gaps - recommend delayed start**
 
 **Recommended timeline:**
@@ -675,17 +691,19 @@ Based on your overall score, here are the recommended next steps:
 
 ## Action Plan
 
-### Priority 1 - Critical (Must have before starting)
+Every action needs an owner and a due date, or it doesn't happen.
+
+## Priority 1 - Critical (Must have before starting)
 - [ ] Action: _____________________________ | Owner: _________ | Due: _______
 - [ ] Action: _____________________________ | Owner: _________ | Due: _______
 - [ ] Action: _____________________________ | Owner: _________ | Due: _______
 
-### Priority 2 - Important (Should have for pilot)
+## Priority 2 - Important (Should have for pilot)
 - [ ] Action: _____________________________ | Owner: _________ | Due: _______
 - [ ] Action: _____________________________ | Owner: _________ | Due: _______
 - [ ] Action: _____________________________ | Owner: _________ | Due: _______
 
-### Priority 3 - Nice to have (Can develop during rollout)
+## Priority 3 - Nice to have (Can develop during rollout)
 - [ ] Action: _____________________________ | Owner: _________ | Due: _______
 - [ ] Action: _____________________________ | Owner: _________ | Due: _______
 - [ ] Action: _____________________________ | Owner: _________ | Due: _______

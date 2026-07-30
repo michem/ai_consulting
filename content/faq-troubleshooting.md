@@ -8,6 +8,9 @@ order: 15
 # Claude Code Enterprise FAQ & Troubleshooting
 
 ## Table of Contents
+
+Answers are grouped into seven areas, each broken into focused slides:
+
 1. [General Questions](#general-questions)
 2. [Technical Setup](#technical-setup)
 3. [Usage Questions](#usage-questions)
@@ -20,7 +23,9 @@ order: 15
 
 ## General Questions
 
-### What is Claude Code?
+The basics: what Claude Code is, how it compares, and what it takes to get productive.
+
+## What is Claude Code?
 
 Claude Code is an AI-powered coding assistant from Anthropic that helps developers write, understand, debug, and improve code. It's agentic (can perform multi-step tasks autonomously), has access to your entire codebase, and can use tools like reading files, editing code, running commands, and more.
 
@@ -32,7 +37,7 @@ Claude Code is an AI-powered coding assistant from Anthropic that helps develope
 - Writing tests and documentation
 - Running commands and git operations
 
-### How is Claude Code different from GitHub Copilot or ChatGPT?
+## How is Claude Code different from GitHub Copilot or ChatGPT?
 
 **vs GitHub Copilot:**
 - **Copilot:** Inline completions, suggests code as you type
@@ -44,7 +49,7 @@ Claude Code is an AI-powered coding assistant from Anthropic that helps develope
 
 **Think of it as:** Claude Code is like pair programming with an expert who can see your entire codebase and take actions.
 
-### What programming languages does Claude Code support?
+## What programming languages does Claude Code support?
 
 Claude Code works with all major programming languages:
 - JavaScript/TypeScript
@@ -61,15 +66,15 @@ Claude Code works with all major programming languages:
 
 It adapts to whatever language and framework your project uses.
 
-### Do I need to be connected to the internet?
+## Do I need to be connected to the internet?
 
 Yes, Claude Code requires an internet connection to access Anthropic's API. It's a cloud-based service.
 
-### Will Claude Code replace developers?
+## Will Claude Code replace developers?
 
 No — it augments them. See "Managing Resistance" in the [Implementation Guide](/articles/implementation-guide) for the full case and how to talk your team through this concern.
 
-### What's the learning curve?
+## What's the learning curve?
 
 Most developers can use Claude Code productively within:
 - **15 minutes:** Basic usage (explain code, simple changes)
@@ -83,7 +88,9 @@ It's much easier than learning a new programming language or framework.
 
 ## Technical Setup
 
-### What are the system requirements?
+What it takes to get Claude Code installed, licensed, and reachable from behind a corporate network.
+
+## What are the system requirements?
 
 **Operating System:**
 - ✅ macOS (M1/M2/M3 and Intel)
@@ -95,7 +102,7 @@ It's much easier than learning a new programming language or framework.
 - Anthropic API key
 - Terminal or compatible IDE (VS Code, Cursor)
 
-### How do I install Claude Code?
+## How do I install Claude Code?
 
 **Option 1: Command Line (npx)**
 ```bash
@@ -112,7 +119,7 @@ npx @anthropic-ai/claude-code
 - Built-in support
 - Configure in preferences
 
-### How do I get an API key?
+## How do I get an API key?
 
 1. Go to [console.anthropic.com](https://console.anthropic.com)
 2. Sign up or log in
@@ -123,7 +130,7 @@ npx @anthropic-ai/claude-code
 
 **Security tip:** Never commit API keys to git. Use environment variables or secure secret management.
 
-### My company is on Windows. Can we still use Claude Code?
+## My company is on Windows. Can we still use Claude Code?
 
 **Current options:**
 
@@ -141,7 +148,7 @@ npx @anthropic-ai/claude-code
 - Use AWS Cloud9
 - Use other cloud IDEs
 
-### How do I configure Claude Code for my company's proxy?
+## How do I configure Claude Code for my company's proxy?
 
 **Set proxy environment variables:**
 
@@ -165,7 +172,7 @@ export NO_PROXY=localhost,127.0.0.1,.company.local
 }
 ```
 
-### Can Claude Code work in air-gapped environments?
+## Can Claude Code work in air-gapped environments?
 
 No, Claude Code requires internet access to Anthropic's API. It's a cloud-based service and cannot work offline or in air-gapped environments.
 
@@ -178,7 +185,9 @@ No, Claude Code requires internet access to Anthropic's API. It's a cloud-based 
 
 ## Usage Questions
 
-### How do I get the best results from Claude Code?
+Day-to-day questions teams ask once they're actually working with Claude Code.
+
+## How do I get the best results from Claude Code?
 
 **Follow the 3 C's:**
 
@@ -194,7 +203,7 @@ No, Claude Code requires internet access to Anthropic's API. It's a cloud-based 
    in src/auth/login.js"
 ```
 
-### Can Claude Code access my entire codebase?
+## Can Claude Code access my entire codebase?
 
 Yes, Claude Code can read files in your project directory. However:
 - It only reads files relevant to your request
@@ -202,7 +211,7 @@ Yes, Claude Code can read files in your project directory. However:
 - You can configure exclusions (.gitignore is respected)
 - It cannot access files outside the project directory
 
-### Can Claude Code make mistakes?
+## Can Claude Code make mistakes?
 
 Yes, like any AI system, Claude can make mistakes:
 - Generate incorrect code
@@ -218,7 +227,7 @@ Yes, like any AI system, Claude can make mistakes:
 
 You're still the developer in charge.
 
-### How do I undo changes Claude Code makes?
+## How do I undo changes Claude Code makes?
 
 **If using git:**
 ```bash
@@ -239,7 +248,7 @@ git reset --hard HEAD
 
 **Best practice:** Always commit working code before major Claude Code sessions.
 
-### Can Claude Code commit code automatically?
+## Can Claude Code commit code automatically?
 
 Claude Code can create commits, but:
 - You'll be asked for permission
@@ -248,7 +257,7 @@ Claude Code can create commits, but:
 
 **Best practice:** Review all changes before committing.
 
-### Does Claude Code remember previous conversations?
+## Does Claude Code remember previous conversations?
 
 Within a session, yes. Claude remembers:
 - Previous messages in the conversation
@@ -258,7 +267,7 @@ Within a session, yes. Claude remembers:
 
 Starting a new session creates a fresh context.
 
-### Can multiple developers share Claude Code sessions?
+## Can multiple developers share Claude Code sessions?
 
 No, sessions are individual. However:
 - Teams can share prompts and patterns
@@ -269,7 +278,9 @@ No, sessions are individual. However:
 
 ## Security & Compliance
 
-### Is it safe to send my code to Claude?
+The questions security and legal teams ask before signing off on rollout.
+
+## Is it safe to send my code to Claude?
 
 **Security measures:**
 - All data encrypted in transit (TLS 1.2+)
@@ -283,7 +294,7 @@ No, sessions are individual. However:
 - Don't send customer PII
 - Review security requirements with your team
 
-### What data does Anthropic keep?
+## What data does Anthropic keep?
 
 **By default:**
 - API requests logged for debugging (30 days)
@@ -294,7 +305,7 @@ No, sessions are individual. However:
 - Request data deletion
 - Review Anthropic's data processing agreement
 
-### Is Claude Code GDPR compliant?
+## Is Claude Code GDPR compliant?
 
 Yes, Anthropic is GDPR compliant:
 - Data processing agreement available
@@ -302,7 +313,7 @@ Yes, Anthropic is GDPR compliant:
 - Right to deletion supported
 - Transparent data practices
 
-### Can we use Claude Code for HIPAA-covered code?
+## Can we use Claude Code for HIPAA-covered code?
 
 **For healthcare organizations:**
 - Anthropic offers BAA (Business Associate Agreement) for enterprise
@@ -310,7 +321,7 @@ Yes, Anthropic is GDPR compliant:
 - Can use for infrastructure and non-PHI code
 - Review with compliance team
 
-### How do we audit Claude Code usage?
+## How do we audit Claude Code usage?
 
 **API-level:**
 - Anthropic Console shows API usage
@@ -323,7 +334,7 @@ Yes, Anthropic is GDPR compliant:
 - Track adoption metrics
 - Regular reviews with security team
 
-### What if an employee accidentally sends sensitive data?
+## What if an employee accidentally sends sensitive data?
 
 **Immediate actions:**
 1. Stop using that API key
@@ -342,7 +353,9 @@ Yes, Anthropic is GDPR compliant:
 
 ## Billing & Costs
 
-### How much does Claude Code cost?
+What Claude Code actually costs, and how to keep it predictable.
+
+## How much does Claude Code cost?
 
 **API pricing (as of Feb 2026):**
 - Charged per token (input and output)
@@ -359,7 +372,7 @@ Yes, Anthropic is GDPR compliant:
 - Developer salary: €4,000-8,000/month
 - ROI typically 10-40x
 
-### How do we control costs?
+## How do we control costs?
 
 **Strategies:**
 
@@ -383,7 +396,7 @@ Yes, Anthropic is GDPR compliant:
    - Identify high-usage patterns
    - Optimize workflows
 
-### Can we get a fixed-price plan?
+## Can we get a fixed-price plan?
 
 Contact Anthropic for enterprise pricing options, which may include:
 - Volume discounts
@@ -391,7 +404,7 @@ Contact Anthropic for enterprise pricing options, which may include:
 - Predictable billing
 - Custom arrangements
 
-### What happens if we hit our usage limit?
+## What happens if we hit our usage limit?
 
 **Soft limit:**
 - You'll receive alerts
@@ -405,7 +418,7 @@ Contact Anthropic for enterprise pricing options, which may include:
 
 **Best practice:** Set alerts well before limits.
 
-### Is there a free tier?
+## Is there a free tier?
 
 Anthropic offers:
 - Free trial credits for new accounts
@@ -418,9 +431,13 @@ Check [console.anthropic.com](https://console.anthropic.com) for current offers.
 
 ## Troubleshooting
 
-### Installation Issues
+The specific errors teams hit most often, grouped by where they show up: install, API, day-to-day usage, git, and performance.
 
-#### Issue: "Command not found: npx"
+## Installation Issues
+
+Problems that show up before Claude Code ever runs.
+
+## Issue: "Command not found: npx"
 
 **Problem:** Node.js not installed or not in PATH
 
@@ -441,7 +458,7 @@ node --version
 npm --version
 ```
 
-#### Issue: "Permission denied" when installing
+## Issue: "Permission denied" when installing
 
 **Problem:** Insufficient permissions
 
@@ -455,7 +472,7 @@ echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-#### Issue: VS Code extension not working
+## Issue: VS Code extension not working
 
 **Problem:** Extension not properly configured
 
@@ -465,9 +482,11 @@ source ~/.bashrc
 3. Check output panel for errors
 4. Reinstall extension if needed
 
-### API & Connection Issues
+## API & Connection Issues
 
-#### Issue: "API key not found"
+Problems reaching Anthropic's API once Claude Code is installed.
+
+## Issue: "API key not found"
 
 **Problem:** API key not configured
 
@@ -483,7 +502,7 @@ source ~/.bashrc
 # Or configure in tool settings
 ```
 
-#### Issue: "Invalid API key"
+## Issue: "Invalid API key"
 
 **Problem:** API key is wrong or expired
 
@@ -493,7 +512,7 @@ source ~/.bashrc
 3. Regenerate API key if needed
 4. Update configuration
 
-#### Issue: "Connection timeout" or "Network error"
+## Issue: "Connection timeout" or "Network error"
 
 **Problem:** Cannot reach Anthropic API
 
@@ -509,7 +528,7 @@ export HTTPS_PROXY=http://proxy.company.com:8080
 # Ensure api.anthropic.com is accessible on port 443
 ```
 
-#### Issue: "Rate limit exceeded"
+## Issue: "Rate limit exceeded"
 
 **Problem:** Too many requests too quickly
 
@@ -519,9 +538,11 @@ export HTTPS_PROXY=http://proxy.company.com:8080
 - Check if multiple processes using same key
 - Consider upgrading limits if frequent
 
-### Usage Issues
+## Usage Issues
 
-#### Issue: Claude doesn't understand my codebase
+Problems that show up mid-session, once Claude is actually working in your codebase.
+
+## Issue: Claude doesn't understand my codebase
 
 **Problem:** Insufficient context provided
 
@@ -540,7 +561,7 @@ export HTTPS_PROXY=http://proxy.company.com:8080
 - Provide error messages
 - Describe expected behavior
 
-#### Issue: Generated code doesn't work
+## Issue: Generated code doesn't work
 
 **Problem:** Claude made a mistake or misunderstood
 
@@ -555,7 +576,7 @@ export HTTPS_PROXY=http://proxy.company.com:8080
 4. Provide more context
 5. Try a different approach
 
-#### Issue: Claude is changing the wrong files
+## Issue: Claude is changing the wrong files
 
 **Problem:** Ambiguous request or wrong context
 
@@ -565,7 +586,7 @@ export HTTPS_PROXY=http://proxy.company.com:8080
 - Review changes before accepting
 - Undo and try again with clearer prompt
 
-#### Issue: Responses are too slow
+## Issue: Responses are too slow
 
 **Problem:** Large context or complex request
 
@@ -575,9 +596,11 @@ export HTTPS_PROXY=http://proxy.company.com:8080
 - Use faster model (Haiku) for simple tasks
 - Check internet connection
 
-### Git Integration Issues
+## Git Integration Issues
 
-#### Issue: Claude commits to wrong branch
+Problems that surface when Claude Code touches branches, commits, or merges.
+
+## Issue: Claude commits to wrong branch
 
 **Problem:** Not on intended branch
 
@@ -592,7 +615,7 @@ git checkout feature-branch
 # Then ask Claude to commit
 ```
 
-#### Issue: Commit messages are not following our convention
+## Issue: Commit messages are not following our convention
 
 **Problem:** Claude not aware of convention
 
@@ -613,7 +636,7 @@ Include ticket number in format: [PROJ-123]"
 }
 ```
 
-#### Issue: Claude created a merge conflict
+## Issue: Claude created a merge conflict
 
 **Problem:** Changes conflict with other work
 
@@ -628,9 +651,11 @@ git diff
 Help me resolve it. I want to keep [describe desired resolution]."
 ```
 
-### Performance Issues
+## Performance Issues
 
-#### Issue: High API costs
+Problems that show up as cost or speed complaints rather than broken behavior.
+
+## Issue: High API costs
 
 **Problem:** Inefficient usage patterns
 
@@ -646,7 +671,7 @@ Help me resolve it. I want to keep [describe desired resolution]."
    - Break down large files
 4. Set usage alerts
 
-#### Issue: Tests are failing after Claude changes
+## Issue: Tests are failing after Claude changes
 
 **Problem:** Generated code has issues
 
@@ -670,7 +695,9 @@ Please fix the code to make them pass."
 
 ## Performance & Optimization
 
-### How can I make Claude Code faster?
+Making Claude Code faster and cheaper, and knowing where it earns its keep.
+
+## How can I make Claude Code faster?
 
 **Tips for faster responses:**
 
@@ -691,7 +718,7 @@ Please fix the code to make them pass."
    - Faster upload/download
    - Reduces latency
 
-### How can I reduce API costs?
+## How can I reduce API costs?
 
 **Cost optimization strategies:**
 
@@ -719,7 +746,7 @@ Please fix the code to make them pass."
    - Educate high-usage team members
    - Share best practices
 
-### What are the best use cases for Claude Code?
+## What are the best use cases for Claude Code?
 
 **High value (most ROI):**
 - ✅ Writing tests
@@ -752,7 +779,9 @@ Please fix the code to make them pass."
 
 ## Getting More Help
 
-### Where can I find documentation?
+Where to go when this page doesn't cover it.
+
+## Where can I find documentation?
 
 **Official resources:**
 - Anthropic Documentation: [docs.anthropic.com](https://docs.anthropic.com)
@@ -764,7 +793,7 @@ Please fix the code to make them pass."
 - GitHub discussions
 - Stack Overflow (tag: claude-ai)
 
-### How do I report a bug or issue?
+## How do I report a bug or issue?
 
 **For Claude Code bugs:**
 - GitHub: [github.com/anthropics/claude-code](https://github.com/anthropics/claude-code)
@@ -774,13 +803,13 @@ Please fix the code to make them pass."
 - Anthropic Console support chat
 - Status page: status.anthropic.com
 
-### How do I request a new feature?
+## How do I request a new feature?
 
 - GitHub issues (feature request)
 - Anthropic Discord feedback channel
 - Through your enterprise account manager
 
-### Can I get custom training for my team?
+## Can I get custom training for my team?
 
 Yes! Contact us for:
 - Custom training sessions
@@ -790,7 +819,7 @@ Yes! Contact us for:
 
 See [SERVICE_OFFERINGS.md](./SERVICE_OFFERINGS.md) for details.
 
-### Who do I contact for enterprise support?
+## Who do I contact for enterprise support?
 
 **For enterprise customers:**
 - Your account manager
@@ -804,7 +833,9 @@ See [SERVICE_OFFERINGS.md](./SERVICE_OFFERINGS.md) for details.
 
 ## Quick Reference
 
-### Common Error Messages
+A cheat sheet for the errors and commands you'll come back to most.
+
+## Common Error Messages
 
 | Error | Meaning | Solution |
 |-------|---------|----------|
@@ -815,7 +846,7 @@ See [SERVICE_OFFERINGS.md](./SERVICE_OFFERINGS.md) for details.
 | "Context length exceeded" | Request too large | Break into smaller requests |
 | "Model overloaded" | Service busy | Retry in a moment |
 
-### Useful Commands
+## Useful Commands
 
 ```bash
 # Check Claude Code version
@@ -837,7 +868,7 @@ curl https://api.anthropic.com -I
 rm -rf ~/.claude/cache
 ```
 
-### Getting Started Checklist
+## Getting Started Checklist
 
 For new users:
 - [ ] Node.js installed
@@ -849,7 +880,7 @@ For new users:
 - [ ] Joined support channel
 - [ ] Completed training
 
-### Keyboard Shortcuts
+## Keyboard Shortcuts
 
 **VS Code Extension:**
 - `Cmd/Ctrl + Shift + P` → Command palette
