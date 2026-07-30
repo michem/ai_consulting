@@ -80,7 +80,7 @@ order: 12
 **Operating System Requirements:**
 - ✅ macOS: Fully supported (M1/M2 and Intel)
 - ✅ Linux: Fully supported (Ubuntu, Debian, Fedora, etc.)
-- ⚠️ Windows: use WSL2 as interim solution (see [FAQ](/articles/faq-troubleshooting) for current native-support status)
+- ✅ Windows: native support (Windows 10 1809+ or Windows Server 2019+); WSL2 needed only for sandboxed execution — see [FAQ](/articles/faq-troubleshooting) for details
 
 **Check your distribution:**
 ```bash
@@ -90,8 +90,7 @@ Linux: XXX developers
 Windows: XXX developers
 
 # If significant Windows usage, plan for:
-# - WSL2 setup guide
-# - Timeline for native Windows support
+# - Native install vs. WSL2 (WSL2 required for sandboxed execution)
 # - Alternative cloud-based development environments
 ```
 
@@ -99,7 +98,7 @@ Windows: XXX developers
 - VS Code: Fully supported via extension
 - Cursor: Built-in support
 - Command line: Works in any terminal
-- JetBrains IDEs: not yet supported, as of Feb 2026
+- JetBrains IDEs: supported via the dedicated Claude Code plugin (IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, Android Studio, and more)
 
 #### Network and Security
 

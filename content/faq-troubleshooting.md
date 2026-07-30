@@ -95,7 +95,7 @@ What it takes to get Claude Code installed, licensed, and reachable from behind 
 **Operating System:**
 - ✅ macOS (M1/M2/M3 and Intel)
 - ✅ Linux (Ubuntu, Debian, Fedora, etc.)
-- ⚠️ Windows: not yet natively supported as of Feb 2026 (use WSL2)
+- ✅ Windows: native support (Windows 10 1809+ or Windows Server 2019+); WSL2 also works and is required for sandboxed command execution
 
 **Other requirements:**
 - Internet connection
@@ -132,16 +132,16 @@ npx @anthropic-ai/claude-code
 
 ## My company is on Windows. Can we still use Claude Code?
 
-**Current options:**
+**Yes — native Windows support shipped in late 2025.**
 
-**Option 1: WSL2 (Windows Subsystem for Linux)**
-- Install WSL2 on Windows machines
-- Use Claude Code within WSL2 environment
-- Works well for most use cases
+**Option 1: Native Windows (recommended for most teams)**
+- Install directly from PowerShell or CMD, no WSL required
+- Requires Windows 10 1809+ or Windows Server 2019+
+- Sandboxed command execution isn't available natively — use WSL2 if you need that
 
-**Option 2: Wait for native Windows support**
-- Not yet available as of Feb 2026
-- Subscribe to updates at Anthropic's blog
+**Option 2: WSL2 (Windows Subsystem for Linux)**
+- Use Claude Code within a WSL2 environment
+- Required if you need sandboxed execution or a Linux-native toolchain
 
 **Option 3: Cloud development environments**
 - Use GitHub Codespaces
@@ -894,7 +894,7 @@ For new users:
 
 ---
 
-*Last updated: February 2026*
+*Last updated: July 2026*
 
 **Have a question not answered here?** Contact [support channel] or refer to [internal wiki].
 
