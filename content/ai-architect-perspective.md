@@ -34,6 +34,15 @@ A fractional AI architect runs a repeating loop, typically on a monthly or quart
 
 The loop matters more than any single deliverable. AI strategy documents age in months; the loop doesn't.
 
+```mermaid
+flowchart LR
+    A["Assess<br/>maturity, usage, market"] --> P["Prioritize<br/>value × feasibility × risk"]
+    P --> AR["Architect<br/>minimal path, decisions written"]
+    AR --> E["Enable<br/>training, patterns, unblocking"]
+    E --> M["Measure<br/>results vs baselines, honestly"]
+    M --> A
+```
+
 ## The AI Architecture Stack
 
 The architect thinks in layers, and insists that each layer be swappable:
@@ -47,6 +56,18 @@ The architect thinks in layers, and insists that each layer be swappable:
 | **Platform & security** | Identity, secrets, logging, cost controls, tenancy | Who used what, with which data, at what cost? |
 
 **The core doctrine: your durable assets are the top and bottom layers** — redesigned workflows and well-organized, permission-aware data. Models in the middle are commodities that improve and cheapen every quarter. Architect so you can swap them.
+
+## The Stack, Visualized
+
+```mermaid
+flowchart TB
+    UC["Use cases & workflows<br/>YOUR DURABLE ASSET"] --> OR["Orchestration<br/>prompts, RAG, agents, evaluation — keep portable"]
+    OR --> MO["Models<br/>SWAPPABLE COMMODITY — re-pick per task, per quarter"]
+    MO --> DA["Data & context<br/>YOUR DURABLE ASSET — permission-aware, AI-reachable"]
+    DA --> PL["Platform & security<br/>identity, logging, cost control"]
+```
+
+Read it as a value sandwich: the layers you own outlive every vendor decision in the middle. Every architecture review starts by checking that the middle is still swappable.
 
 ## Recurring Decision Frameworks
 
