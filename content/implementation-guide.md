@@ -99,7 +99,7 @@ Windows: XXX developers
 - VS Code: Fully supported via extension
 - Cursor: Built-in support
 - Command line: Works in any terminal
-- JetBrains IDEs: Coming soon
+- JetBrains IDEs: not yet supported, as of Feb 2026
 
 #### Network and Security
 
