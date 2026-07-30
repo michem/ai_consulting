@@ -13,6 +13,20 @@ Two of the best management thinkers of the last half-century anchor this view. *
 
 That translates into six questions, asked in order. Skip one and AI initiatives drift into demos, tool sprawl, and pilots that never land.
 
+## The Six Questions at a Glance
+
+```mermaid
+flowchart TD
+    Q1["1 · What is the business trying to do?"] --> Q2["2 · What team is on that problem?"]
+    Q2 --> Q3["3 · How successful is that team today?<br/>baseline, measured"]
+    Q3 --> Q4["4 · How could AI raise the team's output?<br/>leverage, task-relevant maturity"]
+    Q4 --> Q5["5 · Do we have the right team for AI?<br/>fluency, expertise, ownership"]
+    Q5 --> Q6["6 · Who keeps score?<br/>usage, output vs baseline, quality"]
+    Q6 -. "re-measure, every quarter" .-> Q3
+```
+
+The order is the discipline: technology enters at Question 4, never at Question 1 — and the loop from Question 6 back to Question 3 is what makes this a management system rather than a one-off project.
+
 ## Question 1: What is your business trying to do?
 
 Not "where could we use AI" — what is the *business problem*? Grow revenue in a segment, ship faster than a competitor, serve customers at lower cost, stop losing margin to errors. AI is only ever a means.

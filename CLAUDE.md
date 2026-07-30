@@ -13,6 +13,7 @@ Everything must tie back to `content/team-first-ai.md` (Team-First AI, after Bil
 - **Structure:** `##` sections must work as standalone slides — one idea per section, roughly 5–15 lines each. Use tables for comparisons, bold sparingly for the load-bearing sentence.
 - **Sources:** when integrating external research, cite it inline with a link and prefer primary/credible sources (papers, vendor docs, reputable industry research). Date-sensitive claims should say when they were true.
 - **Cross-linking:** link related articles with root-relative paths (`/articles/<slug>`); every article ends with a short "Where to go next" pointer.
+- **Diagrams:** processes, strategies, architectures, and team structures deserve a diagram. Use fenced ```mermaid blocks (rendered on the page and in slides); prefer `flowchart LR/TB`, short node labels (use `<br/>` for a second line), at most one diagram per `##` section so it works as a slide. If a diagram fails to render it falls back to showing its source — so verify syntax before pushing.
 - **Language:** English. Currency examples in EUR.
 
 ## Loop protocol (automated improvement agents)

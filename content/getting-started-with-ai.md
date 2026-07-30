@@ -71,6 +71,46 @@ You do not need a data lake and a chief AI officer to start. You do need four th
 - Select one Horizon-2 integration candidate (typically: internal knowledge assistant or document processing) and scope it properly.
 - Report results to leadership; decide the next quarter's portfolio and budget.
 
+## The 90 Days, Visualized
+
+```mermaid
+flowchart LR
+    subgraph P1["Days 1–15 · Orient"]
+        direction TB
+        A1["Run the maturity audit"] --> A2["Inventory current usage"] --> A3["Publish policy,<br/>procure sanctioned tool"]
+    end
+    subgraph P2["Days 16–45 · Enable"]
+        direction TB
+        B1["Train all knowledge workers"] --> B2["Collect and score<br/>use-case ideas"] --> B3["Launch 2–3 quick wins<br/>with baselines"]
+    end
+    subgraph P3["Days 46–90 · Prove & decide"]
+        direction TB
+        C1["Measure vs baselines"] --> C2["Kill or scale"] --> C3["Scope first integration,<br/>set next-quarter portfolio"]
+    end
+    P1 --> P2 --> P3
+```
+
+Each phase ends with something concrete: a baseline and policy, running quick wins, and a leadership decision backed by numbers.
+
+## The Team You Need
+
+Adoption is carried by a small set of roles — in a small company several hats sit on one head; in an enterprise each is a person or team:
+
+```mermaid
+flowchart TB
+    S["Executive sponsor<br/>sets direction, unblocks, models usage"] --> O["AI owner<br/>portfolio, policy, scorekeeping"]
+    ARCH["Fractional AI architect<br/>judgment, architecture, cadence"] -. advises .-> S
+    ARCH -. coaches .-> O
+    O --> C["Champions network<br/>one per team or department"]
+    O --> E["Engineering support<br/>integrations, RAG, automations"]
+    C --> T["The teams doing the work<br/>fluency + redesigned workflows"]
+    E --> T
+```
+
+- **≤50 FTE:** sponsor and owner are often the same founder/director; the architect is fractional; engineering support may be one developer or an external partner
+- **50–500 FTE:** distinct owner (part-time is fine), 3–10 champions, first dedicated engineering capacity
+- **500+ FTE:** all roles staffed, plus governance (see [The AI Architect's Perspective](/articles/ai-architect-perspective))
+
 ## Common Pitfalls
 
 - **The eternal pilot.** Pilots without success criteria and a production path die quietly. [MIT's *GenAI Divide* study (August 2025)](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) found that ~95% of enterprise GenAI pilots produced no measurable P&L impact — and that the failure was driven by approach, not model quality: the successful 5% embedded AI deeply into specific workflows instead of running generic tools alongside them. Define success criteria and the production path on day one.

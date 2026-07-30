@@ -348,6 +348,44 @@ a:hover {
   border-bottom: none;
 }
 
+/* ---------- Mermaid diagrams ---------- */
+
+.mermaid-diagram {
+  display: flex;
+  justify-content: center;
+  padding: 1.1rem;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow-x: auto;
+  margin: 1.25rem 0;
+}
+.mermaid-diagram svg {
+  max-width: 100%;
+  height: auto;
+}
+.mermaid-loading {
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  margin: 1.25rem 0;
+}
+.mermaid-error {
+  overflow-x: auto;
+}
+.article-body pre:has(.mermaid-diagram),
+.slide-body pre:has(.mermaid-diagram) {
+  background: none;
+  border: none;
+  padding: 0;
+}
+.slide-body .mermaid-diagram {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
 /* ---------- Version history ---------- */
 
 .history-section {
