@@ -44,7 +44,7 @@ order: 12
 | **Total Annual Value** | | | **€XXX,XXX** |
 
 **Cost Calculation:**
-- API costs: ~€20-50 per developer per month (varies by usage)
+- API costs: ~€30-50 per developer per month on average, varies by usage — see [FAQ](/articles/faq-troubleshooting) for the current breakdown
 - Training and onboarding: €X (one-time)
 - Internal support resources: €X per month
 - Consulting services: €X (if applicable)
@@ -1430,4 +1430,4 @@ Claude Code @ [Company]
 
 Last updated: February 2026
 
-> **Where to go next:** pair rollout with the [Training Workshop](/articles/training-deck) materials and [Enterprise Best Practices](/articles/best-practices) for day-to-day usage standards.
+> **Where to go next:** pair rollout with the [Training Workshop](/articles/training-deck) materials and [Enterprise Best Practices](/articles/best-practices) for day-to-day usage standards. This entire lifecycle is the practical answer to Question 5 in [Team-First AI](/articles/team-first-ai) — do you have the right team for AI — worked step by step.

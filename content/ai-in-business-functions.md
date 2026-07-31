@@ -161,4 +161,4 @@ Usually the most AI-mature function already — the architect's job is to system
 3. Deliberately reuse capability families (extraction, RAG, triage) across functions — the second deployment of a pattern costs a fraction of the first
 4. Attach every selected use case to a metric its function owner already reports on. If no existing metric moves, question the use case.
 
-> **Where to go next:** benchmark which functions are ready with the [AI Maturity Audit](/articles/ai-maturity-assessment); sequence the portfolio using [Getting Started with AI](/articles/getting-started-with-ai).
+> **Where to go next:** benchmark which functions are ready with the [AI Maturity Audit](/articles/ai-maturity-assessment); sequence the portfolio using [Getting Started with AI](/articles/getting-started-with-ai). This map is one input to Question 1 of [Team-First AI](/articles/team-first-ai) — it doesn't replace naming your own business problem, it shows where similar problems have paid off elsewhere.

@@ -100,7 +100,7 @@ What it takes to get Claude Code installed, licensed, and reachable from behind 
 **Other requirements:**
 - Internet connection
 - Anthropic API key
-- Terminal or compatible IDE (VS Code, Cursor)
+- Terminal or compatible IDE (VS Code, Cursor, or JetBrains via plugin)
 
 ## How do I install Claude Code?
 
@@ -118,6 +118,10 @@ npx @anthropic-ai/claude-code
 **Option 3: Cursor IDE**
 - Built-in support
 - Configure in preferences
+
+**Option 4: JetBrains IDEs**
+- Install the dedicated Claude Code plugin (IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, Android Studio, and more)
+- Configure API key in plugin settings
 
 ## How do I get an API key?
 
@@ -817,7 +821,7 @@ Yes! Contact us for:
 - Ongoing support
 - Consulting services
 
-See [SERVICE_OFFERINGS.md](./SERVICE_OFFERINGS.md) for details.
+See [Service Offerings](/articles/service-offerings) for details.
 
 ## Who do I contact for enterprise support?
 
@@ -898,4 +902,4 @@ For new users:
 
 **Have a question not answered here?** Contact [support channel] or refer to [internal wiki].
 
-> **Where to go next:** for setup and rollout questions, revisit the [Implementation Guide](/articles/implementation-guide); for team usage standards, see [Enterprise Best Practices](/articles/best-practices).
+> **Where to go next:** for setup and rollout questions, revisit the [Implementation Guide](/articles/implementation-guide); for team usage standards, see [Enterprise Best Practices](/articles/best-practices). If you're stepping back from a specific issue to ask whether AI is the right call at all, start from [Team-First AI](/articles/team-first-ai).

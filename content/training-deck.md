@@ -1272,4 +1272,4 @@ A: No, it's a tool to augment developers, not replace them. You're still in cont
 
 ---
 
-> **Where to go next:** reinforce workshop content with [Enterprise Best Practices](/articles/best-practices), and route lingering questions to [FAQ & Troubleshooting](/articles/faq-troubleshooting).
+> **Where to go next:** reinforce workshop content with [Enterprise Best Practices](/articles/best-practices), and route lingering questions to [FAQ & Troubleshooting](/articles/faq-troubleshooting). Open the workshop by grounding it in [Team-First AI](/articles/team-first-ai) — participants adopt faster once they see this as a team-performance decision, not a tool rollout.
