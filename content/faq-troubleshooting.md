@@ -11,13 +11,13 @@ order: 15
 
 Answers are grouped into seven areas, each broken into focused slides:
 
-1. [General Questions](#general-questions)
-2. [Technical Setup](#technical-setup)
-3. [Usage Questions](#usage-questions)
-4. [Security & Compliance](#security--compliance)
-5. [Billing & Costs](#billing--costs)
-6. [Troubleshooting](#troubleshooting)
-7. [Performance & Optimization](#performance--optimization)
+1. General Questions
+2. Technical Setup
+3. Usage Questions
+4. Security & Compliance
+5. Billing & Costs
+6. Troubleshooting
+7. Performance & Optimization
 
 ---
 
