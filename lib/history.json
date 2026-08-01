@@ -159,6 +159,12 @@
   ],
   "implementation-guide": [
     {
+      "hash": "96f4eceb9378b6e8d8480b90b1c35256f2898d44",
+      "shortHash": "96f4ece",
+      "date": "2026-07-31T07:18:44+00:00",
+      "subject": "loop: presenter — split Implementation Guide into slide-sized sections"
+    },
+    {
       "hash": "f012f25cfddee3355f3c1d4f12fcd78b8e0329da",
       "shortHash": "f012f25",
       "date": "2026-07-29T21:42:41+00:00",
