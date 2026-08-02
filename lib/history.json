@@ -41,6 +41,12 @@
   ],
   "ai-maturity-assessment": [
     {
+      "hash": "366a670dc1bb7388687f960cad8d63095d9e3696",
+      "shortHash": "366a670",
+      "date": "2026-08-01T07:13:52+00:00",
+      "subject": "loop: presenter — split Service Offerings and AI Maturity Audit into slide-sized sections"
+    },
+    {
       "hash": "b6ecec5248d39d186d464501cd8d96ec44c84dc1",
       "shortHash": "b6ecec5",
       "date": "2026-07-30T12:24:48+00:00",
@@ -229,6 +235,12 @@
   ],
   "service-offerings": [
     {
+      "hash": "366a670dc1bb7388687f960cad8d63095d9e3696",
+      "shortHash": "366a670",
+      "date": "2026-08-01T07:13:52+00:00",
+      "subject": "loop: presenter — split Service Offerings and AI Maturity Audit into slide-sized sections"
+    },
+    {
       "hash": "34b4ab10894d01a86f0882852e751dffa000f1f9",
       "shortHash": "34b4ab1",
       "date": "2026-07-28T21:41:54+00:00",
@@ -268,6 +280,12 @@
     }
   ],
   "training-deck": [
+    {
+      "hash": "6460583e219392475a230a69ced2e303960cb3f1",
+      "shortHash": "6460583",
+      "date": "2026-08-02T07:18:02+00:00",
+      "subject": "loop: presenter — split Training Workshop deck into slide-sized sections"
+    },
     {
       "hash": "34b4ab10894d01a86f0882852e751dffa000f1f9",
       "shortHash": "34b4ab1",
