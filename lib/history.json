@@ -1,6 +1,12 @@
 {
   "ai-architect-perspective": [
     {
+      "hash": "6053317c4bdc17a3503a0510275df0d9664da777",
+      "shortHash": "6053317",
+      "date": "2026-08-03T07:13:59+00:00",
+      "subject": "loop: presenter — split diagram slides in AI Architect and Getting Started"
+    },
+    {
       "hash": "b6ecec5248d39d186d464501cd8d96ec44c84dc1",
       "shortHash": "b6ecec5",
       "date": "2026-07-30T12:24:48+00:00",
@@ -20,6 +26,12 @@
     }
   ],
   "ai-in-business-functions": [
+    {
+      "hash": "dc2480ea42653c298ef2a23cb4b06688e257f381",
+      "shortHash": "dc2480e",
+      "date": "2026-08-04T07:17:50+00:00",
+      "subject": "loop: presenter — split diagram slide in AI Across Business Functions"
+    },
     {
       "hash": "b6ecec5248d39d186d464501cd8d96ec44c84dc1",
       "shortHash": "b6ecec5",
@@ -130,6 +142,12 @@
     }
   ],
   "getting-started-with-ai": [
+    {
+      "hash": "6053317c4bdc17a3503a0510275df0d9664da777",
+      "shortHash": "6053317",
+      "date": "2026-08-03T07:13:59+00:00",
+      "subject": "loop: presenter — split diagram slides in AI Architect and Getting Started"
+    },
     {
       "hash": "b6ecec5248d39d186d464501cd8d96ec44c84dc1",
       "shortHash": "b6ecec5",
