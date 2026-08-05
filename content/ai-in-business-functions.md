@@ -107,7 +107,7 @@ Often the fastest payback in the company — high volume, language-heavy, well-d
 
 **Metrics:** time-to-hire, recruiter hours per hire, HR ticket deflection, onboarding time-to-productivity.
 
-**Risk note:** hiring and personnel decisions are **high-risk under the EU AI Act**. AI may assist analysis; humans decide, criteria stay transparent, and outcomes are monitored for bias. This is the domain where governance discipline is most load-bearing. On timing: high-risk (Annex III) obligations were originally set to apply from 2 August 2026, but the ["AI Omnibus" agreement](https://artificialintelligenceact.eu/implementation-timeline/) (political agreement May 2026, formal adoption pending as of mid-2026) defers them to 2 December 2027 — treat the extra time as runway for building the practices above, not as a reason to wait.
+**Risk note:** hiring and personnel decisions are **high-risk under the EU AI Act**. AI may assist analysis; humans decide, criteria stay transparent, and outcomes are monitored for bias. This is the domain where governance discipline is most load-bearing. On timing: high-risk (Annex III) obligations were originally set to apply from 2 August 2026, but the ["Digital Omnibus on AI"](https://artificialintelligenceact.eu/implementation-timeline/) — formally adopted and in force since 27 July 2026 — defers stand-alone Annex III obligations to 2 December 2027 (AI embedded in regulated products under Annex I moves to 2 August 2028) — treat the extra time as runway for building the practices above, not as a reason to wait.
 
 ## Legal & Compliance
 
@@ -165,4 +165,4 @@ Usually the most AI-mature function already — the architect's job is to system
 3. Deliberately reuse capability families (extraction, RAG, triage) across functions — the second deployment of a pattern costs a fraction of the first
 4. Attach every selected use case to a metric its function owner already reports on. If no existing metric moves, question the use case.
 
-> **Where to go next:** benchmark which functions are ready with the [AI Maturity Audit](/articles/ai-maturity-assessment); sequence the portfolio using [Getting Started with AI](/articles/getting-started-with-ai).
+> **Where to go next:** benchmark which functions are ready with the [AI Maturity Audit](/articles/ai-maturity-assessment); sequence the portfolio using [Getting Started with AI](/articles/getting-started-with-ai). This map is one input to Question 1 of [Team-First AI](/articles/team-first-ai) — it doesn't replace naming your own business problem, it shows where similar problems have paid off elsewhere.

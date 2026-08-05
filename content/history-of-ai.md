@@ -85,4 +85,4 @@ Strip away the hype, and organizations gained five genuinely new capabilities:
 - **Waiting has a cost.** Because capability compounds yearly, organizations that build AI fluency now will absorb each new wave (agents, computer use, whatever comes next) faster than those starting cold.
 - **But sequencing matters.** The graveyard of failed AI projects is full of companies that skipped foundations — data quality, governance, change management — to chase demos. The rest of this material exists to get the sequence right.
 
-> **Where to go next:** [Getting Started with AI](/articles/getting-started-with-ai) for the practical entry path, and the [AI Maturity Audit](/articles/ai-maturity-assessment) to benchmark where your organization stands today.
+> **Where to go next:** this history explains *why now* — for *how to act on it*, walk the six questions in [Team-First AI](/articles/team-first-ai), the philosophy every other page here works from. From there, [Getting Started with AI](/articles/getting-started-with-ai) is the practical entry path, and the [AI Maturity Audit](/articles/ai-maturity-assessment) benchmarks where your organization stands today.

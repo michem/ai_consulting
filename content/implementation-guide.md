@@ -48,7 +48,7 @@ Before any code gets written, align the business case, the technical footprint, 
 ## Costs and Payback Period
 
 **Cost Calculation:**
-- API costs: ~€20-50 per developer per month (varies by usage)
+- API costs: ~€30-50 per developer per month on average, varies by usage — see [FAQ](/articles/faq-troubleshooting) for the current breakdown
 - Training and onboarding: €X (one-time)
 - Internal support resources: €X per month
 - Consulting services: €X (if applicable)
@@ -86,7 +86,7 @@ With the business case made, confirm the org can actually run Claude Code: opera
 
 - ✅ macOS: Fully supported (M1/M2 and Intel)
 - ✅ Linux: Fully supported (Ubuntu, Debian, Fedora, etc.)
-- ⚠️ Windows: use WSL2 as interim solution (see [FAQ](/articles/faq-troubleshooting) for current native-support status)
+- ✅ Windows: native support (Windows 10 1809+ or Windows Server 2019+); WSL2 needed only for sandboxed execution — see [FAQ](/articles/faq-troubleshooting) for details
 
 **Check your distribution:**
 ```bash
@@ -96,8 +96,7 @@ Linux: XXX developers
 Windows: XXX developers
 
 # If significant Windows usage, plan for:
-# - WSL2 setup guide
-# - Timeline for native Windows support
+# - Native install vs. WSL2 (WSL2 required for sandboxed execution)
 # - Alternative cloud-based development environments
 ```
 
@@ -106,7 +105,7 @@ Windows: XXX developers
 - VS Code: Fully supported via extension
 - Cursor: Built-in support
 - Command line: Works in any terminal
-- JetBrains IDEs: not yet supported, as of Feb 2026
+- JetBrains IDEs: supported via the dedicated Claude Code plugin (IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, Android Studio, and more)
 
 ## API Connectivity Test
 
@@ -1500,4 +1499,4 @@ Claude Code @ [Company]
 
 Last updated: February 2026
 
-> **Where to go next:** pair rollout with the [Training Workshop](/articles/training-deck) materials and [Enterprise Best Practices](/articles/best-practices) for day-to-day usage standards.
+> **Where to go next:** pair rollout with the [Training Workshop](/articles/training-deck) materials and [Enterprise Best Practices](/articles/best-practices) for day-to-day usage standards. This entire lifecycle is the practical answer to Question 5 in [Team-First AI](/articles/team-first-ai) — do you have the right team for AI — worked step by step.

@@ -11,13 +11,13 @@ order: 15
 
 Answers are grouped into seven areas, each broken into focused slides:
 
-1. [General Questions](#general-questions)
-2. [Technical Setup](#technical-setup)
-3. [Usage Questions](#usage-questions)
-4. [Security & Compliance](#security--compliance)
-5. [Billing & Costs](#billing--costs)
-6. [Troubleshooting](#troubleshooting)
-7. [Performance & Optimization](#performance--optimization)
+1. General Questions
+2. Technical Setup
+3. Usage Questions
+4. Security & Compliance
+5. Billing & Costs
+6. Troubleshooting
+7. Performance & Optimization
 
 ---
 
@@ -95,12 +95,12 @@ What it takes to get Claude Code installed, licensed, and reachable from behind 
 **Operating System:**
 - ✅ macOS (M1/M2/M3 and Intel)
 - ✅ Linux (Ubuntu, Debian, Fedora, etc.)
-- ⚠️ Windows: not yet natively supported as of Feb 2026 (use WSL2)
+- ✅ Windows: native support (Windows 10 1809+ or Windows Server 2019+); WSL2 also works and is required for sandboxed command execution
 
 **Other requirements:**
 - Internet connection
 - Anthropic API key
-- Terminal or compatible IDE (VS Code, Cursor)
+- Terminal or compatible IDE (VS Code, Cursor, or JetBrains via plugin)
 
 ## How do I install Claude Code?
 
@@ -119,6 +119,10 @@ npx @anthropic-ai/claude-code
 - Built-in support
 - Configure in preferences
 
+**Option 4: JetBrains IDEs**
+- Install the dedicated Claude Code plugin (IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, Android Studio, and more)
+- Configure API key in plugin settings
+
 ## How do I get an API key?
 
 1. Go to [console.anthropic.com](https://console.anthropic.com)
@@ -132,16 +136,16 @@ npx @anthropic-ai/claude-code
 
 ## My company is on Windows. Can we still use Claude Code?
 
-**Current options:**
+**Yes — native Windows support shipped in late 2025.**
 
-**Option 1: WSL2 (Windows Subsystem for Linux)**
-- Install WSL2 on Windows machines
-- Use Claude Code within WSL2 environment
-- Works well for most use cases
+**Option 1: Native Windows (recommended for most teams)**
+- Install directly from PowerShell or CMD, no WSL required
+- Requires Windows 10 1809+ or Windows Server 2019+
+- Sandboxed command execution isn't available natively — use WSL2 if you need that
 
-**Option 2: Wait for native Windows support**
-- Not yet available as of Feb 2026
-- Subscribe to updates at Anthropic's blog
+**Option 2: WSL2 (Windows Subsystem for Linux)**
+- Use Claude Code within a WSL2 environment
+- Required if you need sandboxed execution or a Linux-native toolchain
 
 **Option 3: Cloud development environments**
 - Use GitHub Codespaces
@@ -817,7 +821,7 @@ Yes! Contact us for:
 - Ongoing support
 - Consulting services
 
-See [SERVICE_OFFERINGS.md](./SERVICE_OFFERINGS.md) for details.
+See [Service Offerings](/articles/service-offerings) for details.
 
 ## Who do I contact for enterprise support?
 
@@ -894,8 +898,8 @@ For new users:
 
 ---
 
-*Last updated: February 2026*
+*Last updated: July 2026*
 
 **Have a question not answered here?** Contact [support channel] or refer to [internal wiki].
 
-> **Where to go next:** for setup and rollout questions, revisit the [Implementation Guide](/articles/implementation-guide); for team usage standards, see [Enterprise Best Practices](/articles/best-practices).
+> **Where to go next:** for setup and rollout questions, revisit the [Implementation Guide](/articles/implementation-guide); for team usage standards, see [Enterprise Best Practices](/articles/best-practices). If you're stepping back from a specific issue to ask whether AI is the right call at all, start from [Team-First AI](/articles/team-first-ai).

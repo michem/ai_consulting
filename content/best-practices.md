@@ -1114,4 +1114,4 @@ Human: Reviewer (checks correctness, judges tradeoffs, approves)
 
 Rotate patterns by task: use Driver-Navigator when the human knows the domain better than the codebase, Reviewer-Implementer when the reverse is true.
 
-> **Where to go next:** these practices support the operating model in [The AI Architect's Perspective](/articles/ai-architect-perspective); for common issues, see [FAQ & Troubleshooting](/articles/faq-troubleshooting).
+> **Where to go next:** these practices support the operating model in [The AI Architect's Perspective](/articles/ai-architect-perspective); for common issues, see [FAQ & Troubleshooting](/articles/faq-troubleshooting). They're the "how" — for the "why," see [Team-First AI](/articles/team-first-ai): this is what Question 4 (leverage, task-relevant maturity) looks like once a team is actually using the tool.

@@ -324,4 +324,4 @@ Yes, we offer monthly retainer packages, office hours, and dedicated support cha
 
 *Last updated: February 2026*
 
-> **Where to go next:** confirm fit with the [Enterprise Readiness Assessment](/articles/readiness-assessment) before scoping an engagement; [The AI Architect's Perspective](/articles/ai-architect-perspective) covers the operating model these packages deliver.
+> **Where to go next:** confirm fit with the [Enterprise Readiness Assessment](/articles/readiness-assessment) before scoping an engagement; [The AI Architect's Perspective](/articles/ai-architect-perspective) covers the operating model these packages deliver. All of it exists to answer Question 5 of [Team-First AI](/articles/team-first-ai) — do you have the right team for AI — for organizations that need to borrow the expertise rather than hire it.
