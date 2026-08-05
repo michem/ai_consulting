@@ -34,6 +34,8 @@ A fractional AI architect runs a repeating loop, typically on a monthly or quart
 
 The loop matters more than any single deliverable. AI strategy documents age in months; the loop doesn't.
 
+## The Loop, Visualized
+
 ```mermaid
 flowchart LR
     A["Assess<br/>maturity, usage, market"] --> P["Prioritize<br/>value × feasibility × risk"]
@@ -42,6 +44,8 @@ flowchart LR
     E --> M["Measure<br/>results vs baselines, honestly"]
     M --> A
 ```
+
+Six steps, one circle: the loop only earns its keep if step six actually feeds back into step three.
 
 ## The AI Architecture Stack
 

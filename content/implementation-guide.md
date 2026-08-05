@@ -7,22 +7,26 @@ order: 12
 
 # Claude Code Enterprise Implementation Guide
 
-## Table of Contents
-1. [Pre-Implementation Planning](#pre-implementation-planning)
-2. [Technical Readiness](#technical-readiness)
-3. [Pilot Program](#pilot-program)
-4. [Full Rollout](#full-rollout)
-5. [Change Management](#change-management)
-6. [Success Metrics](#success-metrics)
-7. [Common Challenges](#common-challenges)
+## What This Guide Covers
+
+Seven stages, from executive alignment to the challenges you'll hit along the way — each broken into focused slides:
+
+1. Pre-Implementation Planning
+2. Pilot Program
+3. Full Rollout
+4. Change Management
+5. Success Metrics
+6. Common Challenges and Solutions
+7. Appendix: checklists and templates
 
 ---
 
 ## Pre-Implementation Planning
 
-### Executive Alignment (Week 1)
+Before any code gets written, align the business case, the technical footprint, and the ground rules. This covers the first one to two weeks: stakeholders, ROI, technical readiness, and policy.
 
-#### Stakeholder Mapping
+## Stakeholder Mapping
+
 **Identify key stakeholders:**
 - Engineering leadership (VP/Director of Engineering)
 - CTO/Technical leadership
@@ -30,9 +34,7 @@ order: 12
 - Finance (budget approval)
 - Individual contributor representatives
 
-#### Business Case Development
-
-**ROI Calculation Template:**
+## The ROI Calculation Template
 
 | Metric | Current State | Expected Improvement | Annual Value |
 |--------|---------------|---------------------|--------------|
@@ -43,6 +45,8 @@ order: 12
 | Code review cycle | Y hours | -25% | €X |
 | **Total Annual Value** | | | **€XXX,XXX** |
 
+## Costs and Payback Period
+
 **Cost Calculation:**
 - API costs: ~€30-50 per developer per month on average, varies by usage — see [FAQ](/articles/faq-troubleshooting) for the current breakdown
 - Training and onboarding: €X (one-time)
@@ -51,21 +55,22 @@ order: 12
 
 **Typical ROI:** 3-6 month payback period
 
-#### Initial Questions to Answer
+## Strategic Questions to Answer
 
-**Strategic:**
 - What are our primary goals? (Productivity, quality, onboarding, innovation?)
 - What's our risk tolerance for AI-assisted development?
 - How does this fit with broader AI strategy?
 - What's our timeline?
 
-**Operational:**
+## Operational Questions to Answer
+
 - Which teams should start first?
 - Who will be internal champions?
 - What's our support model?
 - How do we measure success?
 
-**Technical:**
+## Technical Questions to Answer
+
 - Do we meet technical requirements?
 - What's our data governance approach?
 - How do we handle security concerns?
@@ -73,11 +78,12 @@ order: 12
 
 ---
 
-### Technical Readiness Assessment
+## Technical Readiness Assessment
 
-#### Environment Compatibility Check
+With the business case made, confirm the org can actually run Claude Code: operating systems, IDEs, network access, and a security review.
 
-**Operating System Requirements:**
+## Operating System Requirements
+
 - ✅ macOS: Fully supported (M1/M2 and Intel)
 - ✅ Linux: Fully supported (Ubuntu, Debian, Fedora, etc.)
 - ✅ Windows: native support (Windows 10 1809+ or Windows Server 2019+); WSL2 needed only for sandboxed execution — see [FAQ](/articles/faq-troubleshooting) for details
@@ -94,13 +100,14 @@ Windows: XXX developers
 # - Alternative cloud-based development environments
 ```
 
-**IDE Compatibility:**
+## IDE Compatibility
+
 - VS Code: Fully supported via extension
 - Cursor: Built-in support
 - Command line: Works in any terminal
 - JetBrains IDEs: supported via the dedicated Claude Code plugin (IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, GoLand, Android Studio, and more)
 
-#### Network and Security
+## API Connectivity Test
 
 **API Access Requirements:**
 ```bash
@@ -109,6 +116,8 @@ curl https://api.anthropic.com/v1/messages \
   -H "x-api-key: $ANTHROPIC_API_KEY" \
   -H "anthropic-version: 2023-06-01"
 ```
+
+## Firewall, Proxy & Network Requirements
 
 **Firewall/Proxy Configuration:**
 - Ensure api.anthropic.com is accessible
@@ -120,7 +129,7 @@ curl https://api.anthropic.com/v1/messages \
 - Bandwidth: Minimal (text-based API)
 - Latency: Lower is better, but tolerant
 
-#### Security Review
+## Data Flow at a Glance
 
 **Data Flow Analysis:**
 ```
@@ -133,7 +142,7 @@ Claude Model
 Response back to developer
 ```
 
-**Key Security Considerations:**
+## Data Transmission & Processing
 
 1. **Data Transmission**
    - All data encrypted in transit (TLS 1.2+)
@@ -145,6 +154,8 @@ Response back to developer
    - Used only for that request (not for training by default)
    - Can opt into data retention for model improvement
 
+## Access Control & Compliance
+
 3. **Access Control**
    - API keys grant access - must be protected
    - Can use separate keys per team/project
@@ -155,7 +166,8 @@ Response back to developer
    - GDPR compliant
    - HIPAA compliance available (Enterprise plan)
 
-**Security Questionnaire:**
+## Security Questionnaire
+
 - [ ] Are we comfortable with code being sent to external API?
 - [ ] Do we need data residency (EU vs US)?
 - [ ] Do we have compliance requirements? (GDPR, HIPAA, SOC2)
@@ -165,9 +177,11 @@ Response back to developer
 
 ---
 
-### Policy Development
+## Policy Development
 
-#### Acceptable Use Policy Template
+Two policies to have in place before the pilot starts: acceptable use, and API key management.
+
+## Acceptable Use Policy: Scope and Uses
 
 ```markdown
 # Claude Code Acceptable Use Policy
@@ -200,7 +214,11 @@ Applies to all employees using Claude Code for work-related activities.
 - Bypassing security controls
 - Automated commits without review
 - Production database queries without approval
+```
 
+## Acceptable Use Policy: Data Handling
+
+```markdown
 ## Data Handling
 
 ### What Can Be Shared:
@@ -216,7 +234,11 @@ Applies to all employees using Claude Code for work-related activities.
 - Unreleased product details (if under NDA)
 - Security vulnerabilities (until patched)
 - Third-party proprietary code
+```
 
+## Acceptable Use Policy: Review, Compliance & Enforcement
+
+```markdown
 ## Code Review Requirements
 
 ### Always Review:
@@ -260,9 +282,7 @@ Contact: [security-team@company.com]
 Last updated: [Date]
 ```
 
-#### API Key Management Policy
-
-**Key Distribution Options:**
+## API Key Distribution Options
 
 **Option 1: Individual Keys (Recommended)**
 - Each developer has their own API key
@@ -282,7 +302,8 @@ Last updated: [Date]
 - Additional infrastructure needed
 - May add latency
 
-**Recommended Approach:**
+## Recommended Key Rotation Workflow
+
 ```
 1. Use individual API keys
 2. Set up billing alerts
@@ -291,7 +312,8 @@ Last updated: [Date]
 5. Revoke keys on employee departure
 ```
 
-**API Key Security:**
+## Storing API Keys Securely
+
 ```bash
 # Store in environment variable (not in code)
 export ANTHROPIC_API_KEY="sk-ant-..."
@@ -307,11 +329,14 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 
 ## Pilot Program
 
-### Phase 1: Pilot Planning (Week 1-2)
+With planning done, run a focused pilot before any wider rollout.
 
-#### Pilot Team Selection
+## Phase 1: Pilot Planning (Weeks 1-2)
 
-**Ideal Pilot Team Characteristics:**
+Select the team, define success criteria, and lay out the timeline before day one.
+
+## Ideal Pilot Team Characteristics
+
 - 5-15 developers
 - Mix of senior and mid-level
 - Enthusiastic about AI tools
@@ -319,14 +344,15 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 - Good communicators
 - Representative of broader org
 
-**Anti-patterns (avoid):**
+## Pilot Team Anti-Patterns to Avoid
+
 - Only junior developers
 - Only skeptics
 - Teams under extreme deadline pressure
 - Teams working on highly sensitive projects
 - Teams with poor existing practices
 
-#### Pilot Success Criteria
+## Pilot Success Criteria
 
 **Define upfront:**
 
@@ -338,7 +364,7 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 | Code quality | No degradation | Review metrics |
 | Issues reported | <5 blockers | Issue tracker |
 
-#### Pilot Timeline
+## Pilot Timeline (4 Weeks)
 
 **Week 1: Setup**
 - Day 1: Kickoff meeting
@@ -357,18 +383,20 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 - Day 3: Stakeholder presentation
 - Day 4-5: Go/No-go decision
 
-### Phase 2: Pilot Execution (Week 3-6)
+## Phase 2: Pilot Execution (Weeks 3-6)
 
-#### Week 1: Installation & Training
+Four weeks of setup, active use, and review.
 
-**Day 1: Kickoff Meeting (60 min)**
+## Kickoff Meeting (60 min)
+
 - Welcome and introductions
 - Program goals and timeline
 - Success criteria
 - Expectations and commitments
 - Q&A
 
-**Day 2-3: Setup**
+## Installation & Setup Checklist
+
 ```markdown
 ## Setup Checklist (per developer)
 
@@ -380,27 +408,29 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 - [ ] Completed setup survey
 ```
 
-**Day 4: Training Workshop (3 hours)**
+## Training Workshop (3 hours)
+
 - Use the training deck
 - Live demonstrations
 - Hands-on exercises
 - Q&A
 
-**Day 5: First Real Use**
+## First Real Use
+
 - Pair with champion/consultant
 - Try on real task
 - Get immediate support
 - Share early wins
 
-#### Week 2-3: Active Usage & Support
+## Daily Support Activities
 
-**Daily Activities:**
 - Monitor support channel
 - Answer questions quickly
 - Collect feedback
 - Share tips and wins
 
-**Weekly Check-in Agenda:**
+## Weekly Check-in Agenda
+
 ```markdown
 ## Weekly Pilot Check-in (30 min)
 
@@ -424,7 +454,8 @@ export ANTHROPIC_API_KEY="sk-ant-..."
    - Next week focus
 ```
 
-**Data Collection:**
+## Data Collection: Automatic & Manual
+
 ```bash
 # Automatic (from API logs)
 - Number of requests per developer
@@ -439,9 +470,8 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 - Pain points
 ```
 
-#### Week 4: Pilot Review
+## Usage Analysis Example
 
-**Usage Analysis:**
 ```python
 # Example metrics report
 Total Developers: 10
@@ -459,7 +489,8 @@ Estimated Time Saved: 120 hours total (12 hours per dev)
 ROI: €6,000 value from €500 cost = 12x return
 ```
 
-**Team Retrospective:**
+## Pilot Retrospective Template
+
 ```markdown
 ## Pilot Retrospective Template
 
@@ -479,7 +510,8 @@ ROI: €6,000 value from €500 cost = 12x return
 - Yes/No and why
 ```
 
-**Stakeholder Presentation:**
+## Stakeholder Presentation Outline
+
 ```markdown
 ## Pilot Results Presentation Outline
 
@@ -507,9 +539,9 @@ ROI: €6,000 value from €500 cost = 12x return
 
 ## Full Rollout
 
-### Rollout Strategy
+Wave-based, team-by-team, or opt-in — pick a rollout strategy, then scale training and support to match.
 
-#### Option 1: Wave-Based Rollout (Recommended)
+## Wave-Based Rollout: Advantages & Structure
 
 **Advantages:**
 - Controlled scaling
@@ -528,12 +560,13 @@ Wave 2: Mainstream teams (100-150 people)
 Wave 3: Everyone else
 ```
 
-**Wave Selection Criteria:**
+## Wave Selection Criteria
+
 - Wave 1: Most enthusiastic teams, low-risk projects
 - Wave 2: Representative cross-section of org
 - Wave 3: Remaining teams
 
-#### Option 2: Team-by-Team
+## Rollout Option: Team-by-Team
 
 **Advantages:**
 - Deep focus on each team
@@ -545,7 +578,7 @@ Wave 3: Everyone else
 - Highly specialized teams
 - Complex integrations needed
 
-#### Option 3: Opt-In
+## Rollout Option: Opt-In
 
 **Advantages:**
 - No resistance (volunteers only)
@@ -562,7 +595,7 @@ Wave 3: Everyone else
 - Highly autonomous culture
 - Limited support resources
 
-### Rollout Timeline Example (200 developers)
+## Rollout Timeline: Months 1-3 (200 Developers)
 
 **Month 1: Pilot (Complete)**
 - Week 1-2: Setup and training
@@ -577,6 +610,8 @@ Wave 3: Everyone else
 - Week 1: Setup and training (two cohorts)
 - Week 2-4: Active usage and support
 
+## Rollout Timeline: Months 4-6 (200 Developers)
+
 **Month 4: Wave 3 (40 developers)**
 - Week 1: Setup and training
 - Week 2-4: Active usage
@@ -588,9 +623,13 @@ Wave 3: Everyone else
 - Expand use cases
 - Measure ROI
 
-### Training at Scale
+---
 
-#### Training Delivery Models
+## Training at Scale
+
+Four delivery models, from full workshops to self-paced learning.
+
+## Instructor-Led Workshops
 
 **Option 1: Instructor-Led Workshops**
 - Cohorts of 20-30 developers
@@ -598,7 +637,8 @@ Wave 3: Everyone else
 - Multiple sessions per wave
 - Requires trainer availability
 
-**Option 2: Train-the-Trainer**
+## Train-the-Trainer
+
 ```markdown
 ## Train-the-Trainer Approach
 
@@ -620,11 +660,15 @@ Wave 3: Everyone else
 - Collect feedback for improvement
 ```
 
+## Self-Paced + Office Hours
+
 **Option 3: Self-Paced + Office Hours**
 - Recorded training videos
 - Written guides and tutorials
 - Weekly office hours for Q&A
 - Peer mentoring
+
+## Hybrid Model (Recommended)
 
 **Option 4: Hybrid (Recommended)**
 - Self-paced materials for basics
@@ -632,7 +676,7 @@ Wave 3: Everyone else
 - Hands-on practice session (1 hour)
 - Weekly office hours
 
-#### Training Materials Checklist
+## Training Materials Checklist
 
 - [ ] Slide deck (customized for your org)
 - [ ] Recorded videos (if self-paced)
@@ -643,36 +687,42 @@ Wave 3: Everyone else
 - [ ] Troubleshooting guide
 - [ ] Policy summary (one-pager)
 
-### Support Structure
+---
 
-#### Three-Tier Support Model
+## Support Structure
 
-**Tier 1: Self-Service**
+Three tiers, from self-service to expert escalation.
+
+## Tier 1: Self-Service
+
 - Internal documentation
 - FAQ and troubleshooting guides
 - Recorded training sessions
 - Example prompts library
 
-**Tier 2: Community Support**
+## Tier 2: Community Support
+
 - Slack/Teams channel
 - Champion network
 - Peer help
 - Weekly office hours
 
-**Tier 3: Expert Support**
+## Tier 3: Expert Support
+
 - Internal experts (2-3 people)
 - Escalation from Tier 2
 - Complex technical issues
 - Policy interpretations
 
-#### Office Hours
+## Office Hours Schedule
 
 **Schedule:**
 - 2 hours per week (split sessions for time zones)
 - Drop-in format
 - Recorded for future reference
 
-**Format:**
+## Office Hours Agenda Template
+
 ```markdown
 ## Office Hours Agenda
 
@@ -690,9 +740,7 @@ Wave 3: Everyone else
 - Cool prompts or workflows
 ```
 
-### Champion Network
-
-#### Champion Role
+## Champion Role & Responsibilities
 
 **Responsibilities:**
 - Be the go-to person for your team
@@ -705,13 +753,14 @@ Wave 3: Everyone else
 - 2-4 hours per week during rollout
 - 1-2 hours per week ongoing
 
-**Selection:**
+## Champion Selection Criteria
+
 - 1 champion per 20-30 developers
 - Pilot team members (ideal)
 - Volunteers with enthusiasm
 - Good communicators
 
-#### Champion Enablement
+## Champion Training & Ongoing Support
 
 **Initial Training:**
 - Deep dive session (4 hours)
@@ -725,7 +774,8 @@ Wave 3: Everyone else
 - Early access to new features
 - Direct line to experts
 
-**Recognition:**
+## Champion Recognition
+
 - Public acknowledgment
 - Potential career development
 - Special swag/rewards
@@ -735,9 +785,13 @@ Wave 3: Everyone else
 
 ## Change Management
 
-### Communication Strategy
+Adoption is a change-management problem as much as a technical one: communicate early, expect resistance, and build momentum with real stories.
 
-#### Announcement Timeline
+## Communication Strategy
+
+Time the announcement, then match the channel to the audience.
+
+## Announcement Timeline: Weeks Before Launch
 
 **4 weeks before rollout:**
 - Initial announcement to all engineering
@@ -756,12 +810,14 @@ Wave 3: Everyone else
 - Success stories from pilot
 - Final Q&A session
 
+## Announcement: Launch Day
+
 **Day of launch:**
 - Welcome message
 - Support channel intro
 - Quick start guide
 
-#### Communication Channels
+## Communication Channels
 
 **Company-wide:**
 - All-hands presentation
@@ -779,11 +835,13 @@ Wave 3: Everyone else
 - Slack DMs with resources
 - Personal setup support
 
-### Managing Resistance
+---
 
-#### Common Concerns and Responses
+## Managing Resistance
 
-**Concern: "AI will replace my job"**
+Four concerns come up in almost every rollout. Have the response ready before someone asks.
+
+## Concern: "AI Will Replace My Job"
 
 Response:
 ```
@@ -799,7 +857,7 @@ architecture, and complex challenges that require human judgment.
 Our goal: Make your work more impactful and enjoyable.
 ```
 
-**Concern: "I don't trust AI-generated code"**
+## Concern: "I Don't Trust AI-Generated Code"
 
 Response:
 ```
@@ -816,7 +874,7 @@ codebases and can work much faster, but still needs your expertise
 and judgment.
 ```
 
-**Concern: "Security risk of sending code externally"**
+## Concern: "Security Risk of Sending Code Externally"
 
 Response:
 ```
@@ -841,7 +899,7 @@ Valid concern. Here's our approach:
 We've worked with security team to ensure this meets our standards.
 ```
 
-**Concern: "Too much effort to learn"**
+## Concern: "Too Much Effort to Learn"
 
 Response:
 ```
@@ -860,7 +918,7 @@ Most developers report it's much easier than learning a new
 programming language or framework.
 ```
 
-#### Skeptic Conversion Strategy
+## Skeptic Conversion Strategy
 
 **Step 1: Don't Force**
 - Let them observe
@@ -887,11 +945,14 @@ programming language or framework.
 - Share their success story
 - Make them feel good about trying
 
-### Building Momentum
+---
 
-#### Success Story Collection
+## Building Momentum
 
-**Template for Success Stories:**
+Collect success stories and steer new users toward quick wins first.
+
+## Success Story Template
+
 ```markdown
 ## Success Story: [Developer Name] - [Team]
 
@@ -913,16 +974,16 @@ programming language or framework.
 [What advice would they give?]
 ```
 
-**Sharing Channels:**
+## Where to Share Success Stories
+
 - Weekly newsletter
 - Slack channel
 - All-hands meetings
 - Internal blog
 - Training sessions
 
-#### Quick Wins Focus
+## Quick Wins Focus: First Week Recommendations
 
-**First Week Recommendations:**
 ```
 Encourage developers to try these high-success tasks first:
 
@@ -951,9 +1012,10 @@ Encourage developers to try these high-success tasks first:
 
 ## Success Metrics
 
-### Quantitative Metrics
+Track quantitative usage and productivity alongside qualitative satisfaction — and report both on a dashboard leadership will actually read.
 
-#### Usage Metrics
+## Usage Metrics
+
 ```
 Track weekly/monthly:
 - Active users (% of licensed users)
@@ -968,7 +1030,8 @@ Targets:
 - Ongoing: >80% active
 ```
 
-#### Productivity Metrics
+## Productivity Metrics
+
 ```
 Measure before/after:
 - Time to complete feature (story points/day)
@@ -984,7 +1047,8 @@ Expected improvements:
 - Test coverage: +15-25%
 ```
 
-#### Quality Metrics
+## Quality Metrics
+
 ```
 Monitor for any degradation:
 - Bug escape rate
@@ -996,9 +1060,8 @@ Monitor for any degradation:
 Goal: No degradation (or improvement)
 ```
 
-### Qualitative Metrics
+## Developer Satisfaction Survey
 
-#### Developer Satisfaction
 ```
 Survey monthly:
 
@@ -1021,7 +1084,7 @@ Survey monthly:
    Target: >50 NPS
 ```
 
-#### ROI Calculation
+## ROI Calculation Example
 
 **Simple ROI Template:**
 ```
@@ -1046,9 +1109,8 @@ ROI per Developer: €21,600 / €550 = 39x
 Payback Period: ~1 week
 ```
 
-### Dashboard Example
+## Weekly Leadership Dashboard Example
 
-**Weekly Leadership Dashboard:**
 ```markdown
 # Claude Code Adoption - Week 12
 
@@ -1081,7 +1143,9 @@ Payback Period: ~1 week
 
 ## Common Challenges and Solutions
 
-### Challenge 1: Low Adoption in Some Teams
+Five problems come up in nearly every rollout — each with the same symptoms/causes/solutions structure so you can diagnose fast.
+
+## Challenge 1: Low Adoption in Some Teams
 
 **Symptoms:**
 - <50% usage after 2 weeks
@@ -1117,7 +1181,7 @@ Payback Period: ~1 week
    - Revisit in a month
 ```
 
-### Challenge 2: Code Quality Concerns
+## Challenge 2: Code Quality Concerns
 
 **Symptoms:**
 - Bugs from AI-generated code
@@ -1156,7 +1220,7 @@ Payback Period: ~1 week
    - How to catch issues
 ```
 
-### Challenge 3: API Costs Higher Than Expected
+## Challenge 3: API Costs Higher Than Expected
 
 **Symptoms:**
 - Monthly bill exceeds budget
@@ -1193,7 +1257,7 @@ Payback Period: ~1 week
    - ~€30-50/dev/month is typical
 ```
 
-### Challenge 4: Security/Compliance Pushback
+## Challenge 4: Security/Compliance Pushback
 
 **Symptoms:**
 - Security team blocking rollout
@@ -1233,7 +1297,7 @@ Payback Period: ~1 week
    - Create champions
 ```
 
-### Challenge 5: Integration with Existing Tools
+## Challenge 5: Integration with Existing Tools
 
 **Symptoms:**
 - Friction with CI/CD
@@ -1272,7 +1336,9 @@ Payback Period: ~1 week
 
 ## Appendix
 
-### Pre-Rollout Checklist
+Checklists and templates to copy directly into your own rollout.
+
+## Pre-Rollout Checklist: Strategy & Technical
 
 **Strategic Alignment:**
 - [ ] Executive sponsor identified
@@ -1287,6 +1353,8 @@ Payback Period: ~1 week
 - [ ] API access tested
 - [ ] IDE compatibility checked
 - [ ] Integration plan complete
+
+## Pre-Rollout Checklist: Policy, Training & Pilot
 
 **Policy & Governance:**
 - [ ] Acceptable use policy created
@@ -1309,7 +1377,7 @@ Payback Period: ~1 week
 - [ ] Support channel created
 - [ ] Feedback mechanism ready
 
-### Rollout Checklist (Per Wave)
+## Rollout Checklist: Communication & Setup
 
 **Communication:**
 - [ ] Announcement sent (2 weeks prior)
@@ -1322,6 +1390,8 @@ Payback Period: ~1 week
 - [ ] Installation support available
 - [ ] Environment verified
 - [ ] Access to support channel
+
+## Rollout Checklist: Training, Support & Measurement
 
 **Training:**
 - [ ] Training session delivered
@@ -1341,7 +1411,7 @@ Payback Period: ~1 week
 - [ ] Metrics dashboard updated
 - [ ] Success story collection ongoing
 
-### Monthly Review Template
+## Monthly Review Template
 
 ```markdown
 # Claude Code - Monthly Review
@@ -1392,9 +1462,8 @@ Payback Period: ~1 week
 - [ ] [Action item]
 ```
 
-### Resources Template
+## Internal Wiki Structure
 
-**Internal Wiki Structure:**
 ```
 Claude Code @ [Company]
 ├── Getting Started
@@ -1424,7 +1493,7 @@ Claude Code @ [Company]
     └── Feedback and Ideas
 ```
 
----
+## Keeping This Guide Current
 
 *This implementation guide is a living document. Update based on your experience and evolving best practices.*
 

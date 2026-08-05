@@ -13,7 +13,14 @@ Our Claude Code Enterprise Consulting Services help organizations successfully d
 
 ## Service Packages
 
-### 1. Quick Start Package (2-4 weeks)
+Three tiers, scaled to organization size and ambition: a pilot-sized Quick Start, a full Enterprise Deployment, and a comprehensive Strategic AI Transformation.
+
+1. Quick Start Package (2-4 weeks)
+2. Enterprise Deployment Package (6-12 weeks)
+3. Strategic AI Transformation (3-6 months)
+
+## Quick Start Package: Assessment & Setup (2-4 weeks)
+
 **Ideal for:** Organizations with 10-50 developers wanting to pilot Claude Code
 
 **What's Included:**
@@ -29,6 +36,8 @@ Our Claude Code Enterprise Consulting Services help organizations successfully d
   - IDE integration setup (VS Code, Cursor, or CLI)
   - Custom prompt templates for your tech stack
   - Git workflow integration
+
+## Quick Start Package: Training, Support & Review
 
 - **Kick-off Training** (Half-day workshop)
   - Claude Code fundamentals
@@ -49,6 +58,8 @@ Our Claude Code Enterprise Consulting Services help organizations successfully d
   - Rollout recommendations
   - Policy and guidelines document
 
+## Quick Start Package: Deliverables & Investment
+
 **Deliverables:**
 - Technical readiness report
 - Custom onboarding guide for your organization
@@ -58,9 +69,8 @@ Our Claude Code Enterprise Consulting Services help organizations successfully d
 
 **Investment:** €8,500 - €12,000
 
----
+## Enterprise Deployment Package: Architecture & Policy (6-12 weeks)
 
-### 2. Enterprise Deployment Package (6-12 weeks)
 **Ideal for:** Organizations with 50-500 developers planning full-scale deployment
 
 **What's Included:**
@@ -80,6 +90,8 @@ Everything in Quick Start Package, plus:
   - Incident response procedures
   - License management policies
 
+## Enterprise Deployment Package: Training & Rollout
+
 - **Custom Training Program** (2-4 weeks)
   - Role-based training (Developers, Tech Leads, Architects)
   - Train-the-trainer sessions for internal champions
@@ -94,6 +106,8 @@ Everything in Quick Start Package, plus:
   - Success metrics dashboard setup
   - Continuous feedback loop management
 
+## Enterprise Deployment Package: CoE & Executive Reporting
+
 - **Center of Excellence Setup**
   - Internal knowledge base creation
   - Best practices repository
@@ -107,6 +121,8 @@ Everything in Quick Start Package, plus:
   - Adoption metrics dashboard
   - Strategic recommendations
 
+## Enterprise Deployment Package: Deliverables & Investment
+
 **Deliverables:**
 - Enterprise readiness assessment
 - Complete policy and governance framework
@@ -118,9 +134,8 @@ Everything in Quick Start Package, plus:
 
 **Investment:** €45,000 - €85,000
 
----
+## Strategic AI Transformation: Strategy Workshop (3-6 months)
 
-### 3. Strategic AI Transformation (3-6 months)
 **Ideal for:** Organizations seeking comprehensive AI-assisted development transformation
 
 **What's Included:**
@@ -132,6 +147,8 @@ Everything in Enterprise Deployment Package, plus:
   - Vision and roadmap development
   - Change management planning
   - Executive alignment sessions
+
+## Strategic AI Transformation: Process & Advanced Capabilities
 
 - **Process Optimization** (4-6 weeks)
   - Development workflow analysis
@@ -147,6 +164,8 @@ Everything in Enterprise Deployment Package, plus:
   - API integration for internal tools
   - Automated workflow creation
 
+## Strategic AI Transformation: Change Management & Innovation Labs
+
 - **Change Management Program**
   - Stakeholder engagement strategy
   - Communication plan and materials
@@ -161,6 +180,8 @@ Everything in Enterprise Deployment Package, plus:
   - Industry best practice sharing
   - Peer organization networking
 
+## Strategic AI Transformation: Deliverables & Investment
+
 **Deliverables:**
 - AI transformation strategy document
 - Optimized development workflows
@@ -171,59 +192,49 @@ Everything in Enterprise Deployment Package, plus:
 
 **Investment:** €120,000 - €250,000
 
----
-
-## À La Carte Services
-
-### Training Services
+## À La Carte: Training Services
 - **Half-day Workshop** (up to 30 participants): €3,500
 - **Full-day Deep Dive** (up to 20 participants): €6,500
 - **Train-the-Trainer** (2 days): €12,000
 - **Custom Training Development**: €150/hour
 - **Recorded Training Modules**: €5,000 per module
 
-### Consulting Services
+## À La Carte: Consulting Services
 - **Technical Architecture Review**: €5,000
 - **Security & Compliance Assessment**: €7,500
 - **Policy Development**: €4,000
 - **Custom Integration Development**: €175/hour
 - **Ongoing Advisory** (Monthly retainer): €3,000/month
 
-### Support Services
+## À La Carte: Support Services
 - **Dedicated Slack/Teams Channel**: €2,000/month
 - **Weekly Office Hours** (2 hours/week): €3,500/month
 - **On-call Support** (Business hours): €5,000/month
 - **24/7 Support**: €12,000/month
 
----
-
-## Why Choose Our Services?
-
-### Proven Expertise
+## Why Choose Us: Proven Expertise
 - Deep experience with Claude Code and AI-assisted development
 - Track record with 200+ seat enterprise deployments
 - Understanding of engineering workflows and best practices
 - Experience across multiple industries and tech stacks
 
-### Practical Approach
+## Why Choose Us: Practical Approach
 - Hands-on, pragmatic guidance
 - Real-world examples from your codebase
 - Focus on quick wins and measurable outcomes
 - Flexible methodology adapted to your organization
 
-### Comprehensive Support
+## Why Choose Us: Comprehensive Support
 - End-to-end support from assessment to optimization
 - Technical, process, and change management expertise
 - Ongoing access to best practices and updates
 - Connection to Anthropic resources when needed
 
-### Business Outcomes Focus
+## Why Choose Us: Business Outcomes Focus
 - Clear ROI metrics and tracking
 - Productivity improvement measurement
 - Quality enhancement validation
 - Developer satisfaction monitoring
-
----
 
 ## Getting Started
 
@@ -240,9 +251,7 @@ We'll discuss:
 - Phone: [your-phone]
 - Schedule a call: [calendar-link]
 
----
-
-## Frequently Asked Questions
+## FAQ: Requirements & Timeline
 
 ### What are the technical requirements?
 - **Operating System:** macOS or Linux (Windows: see [FAQ](/articles/faq-troubleshooting) for current status)
@@ -250,19 +259,23 @@ We'll discuss:
 - **Anthropic API:** API key and billing account
 - **Network:** Internet access (proxy configuration supported)
 
-### Do we need to provide access to our codebase?
-Training can be done with public examples, but custom scenarios work best with your actual codebase. We sign NDAs and follow your security protocols.
-
 ### How long does deployment typically take?
 - Pilot programs: 2-4 weeks
 - Full enterprise deployment: 6-12 weeks
 - Large organizations (500+ devs): 3-6 months
+
+## FAQ: Codebase Access & Adoption
+
+### Do we need to provide access to our codebase?
+Training can be done with public examples, but custom scenarios work best with your actual codebase. We sign NDAs and follow your security protocols.
 
 ### What's the typical adoption rate?
 With proper training and change management, we see:
 - 60-80% active usage within first month
 - 85-95% adoption within 3 months
 - Significant productivity gains across most use cases
+
+## FAQ: Security, Skepticism & Ongoing Support
 
 ### Can you help with security and compliance?
 Yes, we provide security assessments, policy development, and compliance guidance for GDPR, SOC2, HIPAA, and other frameworks.
@@ -278,11 +291,9 @@ This is common. Our approach includes:
 ### Do you provide ongoing support?
 Yes, we offer monthly retainer packages, office hours, and dedicated support channels.
 
----
+## Case Study: Mid-Size Software Company — Challenge & Solution
 
-## Case Study Example
-
-### Mid-size Software Company (200 developers)
+**200 developers**
 
 **Challenge:**
 - Slow onboarding of new developers (3-6 months to full productivity)
@@ -293,6 +304,8 @@ Yes, we offer monthly retainer packages, office hours, and dedicated support cha
 - 8-week Enterprise Deployment Package
 - Custom training for different experience levels
 - Integration with existing CI/CD and code review processes
+
+## Case Study: Mid-Size Software Company — Results & ROI
 
 **Results (after 3 months):**
 - 40% reduction in onboarding time
@@ -307,7 +320,7 @@ Yes, we offer monthly retainer packages, office hours, and dedicated support cha
 - Annual value: €420,000 (calculated from time savings)
 - Payback period: 1.5 months
 
----
+## Keeping This Page Current
 
 *Last updated: February 2026*
 
