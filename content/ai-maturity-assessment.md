@@ -40,37 +40,37 @@ The audit's job is to locate you on this line per dimension — and the wall bet
 
 Score each dimension **1–5** using the stage descriptions above as anchors. Score what is *actually true today*, not what is planned.
 
-### 1. Strategy & Leadership
+## Dimension 1: Strategy & Leadership
 Does leadership have a view on where AI creates value here — and does spending follow it?
 - 1: AI absent from strategy, or pure buzzword
 - 3: Prioritized use-case portfolio exists; budget allocated; results reach the leadership table
 - 5: AI shapes business strategy, offerings, and operating model decisions
 
-### 2. Use Cases & Value
+## Dimension 2: Use Cases & Value
 Is AI actually deployed against real work, and is value measured?
 - 1: No production use; demos at best
 - 3: 3+ use cases in production with before/after baselines
 - 5: Value tracked portfolio-wide; use cases retired and scaled deliberately; AI-enabled offerings exist
 
-### 3. Data & Knowledge
+## Dimension 3: Data & Knowledge
 Can AI reach the information it needs — safely?
 - 1: Knowledge scattered and undocumented; no data classification
 - 3: Key documents/systems accessible to AI tools with permissions respected; a classification rule ("what may go where") exists and is followed
 - 5: Curated, permission-aware knowledge and data layer designed for AI consumption (search, RAG, connectors) across the business
 
-### 4. Technology & Integration
+## Dimension 4: Technology & Integration
 From standalone chat to integrated capability.
 - 1: Consumer chat tools only, unmanaged
 - 3: Enterprise-grade assistant deployed; first API integrations or automations live
 - 5: A deliberate AI platform layer: model portfolio, orchestration, evaluation, cost and usage observability; components swappable
 
-### 5. People & Culture
+## Dimension 5: People & Culture
 Fluency, not fear.
 - 1: A few enthusiasts; most staff untrained; quiet resistance or quiet shadow use
 - 3: Majority of knowledge workers trained and using AI weekly; champions network active; team leads bought in
 - 5: AI fluency is part of roles, hiring, and onboarding; teams redesign their own workflows; continuous learning cadence
 
-### 6. Governance & Risk
+## Dimension 6: Governance & Risk
 Guardrails that enable rather than block.
 - 1: No policy; nobody could say what data went into which tool last week
 - 3: One-page policy live and known; human-in-the-loop rules by risk tier; usage visible; vendor data terms verified

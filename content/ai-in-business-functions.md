@@ -11,6 +11,8 @@ AI strategy becomes real the moment it is expressed in the language of business 
 
 A pattern worth noticing up front: across every function, the same five capability families recur — **drafting, summarizing, extracting, classifying/triaging, and retrieving knowledge**. Master these patterns once and they transfer everywhere.
 
+## The Five Families, Visualized
+
 ```mermaid
 flowchart LR
     subgraph FAM["Five capability families"]
@@ -27,6 +29,8 @@ flowchart LR
     FAM --> HR["HR & Legal"]
     FAM --> IT["IT & Product"]
 ```
+
+Every function section below is one of these five families, applied to a specific workflow.
 
 ## Sales & Marketing
 

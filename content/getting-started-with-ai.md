@@ -96,6 +96,12 @@ Each phase ends with something concrete: a baseline and policy, running quick wi
 
 Adoption is carried by a small set of roles — in a small company several hats sit on one head; in an enterprise each is a person or team:
 
+- **≤50 FTE:** sponsor and owner are often the same founder/director; the architect is fractional; engineering support may be one developer or an external partner
+- **50–500 FTE:** distinct owner (part-time is fine), 3–10 champions, first dedicated engineering capacity
+- **500+ FTE:** all roles staffed, plus governance (see [The AI Architect's Perspective](/articles/ai-architect-perspective))
+
+## The Team, Visualized
+
 ```mermaid
 flowchart TB
     S["Executive sponsor<br/>sets direction, unblocks, models usage"] --> O["AI owner<br/>portfolio, policy, scorekeeping"]
@@ -106,10 +112,6 @@ flowchart TB
     C --> T["The teams doing the work<br/>fluency + redesigned workflows"]
     E --> T
 ```
-
-- **≤50 FTE:** sponsor and owner are often the same founder/director; the architect is fractional; engineering support may be one developer or an external partner
-- **50–500 FTE:** distinct owner (part-time is fine), 3–10 champions, first dedicated engineering capacity
-- **500+ FTE:** all roles staffed, plus governance (see [The AI Architect's Perspective](/articles/ai-architect-perspective))
 
 ## Common Pitfalls
 

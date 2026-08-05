@@ -16,41 +16,23 @@ order: 13
 
 ## Agenda
 
-### Part 1: Introduction (30 minutes)
-- What is Claude Code?
-- Why AI-assisted development?
-- Key capabilities and use cases
-- Your questions answered
+Five parts, three hours: introduction, hands-on setup, core skills, advanced patterns, and a closing Q&A.
 
-### Part 2: Getting Started (30 minutes)
-- Installation and setup
-- First interactions
-- Understanding the interface
-- Basic workflows
-
-### Part 3: Core Skills (60 minutes)
-- Effective prompting techniques
-- Code generation and modification
-- Debugging and troubleshooting
-- Working with large codebases
-- Testing and documentation
-
-### Part 4: Advanced Patterns (45 minutes)
-- Complex refactoring
-- Architecture discussions
-- Security and best practices
-- Integration with your workflow
-- Git operations
-
-### Part 5: Best Practices & Q&A (15 minutes)
-- Do's and Don'ts
-- Common pitfalls
-- Getting help
-- Open Q&A
+| Part | Duration | Covers |
+|---|---|---|
+| 1. Introduction | 30 min | What is Claude Code?; Why AI-assisted development?; Key capabilities and use cases; Your questions answered |
+| 2. Getting Started | 30 min | Installation and setup; First interactions; Understanding the interface; Basic workflows |
+| 3. Core Skills | 60 min | Effective prompting techniques; Code generation and modification; Debugging and troubleshooting; Working with large codebases; Testing and documentation |
+| 4. Advanced Patterns | 45 min | Complex refactoring; Architecture discussions; Security and best practices; Integration with your workflow; Git operations |
+| 5. Best Practices & Q&A | 15 min | Do's and Don'ts; Common pitfalls; Getting help; Open Q&A |
 
 ---
 
-# Part 1: Introduction
+## Part 1: Introduction
+
+30 minutes: what Claude Code is, why AI-assisted development matters, and the capabilities you'll use every day.
+
+---
 
 ## Slide: What is Claude Code?
 
@@ -71,9 +53,7 @@ order: 13
 
 ---
 
-## Slide: Why AI-Assisted Development?
-
-### The Reality of Modern Development
+## Where Developers' Time Actually Goes
 
 **Developers spend time on:**
 - 35% Writing new code
@@ -84,7 +64,9 @@ order: 13
 
 **Claude Code helps with ALL of these activities.**
 
-### Measured Benefits
+---
+
+## The Measured Benefits
 
 **From organizations using Claude Code:**
 - 30-50% faster feature development
@@ -100,27 +82,31 @@ order: 13
 
 ---
 
-## Slide: Key Capabilities
+## Key Capabilities: Generation & Understanding
 
-### 1. Code Generation
+### Code Generation
 - Write new features from descriptions
 - Generate boilerplate and scaffolding
 - Create tests automatically
 - Write documentation
 
-### 2. Code Understanding
+### Code Understanding
 - Explain complex code
 - Summarize large files
 - Trace execution flows
 - Find relevant code sections
 
-### 3. Code Modification
+---
+
+## Key Capabilities: Modification & Workflows
+
+### Code Modification
 - Refactor existing code
 - Fix bugs and issues
 - Update deprecated APIs
 - Improve performance
 
-### 4. Development Workflows
+### Development Workflows
 - Run tests and interpret results
 - Execute build commands
 - Perform git operations
@@ -128,23 +114,25 @@ order: 13
 
 ---
 
-## Slide: Common Use Cases
-
-### For All Developers
+## Use Cases: For All Developers
 - Understanding unfamiliar code
 - Writing unit tests
 - Debugging errors
 - Updating documentation
 - Implementing well-defined features
 
-### For Senior Developers
+---
+
+## Use Cases: For Senior Developers
 - Code reviews and suggestions
 - Architecture discussions
 - Refactoring large sections
 - Mentoring (explaining to junior devs)
 - API design
 
-### For Teams
+---
+
+## Use Cases: For Teams
 - Enforcing coding standards
 - Migrating between frameworks
 - Updating dependencies
@@ -153,16 +141,20 @@ order: 13
 
 ---
 
-# Part 2: Getting Started
+## Part 2: Getting Started
 
-## Slide: Installation & Setup
+30 minutes, hands-on: install it, run your first prompt, and get comfortable with the interface.
 
-### Requirements
+---
+
+## Installation: Requirements
 - **OS:** macOS or Linux (Windows: see [FAQ](/articles/faq-troubleshooting) for current status)
 - **API Access:** Anthropic API key
 - **Terminal:** Any modern terminal or IDE
 
-### Installation Options
+---
+
+## Installation: Your Options
 
 **Option 1: Command Line (npx)**
 ```bash
@@ -177,7 +169,9 @@ npx @anthropic-ai/claude-code
 - Built-in support for Claude
 - Configure in preferences
 
-### API Key Setup
+---
+
+## Installation: API Key Setup
 1. Go to console.anthropic.com
 2. Create an API key
 3. Set environment variable or configure in tool
@@ -185,9 +179,7 @@ npx @anthropic-ai/claude-code
 
 ---
 
-## Slide: First Interaction
-
-### Starting a Session
+## Starting a Session
 
 **Command Line:**
 ```bash
@@ -198,7 +190,9 @@ npx @anthropic-ai/claude-code
 - Open command palette (Cmd/Ctrl + Shift + P)
 - Select "Claude: Start New Session"
 
-### Your First Prompt
+---
+
+## Your First Prompt
 
 **Good first prompts:**
 - "What's the structure of this codebase?"
@@ -214,9 +208,7 @@ npx @anthropic-ai/claude-code
 
 ---
 
-## Slide: Understanding the Interface
-
-### Conversation Flow
+## The Conversation Flow
 ```
 You: [Your prompt/request]
      ↓
@@ -229,7 +221,9 @@ Claude: [Response] Explains what was done
 You: [Follow-up or new request]
 ```
 
-### Tool Usage
+---
+
+## Tool Usage
 
 **Claude can use these tools:**
 - **Read:** View file contents
@@ -243,9 +237,7 @@ You: [Follow-up or new request]
 
 ---
 
-## Slide: Basic Workflows
-
-### Workflow 1: Understanding Code
+## Workflow: Understanding Code
 ```
 You: "Explain how authentication works in this app"
 
@@ -256,7 +248,9 @@ Claude:
 4. Shows you key functions
 ```
 
-### Workflow 2: Making Changes
+---
+
+## Workflow: Making Changes
 ```
 You: "Add logging to all API endpoints"
 
@@ -267,7 +261,9 @@ Claude:
 4. Runs tests to verify
 ```
 
-### Workflow 3: Debugging
+---
+
+## Workflow: Debugging
 ```
 You: "The user search is returning empty results"
 
@@ -280,11 +276,13 @@ Claude:
 
 ---
 
-# Part 3: Core Skills
+## Part 3: Core Skills
 
-## Slide: Effective Prompting
+60 minutes on the skills you'll use daily: prompting, generating and modifying code, debugging, and testing.
 
-### The Prompting Mindset
+---
+
+## The Prompting Mindset
 
 **Think of Claude as a smart colleague who needs context:**
 - Be conversational and natural
@@ -292,7 +290,9 @@ Claude:
 - Be specific about what you want
 - Iterate based on responses
 
-### Prompt Structure
+---
+
+## Prompt Structure: Context + Task + Constraints
 
 **Good prompt format:**
 ```
@@ -315,7 +315,7 @@ Claude:
 
 ---
 
-## Slide: Prompting Patterns
+## Prompting Patterns: Exploration & Specification
 
 ### Pattern 1: Exploration
 **When:** You don't know the codebase well
@@ -332,6 +332,10 @@ Claude:
 - "Add [feature] to [file/component]"
 - "Refactor [function] to use [pattern]"
 - "Update [test] to cover [scenario]"
+
+---
+
+## Prompting Patterns: Collaboration & Debugging
 
 ### Pattern 3: Collaboration
 **When:** You want to think through a problem
@@ -351,9 +355,7 @@ Claude:
 
 ---
 
-## Slide: Code Generation Best Practices
-
-### Start with Clear Requirements
+## Code Generation: Start with Clear Requirements
 
 **Provide:**
 - What the code should do
@@ -372,7 +374,9 @@ Claude:
 - Add unit tests covering happy path and edge cases"
 ```
 
-### Review Before Accepting
+---
+
+## Code Generation: Review Before Accepting
 
 **Always:**
 - Read the generated code
@@ -385,7 +389,7 @@ Claude:
 
 ---
 
-## Slide: Code Modification Strategies
+## Code Modification: Keep Changes Small & Scoped
 
 ### Small, Focused Changes
 
@@ -403,7 +407,9 @@ Claude:
 ❌ **Unclear:**
 "Make the code more modern"
 
-### Test After Changes
+---
+
+## Code Modification: Test After Changes
 
 **Always ask:**
 - "Run the tests to make sure nothing broke"
@@ -412,27 +418,28 @@ Claude:
 
 ---
 
-## Slide: Working with Large Codebases
-
-### Challenge: Context Limits
+## Large Codebases: Start Specific
 
 **Even though Claude has a large context window, it's better to be focused.**
 
-### Strategy 1: Start Specific
 ```
 ❌ "Explain this entire codebase"
 ✅ "Explain the authentication module"
 ✅ "Show me how the payment processing works"
 ```
 
-### Strategy 2: Navigate Hierarchically
+---
+
+## Large Codebases: Navigate Hierarchically & Search
+
+### Navigate Hierarchically
 ```
 1. "What's the high-level structure?"
 2. "Tell me more about the services layer"
 3. "Explain the UserService in detail"
 ```
 
-### Strategy 3: Use Search
+### Use Search
 ```
 "Find all files that use the Payment API"
 "Where is the email validation function defined?"
@@ -440,9 +447,7 @@ Claude:
 
 ---
 
-## Slide: Debugging Techniques
-
-### Share the Full Error
+## Debugging: Share the Full Error
 
 **Include:**
 - Complete error message
@@ -462,7 +467,9 @@ This happens when I POST to /api/users with:
 { "name": "John", "email": "john@example.com" }
 ```
 
-### Systematic Debugging
+---
+
+## Debugging: A Systematic Approach
 
 **Claude can help with:**
 1. Understanding the error
@@ -473,9 +480,7 @@ This happens when I POST to /api/users with:
 
 ---
 
-## Slide: Testing with Claude
-
-### Generate Tests
+## Testing: Generate Tests
 
 **Prompt patterns:**
 - "Write unit tests for [function/class]"
@@ -493,7 +498,9 @@ This happens when I POST to /api/users with:
 Use Jest and follow the existing test patterns"
 ```
 
-### Fix Failing Tests
+---
+
+## Testing: Fix Failing Tests & Improve Coverage
 
 **When tests fail:**
 ```
@@ -503,8 +510,7 @@ Use Jest and follow the existing test patterns"
 Can you fix the test or the implementation?"
 ```
 
-### Improve Test Coverage
-
+**Improve coverage:**
 ```
 "What parts of the PaymentService aren't covered by tests?"
 "Add tests to improve coverage of the authentication module"
@@ -512,9 +518,7 @@ Can you fix the test or the implementation?"
 
 ---
 
-## Slide: Documentation
-
-### Generate Documentation
+## Documentation: Generate New Docs
 
 **What Claude can document:**
 - Function/method descriptions
@@ -528,15 +532,17 @@ Can you fix the test or the implementation?"
 "Add JSDoc comments to all public methods in the UserService class"
 ```
 
-### Update Existing Docs
+---
 
+## Documentation: Update & Create Architecture Docs
+
+**Update existing docs:**
 ```
 "The README still mentions version 1.0 authentication.
 Update it to reflect the new OAuth2 implementation"
 ```
 
-### Create Architecture Docs
-
+**Create architecture docs:**
 ```
 "Create a document explaining the data flow from
 API request to database and back"
@@ -544,11 +550,13 @@ API request to database and back"
 
 ---
 
-# Part 4: Advanced Patterns
+## Part 4: Advanced Patterns
 
-## Slide: Complex Refactoring
+45 minutes for developers ready to go further: refactoring, architecture, security, and git integration.
 
-### When to Refactor with Claude
+---
+
+## When to Refactor with Claude
 
 **Good use cases:**
 - Renaming functions/classes across files
@@ -557,7 +565,9 @@ API request to database and back"
 - Migrating from old to new APIs
 - Applying consistent patterns
 
-### Refactoring Process
+---
+
+## The Refactoring Process
 
 **1. Start with a plan:**
 ```
@@ -580,9 +590,9 @@ Can you create a plan for this?"
 
 ---
 
-## Slide: Refactoring Example
+## Refactoring Example: Before
 
-### Before: Scattered Error Handling
+### Scattered Error Handling
 ```javascript
 // UserController.js
 try {
@@ -603,7 +613,11 @@ try {
 }
 ```
 
-### After: Centralized Error Handler
+---
+
+## Refactoring Example: After
+
+### Centralized Error Handler
 ```javascript
 // ErrorHandler.js
 class ErrorHandler {
@@ -624,9 +638,7 @@ res.json(user);
 
 ---
 
-## Slide: Architecture Discussions
-
-### Use Claude as a Sounding Board
+## Architecture: Use Claude as a Sounding Board
 
 **Ask for feedback:**
 ```
@@ -636,8 +648,11 @@ res.json(user);
 What do you think? Any concerns or suggestions?"
 ```
 
-### Explore Alternatives
+---
 
+## Architecture: Explore Alternatives & Review Before Implementation
+
+**Explore alternatives:**
 ```
 "What are the pros and cons of:
 1. Adding a Redis cache
@@ -647,8 +662,7 @@ What do you think? Any concerns or suggestions?"
 Consider our use case: [describe your scenario]"
 ```
 
-### Review Before Implementation
-
+**Review before implementation:**
 ```
 "Before I implement the new authentication system,
 can you review this design doc and look for potential issues?"
@@ -656,9 +670,7 @@ can you review this design doc and look for potential issues?"
 
 ---
 
-## Slide: Security and Best Practices
-
-### Security Review
+## Security Review
 
 **Ask Claude to check for:**
 - SQL injection vulnerabilities
@@ -672,16 +684,18 @@ can you review this design doc and look for potential issues?"
 "Review the UserController for security vulnerabilities"
 ```
 
-### Apply Best Practices
+---
 
+## Applying Best Practices & Staying Updated
+
+**Apply best practices:**
 ```
 "Refactor this code to follow SOLID principles"
 "Make sure all API endpoints have rate limiting"
 "Add input validation to all user-facing endpoints"
 ```
 
-### Stay Updated
-
+**Stay updated:**
 ```
 "Are we using any deprecated packages?
 What are the recommended alternatives?"
@@ -689,9 +703,7 @@ What are the recommended alternatives?"
 
 ---
 
-## Slide: Git Workflow Integration
-
-### Creating Commits
+## Git: Creating Commits
 
 **Claude can:**
 - Stage relevant files
@@ -713,7 +725,9 @@ git commit -m "feat: add email validation to user creation
 - Return 400 error for invalid emails"
 ```
 
-### Creating Pull Requests
+---
+
+## Git: Creating Pull Requests
 
 ```
 "Create a pull request for this feature"
@@ -725,7 +739,9 @@ git commit -m "feat: add email validation to user creation
 - Include test plan
 - Add the session URL for context
 
-### Working with Branches
+---
+
+## Git: Working with Branches
 
 ```
 "Create a new branch called feature/email-validation"
@@ -734,9 +750,7 @@ git commit -m "feat: add email validation to user creation
 
 ---
 
-## Slide: Integration with Your Workflow
-
-### CI/CD Integration
+## Workflow: CI/CD Integration
 
 **Pre-commit hooks:**
 ```
@@ -749,7 +763,9 @@ git commit -m "feat: add email validation to user creation
 - Interpret test results
 - Suggest fixes for pipeline issues
 
-### Code Review
+---
+
+## Workflow: Code Review & Pair Programming
 
 **Use Claude to:**
 ```
@@ -757,8 +773,6 @@ git commit -m "feat: add email validation to user creation
 "Explain what changed in this pull request"
 "Check if this change follows our coding standards"
 ```
-
-### Pair Programming
 
 **During development:**
 - Explain complex logic as you work
@@ -768,71 +782,79 @@ git commit -m "feat: add email validation to user creation
 
 ---
 
-# Part 5: Best Practices & Q&A
+## Part 5: Best Practices & Q&A
 
-## Slide: Do's and Don'ts
+15 minutes to close: what separates good use from bad, and your open questions.
 
-### ✅ DO
+---
 
-**Be Conversational**
+## Do's: Stay Engaged and Keep Testing
+
+### ✅ Be Conversational
 - Ask questions naturally
 - Provide context
 - Iterate on responses
 
-**Stay Engaged**
+### ✅ Stay Engaged
 - Review all generated code
 - Understand the changes
 - Verify correctness
 
-**Test Frequently**
+### ✅ Test Frequently
 - Run tests after changes
 - Check for regressions
 - Verify builds
 
-**Provide Feedback**
+---
+
+## Do's: Feedback and Continuous Learning
+
+### ✅ Provide Feedback
 - Tell Claude if something isn't right
 - Ask for clarification
 - Request changes
 
-**Learn as You Go**
+### ✅ Learn as You Go
 - Ask "why" questions
 - Request explanations
 - Explore new patterns
 
 ---
 
-## Slide: Do's and Don'ts (cont.)
+## Don'ts: Don't Skip Review or Testing
 
-### ❌ DON'T
-
-**Blindly Accept Code**
+### ❌ Blindly Accept Code
 - Always review generated code
 - Understand before merging
 - Check for security issues
 
-**Over-rely**
+### ❌ Over-rely
 - You're still the developer
 - Make final decisions
 - Trust your expertise
 
-**Skip Testing**
+### ❌ Skip Testing
 - Always run tests
 - Verify changes work
 - Check for side effects
 
-**Share Sensitive Data**
+---
+
+## Don'ts: Data & Expectations
+
+### ❌ Share Sensitive Data
 - Be mindful of proprietary code
 - Don't include secrets/keys
 - Follow your security policies
 
-**Expect Perfection**
+### ❌ Expect Perfection
 - Claude can make mistakes
 - First attempt may need refinement
 - Iteration is normal
 
 ---
 
-## Slide: Common Pitfalls
+## Common Pitfalls: Vague Prompts, Scope Creep & Skipped Context
 
 ### Pitfall 1: Vague Prompts
 **Problem:** "Make the code better"
@@ -846,6 +868,10 @@ git commit -m "feat: add email validation to user creation
 **Problem:** "Fix this" without explaining the issue
 **Solution:** Provide full error messages and expected behavior
 
+---
+
+## Common Pitfalls: Not Testing & Fighting the Tool
+
 ### Pitfall 4: Not Testing
 **Problem:** Assuming generated code works
 **Solution:** Always run tests and verify changes
@@ -856,9 +882,7 @@ git commit -m "feat: add email validation to user creation
 
 ---
 
-## Slide: Getting Better Results
-
-### Provide Examples
+## Getting Better Results: Provide Examples
 
 **Instead of:**
 "Write a validation function"
@@ -866,17 +890,17 @@ git commit -m "feat: add email validation to user creation
 **Try:**
 "Write a validation function similar to the one in models/product.js, but for user emails"
 
-### Specify Constraints
+---
 
-**Include:**
+## Getting Better Results: Specify Constraints & Iterate Freely
+
+**Specify constraints:**
 - Performance requirements
 - Compatibility needs
 - Existing patterns to follow
 - Standards to adhere to
 
-### Iterate Freely
-
-**It's okay to:**
+**Iterate freely — it's okay to:**
 - Ask for changes
 - Try different approaches
 - Request explanations
@@ -884,9 +908,7 @@ git commit -m "feat: add email validation to user creation
 
 ---
 
-## Slide: When to Use (and Not Use) Claude
-
-### ✅ Great Use Cases
+## Great Use Cases for Claude
 
 - Writing boilerplate code
 - Understanding unfamiliar code
@@ -897,15 +919,17 @@ git commit -m "feat: add email validation to user creation
 - Exploring architecture options
 - Learning new patterns
 
-### ⚠️ Be Careful With
+---
 
+## Use With Caution — Or Not At All
+
+### ⚠️ Be Careful With
 - Highly sensitive code
 - Complex business logic without verification
 - Performance-critical code (verify benchmarks)
 - Security-critical implementations (expert review needed)
 
 ### ❌ Not Suitable For
-
 - Decisions requiring business context
 - Choosing business requirements
 - Replacing human code review
@@ -913,9 +937,7 @@ git commit -m "feat: add email validation to user creation
 
 ---
 
-## Slide: Measuring Success
-
-### Individual Metrics
+## Measuring Success: Individual Metrics
 
 **Track your own experience:**
 - Time saved on routine tasks
@@ -924,7 +946,9 @@ git commit -m "feat: add email validation to user creation
 - Confidence in unfamiliar areas
 - Enjoyment of work
 
-### Team Metrics
+---
+
+## Measuring Success: Team Metrics
 
 **Measure at the team level:**
 - Feature delivery speed
@@ -934,7 +958,9 @@ git commit -m "feat: add email validation to user creation
 - Onboarding time for new developers
 - Code review cycle time
 
-### Continuous Improvement
+---
+
+## Measuring Success: Continuous Improvement
 
 **Regular retrospectives:**
 - What's working well?
@@ -944,9 +970,7 @@ git commit -m "feat: add email validation to user creation
 
 ---
 
-## Slide: Getting Help
-
-### Within Your Organization
+## Getting Help: Within Your Organization
 
 **Internal Resources:**
 - Champion network
@@ -954,7 +978,9 @@ git commit -m "feat: add email validation to user creation
 - Example prompts library
 - Internal Slack/Teams channel
 
-### External Resources
+---
+
+## Getting Help: External Resources
 
 **Anthropic:**
 - Documentation: docs.anthropic.com
@@ -968,9 +994,7 @@ git commit -m "feat: add email validation to user creation
 
 ---
 
-## Slide: Continuous Learning
-
-### Stay Updated
+## Continuous Learning: Stay Updated
 
 **Claude Code is evolving:**
 - New features regularly
@@ -982,7 +1006,9 @@ git commit -m "feat: add email validation to user creation
 - Share discoveries with team
 - Experiment with new use cases
 
-### Share Knowledge
+---
+
+## Continuous Learning: Share Knowledge
 
 **Help others succeed:**
 - Document your best practices
@@ -1045,23 +1071,25 @@ git commit -m "feat: add email validation to user creation
 
 ---
 
-## Slide: Next Steps
-
-### Immediate Actions (This Week)
+## Next Steps: This Week
 
 1. **Get set up** - Install and configure Claude Code
 2. **Start small** - Try one task per day
 3. **Join the community** - Internal Slack/Teams channel
 4. **Share feedback** - What's working, what's not
 
-### Building Momentum (This Month)
+---
+
+## Next Steps: This Month
 
 1. **Establish habits** - Use for routine tasks
 2. **Expand use cases** - Try new types of tasks
 3. **Help others** - Share tips with teammates
 4. **Track impact** - Note time saved and quality improvements
 
-### Ongoing (This Quarter)
+---
+
+## Next Steps: This Quarter
 
 1. **Become a champion** - Help onboard others
 2. **Contribute examples** - Add to internal wiki
@@ -1088,11 +1116,15 @@ git commit -m "feat: add email validation to user creation
 
 ---
 
-# Appendix: Quick Reference
+## Appendix: Quick Reference
 
-## Common Prompts Cheat Sheet
+Prompt patterns to keep at hand after the workshop ends.
 
-### Understanding Code
+---
+
+## Cheat Sheet: Understanding & Changing Code
+
+**Understanding code:**
 ```
 "Explain what [file/function] does"
 "What's the flow for [feature]?"
@@ -1100,7 +1132,7 @@ git commit -m "feat: add email validation to user creation
 "Show me examples of [pattern]"
 ```
 
-### Making Changes
+**Making changes:**
 ```
 "Add [feature] to [location]"
 "Refactor [code] to use [pattern]"
@@ -1108,7 +1140,11 @@ git commit -m "feat: add email validation to user creation
 "Update [code] to [new approach]"
 ```
 
-### Testing
+---
+
+## Cheat Sheet: Testing & Documentation
+
+**Testing:**
 ```
 "Write tests for [code]"
 "Fix this failing test: [test name]"
@@ -1116,7 +1152,7 @@ git commit -m "feat: add email validation to user creation
 "Add test for edge case: [scenario]"
 ```
 
-### Documentation
+**Documentation:**
 ```
 "Document this [code]"
 "Update README with [info]"
@@ -1124,7 +1160,9 @@ git commit -m "feat: add email validation to user creation
 "Add comments to [complex code]"
 ```
 
-### Git Operations
+---
+
+## Cheat Sheet: Git Operations
 ```
 "Commit these changes"
 "Create a pull request"
@@ -1134,32 +1172,40 @@ git commit -m "feat: add email validation to user creation
 
 ---
 
-# Facilitator Notes
+## Facilitator Notes
 
-## Workshop Preparation
+Everything a facilitator needs to run this workshop: prep, timing, demo scripts, and follow-up.
 
-### Before the Session
+---
+
+## Prep: Before the Session
 - [ ] Test all demo environments
 - [ ] Prepare backup code examples
 - [ ] Have API keys ready (sandbox accounts)
 - [ ] Test screen sharing/presentation setup
 - [ ] Have troubleshooting guide ready
 
-### Materials Needed
+---
+
+## Prep: Materials & Room Setup
+
+**Materials Needed:**
 - Presentation slides
 - Demo codebase (preferably your actual code)
 - Exercise instructions
 - Handouts/quick reference cards
 - Feedback forms
 
-### Room Setup
+**Room Setup:**
 - Tables for laptops
 - Power outlets accessible
 - Good wifi/network
 - Comfortable seating
 - Whiteboard/flip charts
 
-## Timing Guide
+---
+
+## Timing: Introduction & Getting Started (0:00–1:00)
 
 **0:00-0:30** - Introduction & Overview
 - Icebreaker activity (2 min)
@@ -1172,6 +1218,10 @@ git commit -m "feat: add email validation to user creation
 - First interaction demo (10 min)
 - Participants try it (5 min)
 
+---
+
+## Timing: Core Skills & Advanced Patterns (1:00–2:45)
+
 **1:00-2:00** - Core Skills
 - Prompting techniques (20 min)
 - Code generation demo (15 min)
@@ -1183,14 +1233,18 @@ git commit -m "feat: add email validation to user creation
 - Git workflow demo (15 min)
 - Best practices discussion (10 min)
 
+---
+
+## Timing: Wrap-up (2:45–3:00)
+
 **2:45-3:00** - Wrap-up
 - Key takeaways (5 min)
 - Resources and next steps (5 min)
 - Final Q&A (5 min)
 
-## Demo Scripts
+---
 
-### Demo 1: First Interaction
+## Demo 1: First Interaction
 ```
 1. Open Claude Code
 2. Prompt: "What's the structure of this codebase?"
@@ -1200,7 +1254,9 @@ git commit -m "feat: add email validation to user creation
 6. Ask a follow-up question
 ```
 
-### Demo 2: Code Generation
+---
+
+## Demo 2: Code Generation
 ```
 1. Prompt: "Add a function to validate phone numbers"
 2. Show Claude generate code
@@ -1210,7 +1266,9 @@ git commit -m "feat: add email validation to user creation
 6. Show iteration
 ```
 
-### Demo 3: Debugging
+---
+
+## Demo 3: Debugging
 ```
 1. Show a failing test
 2. Prompt: "This test is failing: [test name]"
@@ -1219,7 +1277,9 @@ git commit -m "feat: add email validation to user creation
 5. Implement and verify
 ```
 
-## Common Questions & Answers
+---
+
+## Facilitator Q&A: Data & Reliability
 
 **Q: Is our code sent to Anthropic?**
 A: Yes, code in your prompts and files Claude reads is sent to Anthropic's API. Follow your organization's data handling policies.
@@ -1230,6 +1290,10 @@ A: No, it requires an internet connection to access Claude's API.
 **Q: What if it makes a mistake?**
 A: Always review code before accepting. You can ask Claude to fix or revise.
 
+---
+
+## Facilitator Q&A: Cost, Access & Replacing Developers
+
 **Q: How much does it cost?**
 A: Pricing is per-token via Anthropic API. Your organization has a billing account set up.
 
@@ -1238,6 +1302,8 @@ A: Only if it has credentials and you explicitly grant permission. Be careful wi
 
 **Q: Will it replace developers?**
 A: No, it's a tool to augment developers, not replace them. You're still in control.
+
+---
 
 ## Troubleshooting
 
@@ -1252,6 +1318,8 @@ A: No, it's a tool to augment developers, not replace them. You're still in cont
 
 ### Issue: Unexpected code changes
 **Solution:** Always review before accepting. Ask Claude to explain changes.
+
+---
 
 ## Post-Workshop Follow-up
 
@@ -1269,7 +1337,5 @@ A: No, it's a tool to augment developers, not replace them. You're still in cont
 - Weekly office hours
 - Monthly tips email
 - Quarterly refresher sessions
-
----
 
 > **Where to go next:** reinforce workshop content with [Enterprise Best Practices](/articles/best-practices), and route lingering questions to [FAQ & Troubleshooting](/articles/faq-troubleshooting).

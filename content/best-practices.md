@@ -288,7 +288,7 @@ Code Quality:
 - [ ] No code smells (duplicated code, long functions, etc.)?
 ```
 
-## Code Review: Testing, Performance & Security
+## Code Review: Testing & Performance
 
 ```markdown
 Testing:
@@ -302,7 +302,11 @@ Performance:
 - [ ] Appropriate data structures?
 - [ ] Efficient algorithms?
 - [ ] No unnecessary operations?
+```
 
+## Code Review: Security & Documentation
+
+```markdown
 Security:
 - [ ] No security vulnerabilities?
 - [ ] Input properly validated?
@@ -446,12 +450,14 @@ Great prompts aren't longer — they're structured. Three ingredients, every tim
 [Constraints/requirements/standards]
 ```
 
-## Vague vs. Excellent: A Real Prompt
+## Vague vs. Excellent — The Vague Prompt
 
 ❌ **Vague:**
 ```
 "Add validation"
 ```
+
+## Vague vs. Excellent — The Excellent Prompt
 
 ✅ **Excellent:**
 ```
@@ -472,7 +478,7 @@ Constraints:
   - Password: min 8 chars, must have uppercase, lowercase, number
 ```
 
-## Pattern: Code Explanation
+## Pattern: Code Explanation — Template
 
 **When:** Understanding unfamiliar code
 
@@ -485,7 +491,8 @@ Constraints:
 - Potential issues or improvements"
 ```
 
-**Example:**
+## Pattern: Code Explanation — Example
+
 ```
 "Explain src/services/paymentService.js focusing on:
 - How the retry logic works
@@ -801,6 +808,8 @@ git commit -m "feat: add JWT refresh token support
 Closes #123"
 ```
 
+## Conventional Commits Format
+
 **Follow conventional commits:**
 ```
 Configure Claude:
@@ -843,7 +852,11 @@ You: "Create a pull request for this feature"
 Claude: [Pushes branch and creates PR with:]
 
 Title: "Add product review functionality"
+```
 
+## Pull Requests — Generated Body
+
+```
 Body:
 ## Summary
 Implements product reviews allowing customers to rate and comment on products.
@@ -1009,7 +1022,7 @@ Company Wiki / Claude Code
 └── Troubleshooting
 ```
 
-## Prompt Library Example
+## Prompt Library Example — Pattern
 
 **One entry from the "Debugging" category, as it would appear in the wiki:**
 
@@ -1029,7 +1042,11 @@ Expected:
 [describe expected behavior]
 
 Please debug and fix."
+```
 
+## Prompt Library Example — Real Example
+
+```markdown
 ### Real Example
 "I'm getting a 422 error from POST /api/orders.
 
@@ -1046,7 +1063,11 @@ Request:
 Expected: Should create order successfully
 
 Please debug and fix."
+```
 
+## Prompt Library Example — Tips
+
+```markdown
 ### Tips
 - Include full error response
 - Show the request payload
