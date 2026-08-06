@@ -33,6 +33,18 @@
       "subject": "loop: presenter — split diagram slide in AI Across Business Functions"
     },
     {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
+    },
+    {
+      "hash": "4bc6cbc6b2aedf9de6ebc2a8942638d839a561f9",
+      "shortHash": "4bc6cbc",
+      "date": "2026-07-30T21:44:17+00:00",
+      "subject": "loop: editor — refresh Windows/JetBrains support claims and EU AI Act status"
+    },
+    {
       "hash": "b6ecec5248d39d186d464501cd8d96ec44c84dc1",
       "shortHash": "b6ecec5",
       "date": "2026-07-30T12:24:48+00:00",
@@ -59,6 +71,12 @@
       "subject": "loop: presenter — split Service Offerings and AI Maturity Audit into slide-sized sections"
     },
     {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
+    },
+    {
       "hash": "b6ecec5248d39d186d464501cd8d96ec44c84dc1",
       "shortHash": "b6ecec5",
       "date": "2026-07-30T12:24:48+00:00",
@@ -78,6 +96,18 @@
     }
   ],
   "best-practices": [
+    {
+      "hash": "8911554f7b6c1c62469092a7890c3a20eb467acf",
+      "shortHash": "8911554",
+      "date": "2026-08-05T07:21:27+00:00",
+      "subject": "loop: presenter — split bundled Template/Example and checklist slides in Enterprise Best Practices"
+    },
+    {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
+    },
     {
       "hash": "28b9cfd6e085a06176c357b5765c065264cc5d2b",
       "shortHash": "28b9cfd",
@@ -110,6 +140,24 @@
     }
   ],
   "faq-troubleshooting": [
+    {
+      "hash": "4bb00f38d0491d6a5b7bbab43f4a7fd140ff6764",
+      "shortHash": "4bb00f3",
+      "date": "2026-08-01T21:45:02+00:00",
+      "subject": "loop: editor — kill dead anchor links in FAQ TOC, close history-of-ai's missing tie-back"
+    },
+    {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
+    },
+    {
+      "hash": "4bc6cbc6b2aedf9de6ebc2a8942638d839a561f9",
+      "shortHash": "4bc6cbc",
+      "date": "2026-07-30T21:44:17+00:00",
+      "subject": "loop: editor — refresh Windows/JetBrains support claims and EU AI Act status"
+    },
     {
       "hash": "5eceba07ef471cdfdceb76a900c19bec71b476f2",
       "shortHash": "5eceba0",
@@ -175,6 +223,12 @@
   ],
   "history-of-ai": [
     {
+      "hash": "4bb00f38d0491d6a5b7bbab43f4a7fd140ff6764",
+      "shortHash": "4bb00f3",
+      "date": "2026-08-01T21:45:02+00:00",
+      "subject": "loop: editor — kill dead anchor links in FAQ TOC, close history-of-ai's missing tie-back"
+    },
+    {
       "hash": "02b2f8633085ae5971f65cbdf94ba86bf3689b2b",
       "shortHash": "02b2f86",
       "date": "2026-07-26T12:28:08+00:00",
@@ -183,10 +237,22 @@
   ],
   "implementation-guide": [
     {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
+    },
+    {
       "hash": "96f4eceb9378b6e8d8480b90b1c35256f2898d44",
       "shortHash": "96f4ece",
       "date": "2026-07-31T07:18:44+00:00",
       "subject": "loop: presenter — split Implementation Guide into slide-sized sections"
+    },
+    {
+      "hash": "4bc6cbc6b2aedf9de6ebc2a8942638d839a561f9",
+      "shortHash": "4bc6cbc",
+      "date": "2026-07-30T21:44:17+00:00",
+      "subject": "loop: editor — refresh Windows/JetBrains support claims and EU AI Act status"
     },
     {
       "hash": "f012f25cfddee3355f3c1d4f12fcd78b8e0329da",
@@ -220,6 +286,12 @@
     }
   ],
   "readiness-assessment": [
+    {
+      "hash": "4bc6cbc6b2aedf9de6ebc2a8942638d839a561f9",
+      "shortHash": "4bc6cbc",
+      "date": "2026-07-30T21:44:17+00:00",
+      "subject": "loop: editor — refresh Windows/JetBrains support claims and EU AI Act status"
+    },
     {
       "hash": "5eceba07ef471cdfdceb76a900c19bec71b476f2",
       "shortHash": "5eceba0",
@@ -257,6 +329,12 @@
       "shortHash": "366a670",
       "date": "2026-08-01T07:13:52+00:00",
       "subject": "loop: presenter — split Service Offerings and AI Maturity Audit into slide-sized sections"
+    },
+    {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
     },
     {
       "hash": "34b4ab10894d01a86f0882852e751dffa000f1f9",
@@ -303,6 +381,12 @@
       "shortHash": "6460583",
       "date": "2026-08-02T07:18:02+00:00",
       "subject": "loop: presenter — split Training Workshop deck into slide-sized sections"
+    },
+    {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
     },
     {
       "hash": "34b4ab10894d01a86f0882852e751dffa000f1f9",
