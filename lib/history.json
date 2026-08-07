@@ -237,6 +237,12 @@
   ],
   "implementation-guide": [
     {
+      "hash": "3b2149ac3f2eef0d9224808456034dac78d7508c",
+      "shortHash": "3b2149a",
+      "date": "2026-08-07T21:46:39+00:00",
+      "subject": "loop: editor — align conflicting feature-velocity figures to one range"
+    },
+    {
       "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
       "shortHash": "ceb9a8d",
       "date": "2026-07-31T21:47:07+00:00",
@@ -376,6 +382,12 @@
     }
   ],
   "training-deck": [
+    {
+      "hash": "3b2149ac3f2eef0d9224808456034dac78d7508c",
+      "shortHash": "3b2149a",
+      "date": "2026-08-07T21:46:39+00:00",
+      "subject": "loop: editor — align conflicting feature-velocity figures to one range"
+    },
     {
       "hash": "6460583e219392475a230a69ced2e303960cb3f1",
       "shortHash": "6460583",
