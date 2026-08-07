@@ -1041,7 +1041,7 @@ Measure before/after:
 - Documentation completeness
 
 Expected improvements:
-- Feature velocity: +20-40%
+- Feature velocity: +30-40%
 - Bug resolution: -30-50% time
 - Code review: -20-30% time
 - Test coverage: +15-25%

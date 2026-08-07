@@ -69,7 +69,7 @@ Five parts, three hours: introduction, hands-on setup, core skills, advanced pat
 ## The Measured Benefits
 
 **From organizations using Claude Code:**
-- 30-50% faster feature development
+- 30-40% faster feature development
 - 40% reduction in debugging time
 - 60% less time on boilerplate code
 - 40% faster onboarding for new developers
