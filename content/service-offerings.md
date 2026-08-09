@@ -254,7 +254,7 @@ We'll discuss:
 ## FAQ: Requirements & Timeline
 
 ### What are the technical requirements?
-- **Operating System:** macOS or Linux (Windows: see [FAQ](/articles/faq-troubleshooting) for current status)
+- **Operating System:** macOS, Linux, or Windows (native support, or WSL2 for sandboxed execution) — see [FAQ](/articles/faq-troubleshooting) for details
 - **IDE:** VS Code, Cursor, or command-line terminal
 - **Anthropic API:** API key and billing account
 - **Network:** Internet access (proxy configuration supported)

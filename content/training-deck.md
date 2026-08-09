@@ -148,7 +148,7 @@ Five parts, three hours: introduction, hands-on setup, core skills, advanced pat
 ---
 
 ## Installation: Requirements
-- **OS:** macOS or Linux (Windows: see [FAQ](/articles/faq-troubleshooting) for current status)
+- **OS:** macOS, Linux, or Windows (native support, or WSL2 for sandboxed execution) — see [FAQ](/articles/faq-troubleshooting) for details
 - **API Access:** Anthropic API key
 - **Terminal:** Any modern terminal or IDE
 
@@ -1308,7 +1308,7 @@ A: No, it's a tool to augment developers, not replace them. You're still in cont
 ## Troubleshooting
 
 ### Issue: Can't install on Windows
-**Solution:** Use WSL2 — see the [FAQ](/articles/faq-troubleshooting) for current native-support status.
+**Solution:** Windows has native support (Windows 10 1809+ or Windows Server 2019+) — install directly from PowerShell or CMD, no WSL required. Use WSL2 only if you need sandboxed command execution; see the [FAQ](/articles/faq-troubleshooting) for details.
 
 ### Issue: API key errors
 **Solution:** Verify key is correct, check billing account is active, ensure network access.
