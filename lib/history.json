@@ -331,6 +331,12 @@
   ],
   "service-offerings": [
     {
+      "hash": "1ebafc566a18cf830ec8913518177f2f1a5f2af1",
+      "shortHash": "1ebafc5",
+      "date": "2026-08-09T21:42:26+00:00",
+      "subject": "loop: editor — align Windows support claims in training deck and service offerings with FAQ"
+    },
+    {
       "hash": "366a670dc1bb7388687f960cad8d63095d9e3696",
       "shortHash": "366a670",
       "date": "2026-08-01T07:13:52+00:00",
@@ -382,6 +388,12 @@
     }
   ],
   "training-deck": [
+    {
+      "hash": "1ebafc566a18cf830ec8913518177f2f1a5f2af1",
+      "shortHash": "1ebafc5",
+      "date": "2026-08-09T21:42:26+00:00",
+      "subject": "loop: editor — align Windows support claims in training deck and service offerings with FAQ"
+    },
     {
       "hash": "3b2149ac3f2eef0d9224808456034dac78d7508c",
       "shortHash": "3b2149a",
