@@ -898,8 +898,6 @@ For new users:
 
 ---
 
-*Last updated: July 2026*
-
 **Have a question not answered here?** Contact [support channel] or refer to [internal wiki].
 
 > **Where to go next:** for setup and rollout questions, revisit the [Implementation Guide](/articles/implementation-guide); for team usage standards, see [Enterprise Best Practices](/articles/best-practices). If you're stepping back from a specific issue to ask whether AI is the right call at all, start from [Team-First AI](/articles/team-first-ai).
