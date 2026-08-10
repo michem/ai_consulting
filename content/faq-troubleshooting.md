@@ -154,27 +154,14 @@ npx @anthropic-ai/claude-code
 
 ## How do I configure Claude Code for my company's proxy?
 
-**Set proxy environment variables:**
+**Set standard proxy environment variables:**
 
 ```bash
-# HTTP proxy
-export HTTP_PROXY=http://proxy.company.com:8080
 export HTTPS_PROXY=http://proxy.company.com:8080
-
-# With authentication
-export HTTP_PROXY=http://username:password@proxy.company.com:8080
-export HTTPS_PROXY=http://username:password@proxy.company.com:8080
-
-# No proxy for certain domains
 export NO_PROXY=localhost,127.0.0.1,.company.local
 ```
 
-**Or in ~/.claude/config:**
-```json
-{
-  "proxy": "http://proxy.company.com:8080"
-}
-```
+Add `username:password@` before the hostname if your proxy requires authentication. Prefer setting `"proxy"` once in `~/.claude/config` if you want it applied in every shell without exporting variables.
 
 ## Can Claude Code work in air-gapped environments?
 
@@ -752,32 +739,12 @@ Making Claude Code faster and cheaper, and knowing where it earns its keep.
 
 ## What are the best use cases for Claude Code?
 
-**High value (most ROI):**
-- ✅ Writing tests
-- ✅ Debugging errors
-- ✅ Understanding unfamiliar code
-- ✅ Writing boilerplate
-- ✅ Updating documentation
-- ✅ Refactoring
-- ✅ Code review assistance
-
-**Medium value:**
-- ⚠️ Implementing well-defined features
-- ⚠️ Database queries
-- ⚠️ API integration
-- ⚠️ Configuration
-
-**Use with caution (needs careful review):**
-- ⚠️ Security-sensitive code
-- ⚠️ Performance-critical code
-- ⚠️ Complex business logic
-- ⚠️ Architecture decisions
-
-**Not recommended:**
-- ❌ Replacing human code review
-- ❌ Production database operations
-- ❌ Security audits
-- ❌ Deciding business requirements
+| Tier | Use cases |
+|---|---|
+| ✅ High value (most ROI) | Writing tests, debugging errors, understanding unfamiliar code, boilerplate, documentation, refactoring, code review assistance |
+| ⚠️ Medium value | Well-defined features, database queries, API integration, configuration |
+| ⚠️ Use with caution (needs careful review) | Security-sensitive code, performance-critical code, complex business logic, architecture decisions |
+| ❌ Not recommended | Replacing human code review, production database operations, security audits, deciding business requirements |
 
 ---
 
@@ -897,6 +864,8 @@ For new users:
 - Type normally to chat
 
 ---
+
+## Before You Go
 
 *Last updated: July 2026*
 
