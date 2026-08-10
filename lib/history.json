@@ -141,6 +141,12 @@
   ],
   "faq-troubleshooting": [
     {
+      "hash": "c114c9d061c0086406b6dd448a35d1d54200e39e",
+      "shortHash": "c114c9d",
+      "date": "2026-08-10T21:44:38+00:00",
+      "subject": "loop: editor — remove stale, redundant manual \"Last updated\" footers"
+    },
+    {
       "hash": "4bb00f38d0491d6a5b7bbab43f4a7fd140ff6764",
       "shortHash": "4bb00f3",
       "date": "2026-08-01T21:45:02+00:00",
@@ -237,6 +243,12 @@
   ],
   "implementation-guide": [
     {
+      "hash": "c114c9d061c0086406b6dd448a35d1d54200e39e",
+      "shortHash": "c114c9d",
+      "date": "2026-08-10T21:44:38+00:00",
+      "subject": "loop: editor — remove stale, redundant manual \"Last updated\" footers"
+    },
+    {
       "hash": "3b2149ac3f2eef0d9224808456034dac78d7508c",
       "shortHash": "3b2149a",
       "date": "2026-08-07T21:46:39+00:00",
@@ -330,6 +342,12 @@
     }
   ],
   "service-offerings": [
+    {
+      "hash": "c114c9d061c0086406b6dd448a35d1d54200e39e",
+      "shortHash": "c114c9d",
+      "date": "2026-08-10T21:44:38+00:00",
+      "subject": "loop: editor — remove stale, redundant manual \"Last updated\" footers"
+    },
     {
       "hash": "1ebafc566a18cf830ec8913518177f2f1a5f2af1",
       "shortHash": "1ebafc5",
