@@ -141,6 +141,12 @@
   ],
   "faq-troubleshooting": [
     {
+      "hash": "8ed311005437634a2a0cd462ad8663f95ef83997",
+      "shortHash": "8ed3110",
+      "date": "2026-08-10T07:21:42+00:00",
+      "subject": "loop: presenter — fix oversized and mismatched slides in FAQ & Troubleshooting"
+    },
+    {
       "hash": "4bb00f38d0491d6a5b7bbab43f4a7fd140ff6764",
       "shortHash": "4bb00f3",
       "date": "2026-08-01T21:45:02+00:00",
