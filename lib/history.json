@@ -65,6 +65,12 @@
   ],
   "ai-maturity-assessment": [
     {
+      "hash": "e53a158af0b71ddf8235599fddaa20ab2f9db98c",
+      "shortHash": "e53a158",
+      "date": "2026-08-11T07:36:58+00:00",
+      "subject": "loop: presenter — fix clipped mermaid node labels in slideshow mode, split overflowing maturity-stages slide"
+    },
+    {
       "hash": "366a670dc1bb7388687f960cad8d63095d9e3696",
       "shortHash": "366a670",
       "date": "2026-08-01T07:13:52+00:00",
