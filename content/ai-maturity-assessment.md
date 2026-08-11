@@ -22,7 +22,7 @@ Before deciding what to do with AI, an organization needs an honest answer to a 
 | **4** | **Industrializing** | AI is integrated into core systems and processes (RAG, document pipelines, agents). Evaluation, cost control, and governance are routine. Portfolio is actively managed. |
 | **5** | **Transforming** | Workflows and even offerings are redesigned around AI. AI capability shapes strategy and hiring. The organization absorbs new AI capabilities as a matter of routine. |
 
-Most organizations in 2026 sit between **1 and 3**. The 2→3 transition is where most value is lost: [MIT's *GenAI Divide* study (August 2025)](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) found ~95% of enterprise GenAI pilots delivered no measurable P&L impact, with the successful minority distinguished by workflow integration — not by better models. Stage 5 is rare and unnecessary for many; the right target depends on your industry's exposure to AI-driven change.
+Most organizations in 2026 sit between **1 and 3** — Stage 5 is rare and unnecessary for many; the right target depends on your industry's exposure to AI-driven change.
 
 ## The Journey, Visualized
 
@@ -34,7 +34,7 @@ flowchart LR
     S4 --> S5["5 · Transforming<br/>workflows redesigned"]
 ```
 
-The audit's job is to locate you on this line per dimension — and the wall between 2 and 3 is where the scorekeeping discipline of the [Team-First questions](/articles/team-first-ai) earns its keep.
+The 2→3 transition is where most value is lost: [MIT's *GenAI Divide* study (August 2025)](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) found ~95% of enterprise GenAI pilots delivered no measurable P&L impact, with the successful minority distinguished by workflow integration — not by better models. The audit's job is to locate you on this line per dimension, and the wall between 2 and 3 is where the scorekeeping discipline of the [Team-First questions](/articles/team-first-ai) earns its keep.
 
 ## The Six Dimensions
 
