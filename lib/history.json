@@ -255,6 +255,12 @@
   ],
   "implementation-guide": [
     {
+      "hash": "05453e117d44d6d5fa8a20ed2af6332211210567",
+      "shortHash": "05453e1",
+      "date": "2026-08-12T07:27:06+00:00",
+      "subject": "loop: presenter — fix six overflowing slides in Implementation Guide"
+    },
+    {
       "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
       "shortHash": "ceb9a8d",
       "date": "2026-07-31T21:47:07+00:00",
