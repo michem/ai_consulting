@@ -80,7 +80,7 @@ Grove ran Intel on indicators and regular one-on-ones; Campbell never let a team
 | 3 | How successful is that team today? | Measure output; be candid | [Maturity Audit](/articles/ai-maturity-assessment) |
 | 4 | How could AI make the team better? | Leverage; task-relevant maturity | [Getting Started](/articles/getting-started-with-ai) |
 | 5 | Do we have the right team for AI? | First the team, then the problem | [AI Architect](/articles/ai-architect-perspective) |
-| 6 | Who keeps score? | Indicators, cadence, attention | The architect's operating loop |
+| 6 | Who keeps score? | Indicators, cadence, attention | [The Architect's Operating Loop](/articles/ai-architect-perspective) |
 
 ## What This Philosophy Rules Out
 

@@ -53,7 +53,7 @@ Before any code gets written, align the business case, the technical footprint, 
 - Internal support resources: €X per month
 - Consulting services: €X (if applicable)
 
-**Typical ROI:** 3-6 month payback period
+**Typical ROI:** 1.5–6 month payback period, depending on rollout scope — faster when only marginal per-developer costs are counted (see the worked example later in this guide), slower once training and integration investment are included. The [flagship case study](/articles/service-offerings) landed at 1.5 months.
 
 ## Strategic Questions to Answer
 
