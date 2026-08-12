@@ -207,7 +207,11 @@ Applies to all employees using Claude Code for work-related activities.
 - Security-sensitive code (must be reviewed)
 - Performance-critical code (must be benchmarked)
 - Production infrastructure changes (require approval)
+```
 
+## Acceptable Use Policy: Prohibited
+
+```markdown
 ### Prohibited:
 - Sending credentials, API keys, or secrets
 - Sharing customer PII or sensitive data
@@ -236,7 +240,7 @@ Applies to all employees using Claude Code for work-related activities.
 - Third-party proprietary code
 ```
 
-## Acceptable Use Policy: Review, Compliance & Enforcement
+## Acceptable Use Policy: Review & Testing
 
 ```markdown
 ## Code Review Requirements
@@ -253,7 +257,11 @@ Applies to all employees using Claude Code for work-related activities.
 - Add tests for new functionality
 - Verify no regressions
 - Check linter/formatter passes
+```
 
+## Acceptable Use Policy: Compliance
+
+```markdown
 ## Compliance
 
 ### Developers Must:
@@ -268,7 +276,11 @@ Applies to all employees using Claude Code for work-related activities.
 - Monitor usage patterns
 - Address policy violations
 - Review high-risk changes
+```
 
+## Acceptable Use Policy: Enforcement
+
+```markdown
 ## Enforcement
 Violations may result in:
 1. Warning and retraining
@@ -918,7 +930,7 @@ Most developers report it's much easier than learning a new
 programming language or framework.
 ```
 
-## Skeptic Conversion Strategy
+## Skeptic Conversion Strategy: Earn the Trial
 
 **Step 1: Don't Force**
 - Let them observe
@@ -934,6 +946,8 @@ programming language or framework.
 - "Try it for one day"
 - "Use it for documentation only at first"
 - "Start with test writing"
+
+## Skeptic Conversion Strategy: Lock In the Convert
 
 **Step 4: Peer Influence**
 - Pair with enthusiastic adopter
@@ -1158,7 +1172,8 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
 - Bad first experience
 - Doesn't fit their workflow
 
-**Solutions:**
+## Challenge 1 Solutions: Low Adoption in Some Teams
+
 ```
 1. Talk to team lead
    - Understand concerns
@@ -1194,7 +1209,8 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
 - Poor prompts
 - Lack of review
 
-**Solutions:**
+## Challenge 2 Solutions: Code Quality Concerns
+
 ```
 1. Reinforce training
    - "Always review code"
@@ -1233,7 +1249,8 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
 - Repetitive queries
 - Misunderstanding of pricing
 
-**Solutions:**
+## Challenge 3 Solutions: API Costs Higher Than Expected
+
 ```
 1. Analyze usage
    - Which users/teams using most?
@@ -1269,7 +1286,8 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
 - Unknown risk profile
 - Past AI tool issues
 
-**Solutions:**
+## Challenge 4 Solutions: Security/Compliance Pushback
+
 ```
 1. Security engagement
    - Involve early (before pilot)
@@ -1309,7 +1327,8 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
 - Automated tool differences
 - Workflow incompatibilities
 
-**Solutions:**
+## Challenge 5 Solutions: Integration with Existing Tools
+
 ```
 1. Configure Claude
    - Tell it about your linter
@@ -1411,7 +1430,7 @@ Checklists and templates to copy directly into your own rollout.
 - [ ] Metrics dashboard updated
 - [ ] Success story collection ongoing
 
-## Monthly Review Template
+## Monthly Review Template: Metrics
 
 ```markdown
 # Claude Code - Monthly Review
@@ -1442,7 +1461,11 @@ Checklists and templates to copy directly into your own rollout.
 - Estimated Hours Saved: X hours
 - Estimated Value: €X
 - ROI: Xx return
+```
 
+## Monthly Review Template: Actions
+
+```markdown
 ### Challenges
 1. [Challenge]
    - Status: [In progress/Resolved]
@@ -1462,7 +1485,7 @@ Checklists and templates to copy directly into your own rollout.
 - [ ] [Action item]
 ```
 
-## Internal Wiki Structure
+## Internal Wiki Structure: Onboarding & Practices
 
 ```
 Claude Code @ [Company]
@@ -1476,6 +1499,12 @@ Claude Code @ [Company]
 │   ├── Code Review Guidelines
 │   ├── Security Guidelines
 │   └── Example Prompts Library
+```
+
+## Internal Wiki Structure: Policies, Support & Community
+
+```
+Claude Code @ [Company]  (continued)
 ├── Policies
 │   ├── Acceptable Use Policy
 │   ├── Data Handling Guidelines
