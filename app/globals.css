@@ -576,6 +576,11 @@ a:hover {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 0.9rem 1.1rem;
+  /* Browser default `pre { margin: 1em 0 }` otherwise adds ~38px of
+     unstyled vertical space per code block — on worksheet-style articles
+     with several Notes blocks per slide, that alone was enough to push
+     slides into scrolling. Match the surrounding paragraph rhythm instead. */
+  margin: 0.7rem 0;
   overflow-x: auto;
 }
 .slide-body pre code {

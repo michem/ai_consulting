@@ -142,17 +142,8 @@ Need sandboxed execution on Windows? Confirm WSL2, not native.
 
 **Notes:**
 ```
-Primary IDEs used:
-- [ ] VS Code
-- [ ] Cursor
-- [ ] JetBrains IDEs
-- [ ] Other: _______________
-
-Environment setup:
-- [ ] Containerized (Docker)
-- [ ] Scripted setup
-- [ ] Manual documentation
-- [ ] None
+Primary IDEs used: VS Code / Cursor / JetBrains IDEs / Other: _______________
+Environment setup: Containerized (Docker) / Scripted setup / Manual documentation / None
 ```
 
 ## 2.3 Network Access
@@ -244,15 +235,7 @@ PII handling requirements:
 ## 3.3 Compliance Requirements
 **Question:** What compliance frameworks apply to your organization?
 
-**Check all that apply:**
-- [ ] GDPR
-- [ ] HIPAA
-- [ ] SOC 2
-- [ ] ISO 27001
-- [ ] PCI-DSS
-- [ ] FedRAMP
-- [ ] None
-- [ ] Other: _______________
+**Check all that apply:** GDPR / HIPAA / SOC 2 / ISO 27001 / PCI-DSS / FedRAMP / None / Other: _______________
 
 **Readiness score:**
 - [ ] 5 - All compliance requirements understood and addressed
@@ -712,20 +695,14 @@ Every action needs an owner and a due date, or it doesn't happen.
 
 ## Follow-up
 
-**Assessment completed by:** _______________________
-**Date:** _______________________
-**Next review date:** _______________________
-**Decision maker:** _______________________
-**Decision deadline:** _______________________
+**Assessment completed by:** _______________ **Date:** _______________ **Next review date:** _______________
+**Decision maker:** _______________ **Decision deadline:** _______________
 
 **Consultation needed?**
 - [ ] Yes - schedule consultation call
 - [ ] No - proceeding with internal planning
 
-**Contact for questions:**
-- Name: _______________________
-- Email: _______________________
-- Phone: _______________________
+**Contact for questions:** Name: _______________ · Email: _______________ · Phone: _______________
 
 ---
 
