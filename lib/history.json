@@ -311,6 +311,12 @@
   ],
   "readiness-assessment": [
     {
+      "hash": "e81fc993b503358b37018fe8299ca9a5df9b8641",
+      "shortHash": "e81fc99",
+      "date": "2026-08-13T07:28:13+00:00",
+      "subject": "loop: presenter — fix Team-First AI diagram overflow, worksheet Notes overflow site-wide"
+    },
+    {
       "hash": "4bc6cbc6b2aedf9de6ebc2a8942638d839a561f9",
       "shortHash": "4bc6cbc",
       "date": "2026-07-30T21:44:17+00:00",
@@ -386,6 +392,12 @@
     }
   ],
   "team-first-ai": [
+    {
+      "hash": "e81fc993b503358b37018fe8299ca9a5df9b8641",
+      "shortHash": "e81fc99",
+      "date": "2026-08-13T07:28:13+00:00",
+      "subject": "loop: presenter — fix Team-First AI diagram overflow, worksheet Notes overflow site-wide"
+    },
     {
       "hash": "b6ecec5248d39d186d464501cd8d96ec44c84dc1",
       "shortHash": "b6ecec5",
