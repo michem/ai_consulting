@@ -593,20 +593,12 @@ Can you create a plan for this?"
 ## Refactoring Example: Before
 
 ### Scattered Error Handling
+The same try/catch block, copy-pasted into every controller:
 ```javascript
 // UserController.js
 try {
   const user = await UserService.create(data);
   res.json(user);
-} catch (error) {
-  console.error(error);
-  res.status(500).json({ error: 'Internal error' });
-}
-
-// ProductController.js
-try {
-  const product = await ProductService.create(data);
-  res.json(product);
 } catch (error) {
   console.error(error);
   res.status(500).json({ error: 'Internal error' });
@@ -1339,5 +1331,9 @@ A: No, it's a tool to augment developers, not replace them. You're still in cont
 - Quarterly refresher sessions
 
 ---
+
+## Keeping This Workshop Current
+
+*Update the demos and metrics each time you run this — a stale example is worse than none.*
 
 > **Where to go next:** reinforce workshop content with [Enterprise Best Practices](/articles/best-practices), and route lingering questions to [FAQ & Troubleshooting](/articles/faq-troubleshooting). Open the workshop by grounding it in [Team-First AI](/articles/team-first-ai) — participants adopt faster once they see this as a team-performance decision, not a tool rollout.

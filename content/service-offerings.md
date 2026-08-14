@@ -37,7 +37,7 @@ Three tiers, scaled to organization size and ambition: a pilot-sized Quick Start
   - Custom prompt templates for your tech stack
   - Git workflow integration
 
-## Quick Start Package: Training, Support & Review
+## Quick Start Package: Training & Pilot Support
 
 - **Kick-off Training** (Half-day workshop)
   - Claude Code fundamentals
@@ -52,11 +52,13 @@ Three tiers, scaled to organization size and ambition: a pilot-sized Quick Start
   - Success metrics tracking
   - User feedback collection
 
-- **Pilot Review & Recommendations** (Half-day)
-  - Results presentation
-  - ROI analysis
-  - Rollout recommendations
-  - Policy and guidelines document
+## Quick Start Package: Pilot Review & Recommendations
+
+**Half-day, at the end of the pilot:**
+- Results presentation
+- ROI analysis
+- Rollout recommendations
+- Policy and guidelines document
 
 ## Quick Start Package: Deliverables & Investment
 
