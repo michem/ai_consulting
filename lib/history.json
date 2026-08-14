@@ -355,6 +355,12 @@
   ],
   "service-offerings": [
     {
+      "hash": "1a23afc109c3082240ab24ffbab8eecfff7bd786",
+      "shortHash": "1a23afc",
+      "date": "2026-08-14T07:36:01+00:00",
+      "subject": "loop: presenter — fix slide overflow in Training Workshop and Service Offerings"
+    },
+    {
       "hash": "366a670dc1bb7388687f960cad8d63095d9e3696",
       "shortHash": "366a670",
       "date": "2026-08-01T07:13:52+00:00",
@@ -412,6 +418,12 @@
     }
   ],
   "training-deck": [
+    {
+      "hash": "1a23afc109c3082240ab24ffbab8eecfff7bd786",
+      "shortHash": "1a23afc",
+      "date": "2026-08-14T07:36:01+00:00",
+      "subject": "loop: presenter — fix slide overflow in Training Workshop and Service Offerings"
+    },
     {
       "hash": "6460583e219392475a230a69ced2e303960cb3f1",
       "shortHash": "6460583",
