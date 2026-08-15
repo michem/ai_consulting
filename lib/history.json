@@ -1,6 +1,12 @@
 {
   "ai-architect-perspective": [
     {
+      "hash": "4f9bf0350e330abdb9f68d51054fa8aa642042f8",
+      "shortHash": "4f9bf03",
+      "date": "2026-08-15T07:17:43+00:00",
+      "subject": "loop: presenter — fix slide overflow in AI Architect's Perspective and AI Across Business Functions"
+    },
+    {
       "hash": "6053317c4bdc17a3503a0510275df0d9664da777",
       "shortHash": "6053317",
       "date": "2026-08-03T07:13:59+00:00",
@@ -26,6 +32,12 @@
     }
   ],
   "ai-in-business-functions": [
+    {
+      "hash": "4f9bf0350e330abdb9f68d51054fa8aa642042f8",
+      "shortHash": "4f9bf03",
+      "date": "2026-08-15T07:17:43+00:00",
+      "subject": "loop: presenter — fix slide overflow in AI Architect's Perspective and AI Across Business Functions"
+    },
     {
       "hash": "dc2480ea42653c298ef2a23cb4b06688e257f381",
       "shortHash": "dc2480e",
