@@ -53,7 +53,7 @@ Before any code gets written, align the business case, the technical footprint, 
 - Internal support resources: €X per month
 - Consulting services: €X (if applicable)
 
-**Typical ROI:** 1.5–6 month payback period, depending on rollout scope — faster when only marginal per-developer costs are counted (see the worked example later in this guide), slower once training and integration investment are included. The [flagship case study](/articles/service-offerings) landed at 1.5 months.
+**Typical ROI:** 1.5–6 month payback period for a full rollout — training, integration, and ramp-up included. The [flagship case study](/articles/service-offerings) landed at 1.5 months. That's a different number from the steady-state, per-developer marginal payback (ongoing API and support cost against ongoing time saved, once someone is already trained and rolled out) — see the worked example later in this guide, which pays back in about a week on that narrower basis.
 
 ## Strategic Questions to Answer
 
@@ -1086,7 +1086,7 @@ Survey monthly:
 
 ## ROI Calculation Example
 
-**Simple ROI Template:**
+**Simple ROI Template** (steady-state, per developer, once already trained and rolled out — excludes the one-time rollout costs in "Costs and Payback Period" above):
 ```
 Time Saved per Developer per Week:
   Code explanation: 1 hour
