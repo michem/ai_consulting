@@ -249,6 +249,12 @@
   ],
   "implementation-guide": [
     {
+      "hash": "517654ba720b6eb97c080136d61d07e6895f18f7",
+      "shortHash": "517654b",
+      "date": "2026-08-15T21:46:15+00:00",
+      "subject": "loop: editor — reconcile ROI worked example with stated payback range"
+    },
+    {
       "hash": "2ab8b52e724f373f2430e776f4cbd96b3bec671d",
       "shortHash": "2ab8b52",
       "date": "2026-08-12T21:48:18+00:00",
