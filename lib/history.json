@@ -115,6 +115,12 @@
   ],
   "best-practices": [
     {
+      "hash": "5094d9e45e75d6724da4338c385a12beaad3a374",
+      "shortHash": "5094d9e",
+      "date": "2026-08-17T07:28:49+00:00",
+      "subject": "loop: presenter — fix overflowing and bundled slides in Enterprise Best Practices"
+    },
+    {
       "hash": "8911554f7b6c1c62469092a7890c3a20eb467acf",
       "shortHash": "8911554",
       "date": "2026-08-05T07:21:27+00:00",
