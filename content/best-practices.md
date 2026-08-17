@@ -107,7 +107,8 @@ const user = {
 - Easy revocation
 - Personal usage limits
 
-**Setup Process:**
+## API Keys: Setup Process
+
 ```bash
 # Each developer creates their own key at console.anthropic.com
 # Store securely (never commit to git)
@@ -212,7 +213,8 @@ fi
 - Insecure deserialization
 - Unvalidated redirects
 
-**Example security review prompt:**
+## Example Security Review Prompt
+
 ```
 "Review this authentication code for security vulnerabilities,
 specifically looking for:
@@ -513,14 +515,9 @@ Requirements:
 - [Requirement 2]
 - [...]
 
-Follow:
-- [Existing pattern to match]
-- [Standards to apply]
+Follow: [existing pattern to match], [standards to apply]
 
-Include:
-- Unit tests
-- Documentation
-- Error handling"
+Include: unit tests, documentation, error handling"
 ```
 
 ## Pattern: Feature Implementation — Example
@@ -563,11 +560,7 @@ Expected behavior:
 Context:
 [Relevant code or steps to reproduce]
 
-Please:
-1. Identify the root cause
-2. Suggest a fix
-3. Implement the fix
-4. Add test to prevent regression"
+Please identify the root cause, implement a fix, and add a test to prevent regression."
 ```
 
 ## Pattern: Debugging — Example
@@ -588,11 +581,7 @@ Context:
 - Works fine when email is changed
 - Started after recent refactoring
 
-Please:
-1. Identify the root cause
-2. Suggest a fix
-3. Implement the fix
-4. Add test to prevent regression"
+Please identify the root cause, implement a fix, and add a test to prevent regression."
 ```
 
 ## Pattern: Refactoring — Template
@@ -611,10 +600,7 @@ Desired outcome:
 - [Outcome 1]
 - [Outcome 2]
 
-Constraints:
-- Maintain backward compatibility
-- Keep tests passing
-- Follow [pattern/principle]"
+Constraints: maintain backward compatibility, keep tests passing, follow [pattern/principle]"
 ```
 
 ## Pattern: Refactoring — Example
@@ -759,20 +745,15 @@ You: "Let's go with Redis. Implement it following the
 Claude: [Implementation]
 ```
 
-## Common Prompting Mistakes
+## Common Prompting Mistakes — Vague Requests
 
-❌ "Make it better" / "Fix this" / "Add a feature"
-✅ "Refactor this function to reduce cognitive complexity from 15 to under 10"
-✅ "Fix the race condition in the order processing queue"
-✅ "Add pagination to the product list API with cursor-based pagination"
+| Vague | Specific |
+|---|---|
+| "Make it better" / "Fix this" / "Add a feature" | "Refactor this function to reduce cognitive complexity from 15 to under 10" |
+| "Write a login function" (no context) | "Write a login function for our Express API that uses JWT tokens, validates against PostgreSQL, and follows our AuthController pattern" |
+| "Improve the performance" (unclear success criteria) | "Reduce the response time of /api/products from 800ms to under 200ms by adding database indexes and caching" |
 
-❌ "Write a login function" (no context)
-✅ "Write a login function for our Express API that uses JWT tokens,
-   validates against PostgreSQL, and follows our AuthController pattern"
-
-❌ "Improve the performance" (unclear success criteria)
-✅ "Reduce the response time of /api/products from 800ms to under 200ms
-   by adding database indexes and caching"
+## Common Prompting Mistakes — Too Much at Once
 
 ❌ "Refactor the entire authentication system to use OAuth2 instead of
    JWT, migrate the database schema, update all API endpoints, add
@@ -900,13 +881,19 @@ Found 3 type errors:
 [errors]
 
 Shall I fix them?
+```
 
+## Pre-commit Hooks: Fixing and Committing
+
+```
 You: "Yes"
 
 Claude: [Fixes errors, reruns checks, commits]
 ```
 
-## Failing CI Pipelines
+The same loop applies to any pre-commit gate — linting, formatting, coverage thresholds. Let Claude read the failure and act on it instead of pasting errors back manually.
+
+## Failing CI Pipelines: Diagnosis
 
 **Debug CI failures with Claude:**
 
@@ -919,7 +906,11 @@ The error shows that the integration tests are failing because
 the database seed data is missing...
 
 [Explains root cause]
+```
 
+## Failing CI Pipelines: Fix
+
+```
 Let me fix this by:
 1. Adding seed data to test setup
 2. Updating test environment config
@@ -1007,16 +998,8 @@ Individual productivity gains don't compound until the team shares what works. T
 Company Wiki / Claude Code
 ├── Quick Start Guide
 ├── Common Prompts Library
-│   ├── By Task Type
-│   │   ├── Debugging
-│   │   ├── Testing
-│   │   ├── Refactoring
-│   │   └── Documentation
-│   └── By Technology
-│       ├── React
-│       ├── Node.js
-│       ├── Python
-│       └── Database
+│   ├── By Task Type: Debugging, Testing, Refactoring, Documentation
+│   └── By Technology: React, Node.js, Python, Database
 ├── Success Stories
 ├── Tips and Tricks
 └── Troubleshooting
@@ -1084,7 +1067,8 @@ Please debug and fix."
 - Announcing new patterns
 - Office hours schedule
 
-**Example messages:**
+## Team Slack Channel: Example Messages
+
 ```
 💡 Tip: When refactoring, ask Claude to "create a plan first"
    then review the plan before implementation. Saves time!
