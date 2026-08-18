@@ -27,6 +27,12 @@
   ],
   "ai-in-business-functions": [
     {
+      "hash": "a043f880158f2a71973f36f55020518cd5fbab1e",
+      "shortHash": "a043f88",
+      "date": "2026-08-18T21:49:48+00:00",
+      "subject": "loop: editor — fix broken EU AI Act citation, cite unsourced training stats, clarify WSL wording"
+    },
+    {
       "hash": "dc2480ea42653c298ef2a23cb4b06688e257f381",
       "shortHash": "dc2480e",
       "date": "2026-08-04T07:17:50+00:00",
@@ -323,6 +329,12 @@
   ],
   "readiness-assessment": [
     {
+      "hash": "a043f880158f2a71973f36f55020518cd5fbab1e",
+      "shortHash": "a043f88",
+      "date": "2026-08-18T21:49:48+00:00",
+      "subject": "loop: editor — fix broken EU AI Act citation, cite unsourced training stats, clarify WSL wording"
+    },
+    {
       "hash": "4bc6cbc6b2aedf9de6ebc2a8942638d839a561f9",
       "shortHash": "4bc6cbc",
       "date": "2026-07-30T21:44:17+00:00",
@@ -430,6 +442,12 @@
     }
   ],
   "training-deck": [
+    {
+      "hash": "a043f880158f2a71973f36f55020518cd5fbab1e",
+      "shortHash": "a043f88",
+      "date": "2026-08-18T21:49:48+00:00",
+      "subject": "loop: editor — fix broken EU AI Act citation, cite unsourced training stats, clarify WSL wording"
+    },
     {
       "hash": "1ebafc566a18cf830ec8913518177f2f1a5f2af1",
       "shortHash": "1ebafc5",
