@@ -109,7 +109,7 @@ Primary goals (check all that apply):
 Can your developers actually reach and run Claude Code day to day?
 
 ## 2.1 Operating System Compatibility
-**Question:** What percentage of your developers are on a supported OS? (macOS, Linux, and Windows — native or WSL2 — are all supported; only sandboxed command execution is Windows-native/WSL1-limited.)
+**Question:** What percentage of your developers are on a supported OS? (macOS, Linux, and Windows — native or WSL2 — are all supported; sandboxed command execution specifically needs WSL2, since it isn't available on native Windows.)
 
 - [ ] 5 - 100% on a supported OS
 - [ ] 4 - 90-99% on a supported OS

@@ -55,12 +55,12 @@ Five parts, three hours: introduction, hands-on setup, core skills, advanced pat
 
 ## Where Developers' Time Actually Goes
 
-**Developers spend time on:**
-- 35% Writing new code
-- 25% Reading and understanding code
-- 20% Debugging and fixing issues
-- 15% Writing tests and documentation
-- 5% Other (meetings, research, etc.)
+**A typical breakdown, for framing this workshop (not a cited statistic — adjust to your own team's reality):**
+- ~35% Writing new code
+- ~25% Reading and understanding code
+- ~20% Debugging and fixing issues
+- ~15% Writing tests and documentation
+- ~5% Other (meetings, research, etc.)
 
 **Claude Code helps with ALL of these activities.**
 
@@ -68,12 +68,12 @@ Five parts, three hours: introduction, hands-on setup, core skills, advanced pat
 
 ## The Measured Benefits
 
-**From organizations using Claude Code:**
+**From the [flagship case study](/articles/service-offerings) (mid-size software company, 3 months in):**
 - 30-40% faster feature development
-- 40% reduction in debugging time
-- 60% less time on boilerplate code
-- 40% faster onboarding for new developers
+- 60% reduction in time spent on boilerplate code
+- 40% reduction in onboarding time
 - 25% improvement in test coverage
+- 35% increase in code review throughput
 
 **But also:**
 - More enjoyable work (focus on creative problem-solving)
