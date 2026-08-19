@@ -910,9 +910,10 @@ We've made it very easy:
 3. First real value: First task you try
 
 Typical learning curve:
-- Day 1: Basic usage (explain code, simple changes)
-- Week 1: Confident with common tasks
-- Month 1: Advanced workflows, significant productivity gains
+- 15 minutes: Basic usage (explain code, simple changes)
+- 1 day: Comfortable with common tasks
+- 1 week: Proficient with most features
+- 1 month: Advanced workflows, significant productivity gains
 
 Most developers report it's much easier than learning a new
 programming language or framework.

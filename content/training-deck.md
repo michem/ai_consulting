@@ -69,11 +69,11 @@ Five parts, three hours: introduction, hands-on setup, core skills, advanced pat
 ## The Measured Benefits
 
 **From the [flagship case study](/articles/service-offerings) (mid-size software company, 3 months in):**
-- 30-40% faster feature development
 - 60% reduction in time spent on boilerplate code
 - 40% reduction in onboarding time
 - 25% improvement in test coverage
 - 35% increase in code review throughput
+- 92% developer adoption rate
 
 **But also:**
 - More enjoyable work (focus on creative problem-solving)
