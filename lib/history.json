@@ -147,6 +147,12 @@
   ],
   "faq-troubleshooting": [
     {
+      "hash": "8934c24f50233c3b204cae7dfccc6106da63a253",
+      "shortHash": "8934c24",
+      "date": "2026-08-20T21:47:04+00:00",
+      "subject": "loop: editor — reconcile pilot timeline weeks, macOS chip-list drift"
+    },
+    {
       "hash": "2ab8b52e724f373f2430e776f4cbd96b3bec671d",
       "shortHash": "2ab8b52",
       "date": "2026-08-12T21:48:18+00:00",
@@ -254,6 +260,12 @@
     }
   ],
   "implementation-guide": [
+    {
+      "hash": "8934c24f50233c3b204cae7dfccc6106da63a253",
+      "shortHash": "8934c24",
+      "date": "2026-08-20T21:47:04+00:00",
+      "subject": "loop: editor — reconcile pilot timeline weeks, macOS chip-list drift"
+    },
     {
       "hash": "66637c50c4e034844d36735b0f10c6e917df71f8",
       "shortHash": "66637c5",
