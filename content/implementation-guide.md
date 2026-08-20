@@ -84,7 +84,7 @@ With the business case made, confirm the org can actually run Claude Code: opera
 
 ## Operating System Requirements
 
-- ✅ macOS: Fully supported (M1/M2 and Intel)
+- ✅ macOS: Fully supported (Apple Silicon and Intel)
 - ✅ Linux: Fully supported (Ubuntu, Debian, Fedora, etc.)
 - ✅ Windows: native support (Windows 10 1809+ or Windows Server 2019+); WSL2 needed only for sandboxed execution — see [FAQ](/articles/faq-troubleshooting) for details
 
@@ -331,7 +331,7 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 
 With planning done, run a focused pilot before any wider rollout.
 
-## Phase 1: Pilot Planning (Weeks 1-2)
+## Phase 1: Pilot Planning (Pre-Launch)
 
 Select the team, define success criteria, and lay out the timeline before day one.
 
@@ -383,7 +383,7 @@ Select the team, define success criteria, and lay out the timeline before day on
 - Day 3: Stakeholder presentation
 - Day 4-5: Go/No-go decision
 
-## Phase 2: Pilot Execution (Weeks 3-6)
+## Phase 2: Pilot Execution (Weeks 1-4)
 
 Four weeks of setup, active use, and review.
 

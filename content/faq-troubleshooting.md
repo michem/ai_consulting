@@ -93,7 +93,7 @@ What it takes to get Claude Code installed, licensed, and reachable from behind 
 ## What are the system requirements?
 
 **Operating System:**
-- ✅ macOS (M1/M2/M3 and Intel)
+- ✅ macOS (Apple Silicon and Intel)
 - ✅ Linux (Ubuntu, Debian, Fedora, etc.)
 - ✅ Windows: native support (Windows 10 1809+ or Windows Server 2019+); WSL2 also works and is required for sandboxed command execution
 
