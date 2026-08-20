@@ -85,22 +85,30 @@ Guardrails that enable rather than block.
   - High Strategy, low Use Cases → "slideware AI"
 - The lowest one or two dimensions are almost always the right place to spend the next quarter. Maturity rises as a convoy: the slowest dimension sets the pace.
 
-## Size-Calibrated Benchmarks
+## Size-Calibrated Benchmarks: What to Prioritize
 
 Raw scores mislead unless calibrated by organization size. Expectations for a healthy Stage-3 organization differ sharply:
 
 | Dimension | Small (≤50 FTE) | Mid-size (50–500) | Enterprise (500+) |
 |---|---|---|---|
-| Strategy | Owner-led priorities; one page | Exec sponsor + portfolio review each quarter | Board-level view; funded program |
-| Use cases | 2–3 in production, measured | 5–10 across ≥3 functions | Portfolio per division, value tracked centrally |
-| Data | Shared drive curated; classification rule | Knowledge base + first RAG; permissions mapped | Governed data products; AI-ready access layer |
-| Technology | Sanctioned assistant + no-code automations | First API integrations; usage/cost visibility | Platform team; model portfolio; evaluation infra |
-| People | Everyone trained once; 1 champion | Champions per department; role-based training | Academy/curriculum; fluency in job profiles |
+| Strategy | Owner-led priorities; one page | Exec sponsor; quarterly portfolio review | Board-level view; funded program |
+| Use cases | 2–3 in production, measured | 5–10 across ≥3 functions | Portfolio per division, tracked centrally |
+| Data | Shared drive curated; classification rule | Knowledge base + first RAG; permissions mapped | Governed data products; AI-ready access |
+
+## Size-Calibrated Benchmarks: How to Execute
+
+| Dimension | Small (≤50 FTE) | Mid-size (50–500) | Enterprise (500+) |
+|---|---|---|---|
+| Technology | Sanctioned assistant + no-code automations | First API integrations; usage/cost visibility | Platform team; model portfolio; evaluation |
+| People | Everyone trained once; 1 champion | Champions per department; role-based training | Academy/curriculum; fluency in roles |
 | Governance | One-page policy, sanctioned tools | Policy + intake + risk tiers | Review board, audit trails, regulatory program |
 
-**Reading the benchmark:** a 40-person firm at overall 3.0 with this profile is *ahead* of most peers — its next move is a first deep integration, not more governance. A 2,000-person enterprise at 3.0 with no platform strategy and no audit trail is *behind* — its constraint is industrialization, not enthusiasm.
+## Reading the Benchmark
 
-Small organizations should expect to move **one stage per 2–3 quarters** when deliberate; enterprises typically need **3–4 quarters per stage** due to coordination cost — which is why starting late is more expensive for them.
+- A 40-person firm at overall 3.0 with this profile is *ahead* of most peers — its next move is a first deep integration, not more governance
+- A 2,000-person enterprise at 3.0 with no platform strategy and no audit trail is *behind* — its constraint is industrialization, not enthusiasm
+- Small organizations should expect to move **one stage per 2–3 quarters** when deliberate
+- Enterprises typically need **3–4 quarters per stage** due to coordination cost — which is why starting late is more expensive for them
 
 ## The Positioning Readout
 
