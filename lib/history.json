@@ -77,6 +77,12 @@
   ],
   "ai-maturity-assessment": [
     {
+      "hash": "38eee4598bf8252f8e3b908b0722b0de23b108cc",
+      "shortHash": "38eee45",
+      "date": "2026-08-20T07:22:13+00:00",
+      "subject": "loop: presenter — split overloaded Size-Calibrated Benchmarks slide in AI Maturity Audit"
+    },
+    {
       "hash": "e53a158af0b71ddf8235599fddaa20ab2f9db98c",
       "shortHash": "e53a158",
       "date": "2026-08-11T07:36:58+00:00",
@@ -220,6 +226,12 @@
     }
   ],
   "getting-started-with-ai": [
+    {
+      "hash": "a5c50ce8ff3c9fd17c6ba2d460864bb928a32d07",
+      "shortHash": "a5c50ce",
+      "date": "2026-08-18T07:19:13+00:00",
+      "subject": "loop: presenter — fix three overflowing slides in Getting Started with AI"
+    },
     {
       "hash": "6053317c4bdc17a3503a0510275df0d9664da777",
       "shortHash": "6053317",
