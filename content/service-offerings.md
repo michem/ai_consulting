@@ -32,7 +32,7 @@ Three tiers, scaled to organization size and ambition: a pilot-sized Quick Start
 
 - **Setup & Configuration** (1 week)
   - API key and billing setup guidance
-  - Installation support for pilot team (Mac/Linux)
+  - Installation support for pilot team (macOS, Linux, or Windows)
   - IDE integration setup (VS Code, Cursor, or CLI)
   - Custom prompt templates for your tech stack
   - Git workflow integration

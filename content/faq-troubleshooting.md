@@ -372,7 +372,7 @@ What Claude Code actually costs, and how to keep it predictable.
 - Heavy users: €60-100/month
 
 **Compare to:**
-- GitHub Copilot: ~€10-18/user/month (flat rate, as of Feb 2026)
+- GitHub Copilot: moved from flat-rate to usage-based [AI Credits billing in June 2026](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/) — confirm current plan pricing directly with GitHub before quoting a number
 - Developer salary: €4,000-8,000/month
 - ROI typically 7-40x (the [flagship case study](/articles/service-offerings) landed at ~7.6x; a single developer with heavy usage can see 30x+)
 
