@@ -23,11 +23,7 @@ flowchart LR
         TR["Triaging"]
         KN["Knowledge retrieval"]
     end
-    FAM --> SA["Sales & Marketing"]
-    FAM --> CS["Customer Service"]
-    FAM --> OP["Operations & Finance"]
-    FAM --> HR["HR & Legal"]
-    FAM --> IT["IT & Product"]
+    FAM --> EVERY["Applied to every<br/>function below"]
 ```
 
 Every function section below is one of these five families, applied to a specific workflow.
