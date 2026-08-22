@@ -181,7 +181,7 @@ Response back to developer
 
 Two policies to have in place before the pilot starts: acceptable use, and API key management.
 
-## Acceptable Use Policy: Scope and Uses
+## Acceptable Use Policy: Purpose and Scope
 
 ```markdown
 # Claude Code Acceptable Use Policy
@@ -191,7 +191,11 @@ This policy defines acceptable use of Claude Code within [Organization].
 
 ## Scope
 Applies to all employees using Claude Code for work-related activities.
+```
 
+## Acceptable Use Policy: Acceptable Uses
+
+```markdown
 ## Acceptable Uses
 
 ### Encouraged:
@@ -294,7 +298,7 @@ Contact: [security-team@company.com]
 Last updated: [Date]
 ```
 
-## API Key Distribution Options
+## API Key Distribution: Individual vs. Team Keys
 
 **Option 1: Individual Keys (Recommended)**
 - Each developer has their own API key
@@ -307,6 +311,8 @@ Last updated: [Date]
 - Simpler management
 - Harder to track individual usage
 - Risk if key is compromised
+
+## API Key Distribution: Central Proxy
 
 **Option 3: Central Proxy**
 - All requests go through internal proxy
@@ -376,7 +382,7 @@ Select the team, define success criteria, and lay out the timeline before day on
 | Code quality | No degradation | Review metrics |
 | Issues reported | <5 blockers | Issue tracker |
 
-## Pilot Timeline (4 Weeks)
+## Pilot Timeline: Weeks 1-3 (Setup & Active Use)
 
 **Week 1: Setup**
 - Day 1: Kickoff meeting
@@ -389,7 +395,8 @@ Select the team, define success criteria, and lay out the timeline before day on
 - Weekly: Check-in meeting (30 min)
 - Collect: Usage data and feedback
 
-**Week 4: Evaluation**
+## Pilot Timeline: Week 4 (Evaluation)
+
 - Day 1: Usage analysis
 - Day 2: Team retrospective
 - Day 3: Stakeholder presentation
@@ -441,7 +448,7 @@ Four weeks of setup, active use, and review.
 - Collect feedback
 - Share tips and wins
 
-## Weekly Check-in Agenda
+## Weekly Check-in: Wins & Challenges
 
 ```markdown
 ## Weekly Pilot Check-in (30 min)
@@ -455,7 +462,11 @@ Four weeks of setup, active use, and review.
    - What didn't work?
    - Confusing situations?
    - Tool limitations?
+```
 
+## Weekly Check-in: Tips & Action Items
+
+```markdown
 3. Tips sharing (5 min)
    - Best prompts discovered?
    - Workflow integrations?
@@ -505,24 +516,19 @@ ROI: €6,000 value from €500 cost = 12x return
 
 ```markdown
 ## Pilot Retrospective Template
-
 ### What went well?
 - [Team feedback]
-
 ### What could be better?
 - [Team feedback]
-
 ### Surprising discoveries?
 - [Team feedback]
-
 ### Concerns or hesitations?
 - [Team feedback]
-
 ### Recommended for full rollout?
 - Yes/No and why
 ```
 
-## Stakeholder Presentation Outline
+## Stakeholder Presentation: Summary & Findings
 
 ```markdown
 ## Pilot Results Presentation Outline
@@ -537,7 +543,11 @@ ROI: €6,000 value from €500 cost = 12x return
    - Qualitative feedback
    - Use case examples
    - Challenges and resolutions
+```
 
+## Stakeholder Presentation: Proposal & Q&A
+
+```markdown
 3. Rollout Proposal (10 min)
    - Recommended next steps
    - Timeline
@@ -649,7 +659,7 @@ Four delivery models, from full workshops to self-paced learning.
 - Multiple sessions per wave
 - Requires trainer availability
 
-## Train-the-Trainer
+## Train-the-Trainer: Select & Train
 
 ```markdown
 ## Train-the-Trainer Approach
@@ -664,7 +674,11 @@ Four delivery models, from full workshops to self-paced learning.
 - Presentation skills
 - Common questions handling
 - Practice delivery
+```
 
+## Train-the-Trainer: Trainers Deliver
+
+```markdown
 ### Trainers Deliver
 - To their teams/cohorts
 - With consultant support
@@ -803,13 +817,15 @@ Adoption is a change-management problem as much as a technical one: communicate 
 
 Time the announcement, then match the channel to the audience.
 
-## Announcement Timeline: Weeks Before Launch
+## Announcement Timeline: 4 Weeks Before
 
 **4 weeks before rollout:**
 - Initial announcement to all engineering
 - High-level overview
 - Timeline and process
 - FAQ available
+
+## Announcement Timeline: 1-2 Weeks Before
 
 **2 weeks before:**
 - Detailed email to Wave 1
@@ -833,19 +849,16 @@ Time the announcement, then match the channel to the audience.
 
 **Company-wide:**
 - All-hands presentation
-- Engineering blog posts
-- Newsletter mentions
+- Engineering blog posts and newsletter mentions
 - Intranet updates
 
 **Team-level:**
 - Manager briefings
-- Team meeting updates
-- One-on-ones
+- Team meeting updates and one-on-ones
 
 **Individual:**
 - Direct emails to wave participants
-- Slack DMs with resources
-- Personal setup support
+- Slack DMs with resources and personal setup support
 
 ---
 
@@ -886,7 +899,7 @@ codebases and can work much faster, but still needs your expertise
 and judgment.
 ```
 
-## Concern: "Security Risk of Sending Code Externally"
+## Concern: "Security Risk" — Data & Policy
 
 Response:
 ```
@@ -901,7 +914,12 @@ Valid concern. Here's our approach:
    - Acceptable use policy defines what can/can't be shared
    - Training on safe usage
    - Regular audits
+```
 
+## Concern: "Security Risk" — Practical Reality
+
+Response:
+```
 3. Practical reality:
    - Developers already Google errors (exposes code snippets)
    - Use Stack Overflow (paste code)
@@ -965,7 +983,7 @@ programming language or framework.
 
 Collect success stories and steer new users toward quick wins first.
 
-## Success Story Template
+## Success Story Template: Challenge & Approach
 
 ```markdown
 ## Success Story: [Developer Name] - [Team]
@@ -975,7 +993,11 @@ Collect success stories and steer new users toward quick wins first.
 
 ### The Approach
 [How did they use Claude Code?]
+```
 
+## Success Story Template: Result & Takeaways
+
+```markdown
 ### The Result
 - Time saved: X hours/days
 - Quality improvement: [specific metric]
@@ -996,11 +1018,9 @@ Collect success stories and steer new users toward quick wins first.
 - Internal blog
 - Training sessions
 
-## Quick Wins Focus: First Week Recommendations
+## Quick Wins Focus: First Three Tasks
 
 ```
-Encourage developers to try these high-success tasks first:
-
 1. ✅ Explain an unfamiliar file
    - Quick value
    - No code changes
@@ -1015,7 +1035,11 @@ Encourage developers to try these high-success tasks first:
    - Low risk
    - Often-neglected task
    - Clear improvement
+```
 
+## Quick Wins Focus: What to Save for Later
+
+```
 4. ⏰ Save for later: Large refactoring
    - Wait until comfortable
    - Higher complexity
@@ -1074,7 +1098,7 @@ Monitor for any degradation:
 Goal: No degradation (or improvement)
 ```
 
-## Developer Satisfaction Survey
+## Developer Satisfaction Survey: Satisfaction & Frequency
 
 ```
 Survey monthly:
@@ -1086,7 +1110,11 @@ Survey monthly:
 2. How often do you use it?
    Daily / Few times per week / Weekly / Rarely
    Target: >70% daily
+```
 
+## Developer Satisfaction Survey: Use Case, Value & NPS
+
+```
 3. What's your primary use case?
    [Open text]
 
@@ -1098,7 +1126,7 @@ Survey monthly:
    Target: >50 NPS
 ```
 
-## ROI Calculation Example
+## ROI Calculation Example: Time Saved & Value
 
 **Simple ROI Template:**
 ```
@@ -1112,7 +1140,11 @@ Time Saved per Developer per Week:
 Value per Developer per Year:
   6 hours/week × 48 weeks = 288 hours
   288 hours × €75/hour = €21,600 per developer
+```
 
+## ROI Calculation Example: Costs & Return
+
+```
 Cost per Developer per Year:
   API usage: ~€400
   Training: €100 (amortized)
@@ -1123,7 +1155,7 @@ ROI per Developer: €21,600 / €550 = 39x
 Payback Period: ~1 week
 ```
 
-## Weekly Leadership Dashboard Example
+## Weekly Leadership Dashboard: Headline & Adoption
 
 ```markdown
 # Claude Code Adoption - Week 12
@@ -1139,7 +1171,11 @@ Payback Period: ~1 week
 - Frontend: 88% (good)
 - Mobile: 71% (needs attention)
 - DevOps: 65% (needs attention)
+```
 
+## Weekly Leadership Dashboard: Use Cases & Actions
+
+```markdown
 ## Top Use Cases
 1. Code explanation: 38%
 2. Test generation: 27%
@@ -1172,7 +1208,7 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
 - Bad first experience
 - Doesn't fit their workflow
 
-## Challenge 1 Solutions: Low Adoption in Some Teams
+## Challenge 1 Solutions: Talk & Targeted Support
 
 ```
 1. Talk to team lead
@@ -1184,7 +1220,11 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
    - Extra office hours for that team
    - Pair with champion
    - Custom examples for their work
+```
 
+## Challenge 1 Solutions: Quick Wins & Patience
+
+```
 3. Quick wins campaign
    - Find their pain points
    - Demo solutions with Claude
@@ -1209,7 +1249,7 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
 - Poor prompts
 - Lack of review
 
-## Challenge 2 Solutions: Code Quality Concerns
+## Challenge 2 Solutions: Training & Checklist
 
 ```
 1. Reinforce training
@@ -1224,7 +1264,11 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
      ✓ Linter/formatter
      ✓ Security review
      ✓ Matches standards
+```
 
+## Challenge 2 Solutions: Pairing & Examples
+
+```
 3. Pair programming
    - Pair with champion
    - Show proper review process
@@ -1249,7 +1293,7 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
 - Repetitive queries
 - Misunderstanding of pricing
 
-## Challenge 3 Solutions: API Costs Higher Than Expected
+## Challenge 3 Solutions: Analyze & Optimize Usage
 
 ```
 1. Analyze usage
@@ -1262,7 +1306,11 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
    - "Be specific to reduce context"
    - Use search before full file reads
    - Cache common queries
+```
 
+## Challenge 3 Solutions: Expectations & Budget
+
+```
 3. Set expectations
    - Share usage guidelines
    - Publish costs transparently
@@ -1286,7 +1334,7 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
 - Unknown risk profile
 - Past AI tool issues
 
-## Challenge 4 Solutions: Security/Compliance Pushback
+## Challenge 4 Solutions: Engagement & Risk
 
 ```
 1. Security engagement
@@ -1298,7 +1346,11 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
    - Document data flow
    - Identify risks
    - Implement controls
+```
 
+## Challenge 4 Solutions: Policy, Compliance & Pilot
+
+```
 3. Policy enforcement
    - Clear acceptable use
    - Technical controls if needed
@@ -1327,7 +1379,7 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
 - Automated tool differences
 - Workflow incompatibilities
 
-## Challenge 5 Solutions: Integration with Existing Tools
+## Challenge 5 Solutions: Configure & Prompt
 
 ```
 1. Configure Claude
@@ -1339,7 +1391,11 @@ Five problems come up in nearly every rollout — each with the same symptoms/ca
    - "Follow our ESLint rules"
    - "Use the project's formatter"
    - "Match the existing style"
+```
 
+## Challenge 5 Solutions: Cleanup & Tooling
+
+```
 3. Post-generation cleanup
    - Run formatter after changes
    - Fix linter issues
@@ -1373,7 +1429,7 @@ Checklists and templates to copy directly into your own rollout.
 - [ ] IDE compatibility checked
 - [ ] Integration plan complete
 
-## Pre-Rollout Checklist: Policy, Training & Pilot
+## Pre-Rollout Checklist: Policy & Training
 
 **Policy & Governance:**
 - [ ] Acceptable use policy created
@@ -1388,6 +1444,8 @@ Checklists and templates to copy directly into your own rollout.
 - [ ] Support structure defined
 - [ ] Office hours scheduled
 - [ ] Documentation published
+
+## Pre-Rollout Checklist: Pilot Preparation
 
 **Pilot Preparation:**
 - [ ] Pilot team selected
@@ -1410,7 +1468,7 @@ Checklists and templates to copy directly into your own rollout.
 - [ ] Environment verified
 - [ ] Access to support channel
 
-## Rollout Checklist: Training, Support & Measurement
+## Rollout Checklist: Training & Support
 
 **Training:**
 - [ ] Training session delivered
@@ -1424,17 +1482,18 @@ Checklists and templates to copy directly into your own rollout.
 - [ ] Office hours publicized
 - [ ] Escalation path clear
 
+## Rollout Checklist: Measurement
+
 **Measurement:**
 - [ ] Usage tracking enabled
 - [ ] Feedback collection active
 - [ ] Metrics dashboard updated
 - [ ] Success story collection ongoing
 
-## Monthly Review Template: Metrics
+## Monthly Review Template: Adoption & Usage
 
 ```markdown
 # Claude Code - Monthly Review
-
 ## Month: [Month Year]
 
 ### Adoption Metrics
@@ -1449,7 +1508,11 @@ Checklists and templates to copy directly into your own rollout.
   1. [Use case]: X%
   2. [Use case]: X%
   3. [Use case]: X%
+```
 
+## Monthly Review Template: Satisfaction & Impact
+
+```markdown
 ### Satisfaction
 - Average Rating: X/5
 - NPS Score: X
@@ -1463,7 +1526,7 @@ Checklists and templates to copy directly into your own rollout.
 - ROI: Xx return
 ```
 
-## Monthly Review Template: Actions
+## Monthly Review Template: Challenges & Stories
 
 ```markdown
 ### Challenges
@@ -1474,7 +1537,11 @@ Checklists and templates to copy directly into your own rollout.
 ### Success Stories
 - [Brief story 1]
 - [Brief story 2]
+```
 
+## Monthly Review Template: Next Month & Actions
+
+```markdown
 ### Next Month Focus
 1. [Priority 1]
 2. [Priority 2]
@@ -1501,7 +1568,7 @@ Claude Code @ [Company]
 │   └── Example Prompts Library
 ```
 
-## Internal Wiki Structure: Policies, Support & Community
+## Internal Wiki Structure: Policies & Support
 
 ```
 Claude Code @ [Company]  (continued)
@@ -1515,6 +1582,12 @@ Claude Code @ [Company]  (continued)
 │   ├── Troubleshooting
 │   ├── Office Hours Schedule
 │   └── Contact Information
+```
+
+## Internal Wiki Structure: Community
+
+```
+Claude Code @ [Company]  (continued)
 └── Community
     ├── Success Stories
     ├── Tips and Tricks
