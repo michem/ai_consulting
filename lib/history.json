@@ -33,6 +33,12 @@
   ],
   "ai-in-business-functions": [
     {
+      "hash": "5002071136f6fa5826825a90e8910a26400bfbb8",
+      "shortHash": "5002071",
+      "date": "2026-08-21T07:12:06+00:00",
+      "subject": "loop: presenter — fix diagram/section mismatch in AI Across Business Functions"
+    },
+    {
       "hash": "4f9bf0350e330abdb9f68d51054fa8aa642042f8",
       "shortHash": "4f9bf03",
       "date": "2026-08-15T07:17:43+00:00",
@@ -284,6 +290,12 @@
     }
   ],
   "implementation-guide": [
+    {
+      "hash": "3d8a715d1d1b80554203b8ef9d305cbd2aed0cec",
+      "shortHash": "3d8a715",
+      "date": "2026-08-22T07:22:15+00:00",
+      "subject": "loop: presenter — fix 25 overflowing slides in Implementation Guide"
+    },
     {
       "hash": "05453e117d44d6d5fa8a20ed2af6332211210567",
       "shortHash": "05453e1",
