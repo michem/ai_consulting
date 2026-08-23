@@ -595,7 +595,9 @@ Wave 3: Everyone else
 - Highly autonomous culture
 - Limited support resources
 
-## Rollout Timeline: Months 1-3 (200 Developers)
+## Rollout Timeline: Months 1-3 — Extended Cadence (200 Developers)
+
+This example uses a deliberately slow, sequential wave cadence — long gaps between waves for limited support resources, per the Opt-In option above. It is not the default timeline for this headcount: for 50-500 developers, the standard [Enterprise Deployment Package](/articles/service-offerings) targets 6-12 weeks by running waves in parallel rather than sequentially. Use this extended cadence for orgs choosing a slower, lower-risk pace over the standard package timeline.
 
 **Month 1: Pilot (Complete)**
 - Week 1-2: Setup and training
@@ -610,7 +612,7 @@ Wave 3: Everyone else
 - Week 1: Setup and training (two cohorts)
 - Week 2-4: Active usage and support
 
-## Rollout Timeline: Months 4-6 (200 Developers)
+## Rollout Timeline: Months 4-6 — Extended Cadence (200 Developers)
 
 **Month 4: Wave 3 (40 developers)**
 - Week 1: Setup and training
