@@ -273,6 +273,12 @@
   ],
   "implementation-guide": [
     {
+      "hash": "19e8749e0f5a1e52f56adcd69ec93634c2912182",
+      "shortHash": "19e8749",
+      "date": "2026-08-23T21:47:05+00:00",
+      "subject": "loop: editor — reconcile 200-developer rollout timeline against package duration"
+    },
+    {
       "hash": "8934c24f50233c3b204cae7dfccc6106da63a253",
       "shortHash": "8934c24",
       "date": "2026-08-20T21:47:04+00:00",
