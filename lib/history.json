@@ -1,6 +1,12 @@
 {
   "ai-architect-perspective": [
     {
+      "hash": "0c3c72748b89cf1dc4e547c72cee3462b18114c5",
+      "shortHash": "0c3c727",
+      "date": "2026-08-24T21:45:27+00:00",
+      "subject": "loop: editor — fix architecture-stack doctrine mismatch, two missed cross-links, pricing-date staleness"
+    },
+    {
       "hash": "6053317c4bdc17a3503a0510275df0d9664da777",
       "shortHash": "6053317",
       "date": "2026-08-03T07:13:59+00:00",
@@ -147,6 +153,12 @@
   ],
   "faq-troubleshooting": [
     {
+      "hash": "0c3c72748b89cf1dc4e547c72cee3462b18114c5",
+      "shortHash": "0c3c727",
+      "date": "2026-08-24T21:45:27+00:00",
+      "subject": "loop: editor — fix architecture-stack doctrine mismatch, two missed cross-links, pricing-date staleness"
+    },
+    {
       "hash": "78d515a01f0d55d2187687ea4911bdd9daae3e0a",
       "shortHash": "78d515a",
       "date": "2026-08-22T21:48:04+00:00",
@@ -272,6 +284,12 @@
     }
   ],
   "implementation-guide": [
+    {
+      "hash": "0c3c72748b89cf1dc4e547c72cee3462b18114c5",
+      "shortHash": "0c3c727",
+      "date": "2026-08-24T21:45:27+00:00",
+      "subject": "loop: editor — fix architecture-stack doctrine mismatch, two missed cross-links, pricing-date staleness"
+    },
     {
       "hash": "19e8749e0f5a1e52f56adcd69ec93634c2912182",
       "shortHash": "19e8749",
