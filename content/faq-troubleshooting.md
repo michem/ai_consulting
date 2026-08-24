@@ -361,7 +361,7 @@ What Claude Code actually costs, and how to keep it predictable.
 
 ## How much does Claude Code cost?
 
-**API pricing (as of Feb 2026 — pricing shifts quarterly; confirm current rates directly with Anthropic before quoting a number):**
+**API pricing (pricing shifts quarterly — always confirm current rates directly with Anthropic before quoting a number; don't rely on a snapshot date here):**
 - Charged per token (input and output)
 - Varies by model (Sonnet, Opus, Haiku)
 - Volume discounts available for enterprise

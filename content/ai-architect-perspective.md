@@ -59,7 +59,7 @@ The architect thinks in layers, and insists that each layer be swappable:
 | **Data & context** | Document stores, embeddings, MCP/connectors into business systems | Can AI reach the data it needs — safely, with the right permissions? |
 | **Platform & security** | Identity, secrets, logging, cost controls, tenancy | Who used what, with which data, at what cost? |
 
-**The core doctrine: your durable assets are the top and bottom layers** — redesigned workflows and well-organized, permission-aware data. Models in the middle are commodities that improve and cheapen every quarter. Architect so you can swap them.
+**The core doctrine: your durable assets are workflows and data** — redesigned workflows at the top of the stack, well-organized, permission-aware data two layers down. Orchestration, models, and the platform layer around and below them are commodities that improve, cheapen, and get replaced on their own schedule. Architect so you can swap them without touching what you actually own.
 
 ## The Stack, Visualized
 
@@ -71,7 +71,7 @@ flowchart TB
     DA --> PL["Platform & security<br/>identity, logging, cost control"]
 ```
 
-Read it as a value sandwich: the layers you own outlive every vendor decision in the middle. Every architecture review starts by checking that the middle is still swappable.
+Read it as two anchors, not a strict top/bottom pair: the workflows and data layers you own outlive every vendor decision made in the layers around them. Every architecture review starts by checking that orchestration, models, and platform are still swappable.
 
 ## Recurring Decision Frameworks
 
@@ -107,7 +107,7 @@ A well-run fractional engagement starts the same way regardless of company size:
 
 1. **Maturity audit** — run the [AI Maturity Audit](/articles/ai-maturity-assessment); interview leadership and the floor; inventory tools, data, and shadow usage
 2. **Positioning readout** — where you are vs. peers of your size; the two or three dimensions holding you back
-3. **Portfolio draft** — 10–20 candidate use cases from the business functions map, scored; top 3 selected with owners and baselines
+3. **Portfolio draft** — 10–20 candidate use cases from the [business functions map](/articles/ai-in-business-functions), scored; top 3 selected with owners and baselines
 4. **Foundations check** — sanctioned tooling, one-page policy, measurement habit in place
 5. **Roadmap & cadence** — a 2–3 quarter roadmap and the recurring operating loop agreed
 

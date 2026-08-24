@@ -410,7 +410,7 @@ Four weeks of setup, active use, and review.
 
 ## Training Workshop (3 hours)
 
-- Use the training deck
+- Use the [training deck](/articles/training-deck)
 - Live demonstrations
 - Hands-on exercises
 - Q&A
