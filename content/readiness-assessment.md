@@ -617,7 +617,7 @@ Based on your overall score, here are the recommended next steps:
 - Week 5+: Phased rollout
 
 **Recommended package:**
-- Quick Start or Enterprise Deployment package
+- [Quick Start or Enterprise Deployment package](/articles/service-offerings)
 - Consider consulting support for optimal results
 
 **Immediate actions:**

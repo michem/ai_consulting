@@ -193,7 +193,7 @@ Day-to-day questions teams ask once they're actually working with Claude Code.
 
 ## How do I get the best results from Claude Code?
 
-**Follow Context + Task + Constraints** — the same structure taught in [Enterprise Best Practices](/articles/best-practices) and the training workshop:
+**Follow Context + Task + Constraints** — the same structure taught in [Enterprise Best Practices](/articles/best-practices) and the [training workshop](/articles/training-deck):
 
 1. **Context:** Provide relevant background
 2. **Task:** Be specific about what you want to accomplish
