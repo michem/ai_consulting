@@ -153,6 +153,12 @@
   ],
   "faq-troubleshooting": [
     {
+      "hash": "96513d137ec132347a50cb6391fd90815ff6370f",
+      "shortHash": "96513d1",
+      "date": "2026-08-25T21:46:33+00:00",
+      "subject": "loop: editor — add two missed cross-links (training workshop, service packages)"
+    },
+    {
       "hash": "0c3c72748b89cf1dc4e547c72cee3462b18114c5",
       "shortHash": "0c3c727",
       "date": "2026-08-24T21:45:27+00:00",
@@ -382,6 +388,12 @@
     }
   ],
   "readiness-assessment": [
+    {
+      "hash": "96513d137ec132347a50cb6391fd90815ff6370f",
+      "shortHash": "96513d1",
+      "date": "2026-08-25T21:46:33+00:00",
+      "subject": "loop: editor — add two missed cross-links (training workshop, service packages)"
+    },
     {
       "hash": "926b69ec588c85a04af1d7483867a27bec508fe0",
       "shortHash": "926b69e",
