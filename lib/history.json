@@ -177,6 +177,12 @@
   ],
   "faq-troubleshooting": [
     {
+      "hash": "cc3c68d2d421644b85ab5799efd9b0c1bf0b3c85",
+      "shortHash": "cc3c68d",
+      "date": "2026-08-25T07:21:12+00:00",
+      "subject": "loop: presenter — fix 12 overflowing slides in FAQ & Troubleshooting"
+    },
+    {
       "hash": "8ed311005437634a2a0cd462ad8663f95ef83997",
       "shortHash": "8ed3110",
       "date": "2026-08-10T07:21:42+00:00",
