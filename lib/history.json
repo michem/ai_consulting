@@ -291,6 +291,12 @@
   ],
   "implementation-guide": [
     {
+      "hash": "606bde187189685e46b290c1702c8bc69d0c0db6",
+      "shortHash": "606bde1",
+      "date": "2026-08-26T21:43:50+00:00",
+      "subject": "loop: editor — reciprocal cross-link from Implementation Guide to Readiness Assessment"
+    },
+    {
       "hash": "0c3c72748b89cf1dc4e547c72cee3462b18114c5",
       "shortHash": "0c3c727",
       "date": "2026-08-24T21:45:27+00:00",
