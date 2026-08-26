@@ -80,7 +80,7 @@ Before any code gets written, align the business case, the technical footprint, 
 
 ## Technical Readiness Assessment
 
-With the business case made, confirm the org can actually run Claude Code: operating systems, IDEs, network access, and a security review.
+With the business case made, confirm the org can actually run Claude Code: operating systems, IDEs, network access, and a security review. For a scored, structured version of this check, run the [Enterprise Readiness Assessment](/articles/readiness-assessment) alongside this section.
 
 ## Operating System Requirements
 
