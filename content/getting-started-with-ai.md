@@ -34,7 +34,7 @@ Think of adoption in three horizons. Every organization should be active in Hori
 
 The most common mistake is starting at Horizon 3 ("let's build our own model / an AI product") before Horizon 1 fluency exists in the organization.
 
-## Buy, Configure, or Build?
+## Buy, Configure, Integrate, or Build?
 
 For each use case, choose the lowest rung on the ladder that meets the need:
 
