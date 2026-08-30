@@ -359,6 +359,12 @@
   ],
   "readiness-assessment": [
     {
+      "hash": "c65b4494d3fb0276eccea461b1156514f3deec25",
+      "shortHash": "c65b449",
+      "date": "2026-08-30T07:20:26+00:00",
+      "subject": "loop: presenter — fix 7 overflowing slides and a broken blank-fill bug in Readiness Assessment"
+    },
+    {
       "hash": "e81fc993b503358b37018fe8299ca9a5df9b8641",
       "shortHash": "e81fc99",
       "date": "2026-08-13T07:28:13+00:00",
