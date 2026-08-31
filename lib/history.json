@@ -457,6 +457,12 @@
   ],
   "service-offerings": [
     {
+      "hash": "edbd9cbbda973b7e5c592ad95722f2dea4759494",
+      "shortHash": "edbd9cb",
+      "date": "2026-08-31T21:45:03+00:00",
+      "subject": "loop: editor — add missing JetBrains IDE mention in Service Offerings"
+    },
+    {
       "hash": "926b69ec588c85a04af1d7483867a27bec508fe0",
       "shortHash": "926b69e",
       "date": "2026-08-21T21:47:22+00:00",
