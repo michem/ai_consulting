@@ -33,7 +33,7 @@ Three tiers, scaled to organization size and ambition: a pilot-sized Quick Start
 - **Setup & Configuration** (1 week)
   - API key and billing setup guidance
   - Installation support for pilot team (macOS, Linux, or Windows)
-  - IDE integration setup (VS Code, Cursor, or CLI)
+  - IDE integration setup (VS Code, Cursor, JetBrains via plugin, or CLI)
   - Custom prompt templates for your tech stack
   - Git workflow integration
 
@@ -255,7 +255,7 @@ We'll discuss:
 
 ### What are the technical requirements?
 - **Operating System:** macOS, Linux, or Windows (native support, or WSL2 for sandboxed execution) — see [FAQ](/articles/faq-troubleshooting) for details
-- **IDE:** VS Code, Cursor, or command-line terminal
+- **IDE:** VS Code, Cursor, JetBrains (via plugin), or command-line terminal
 - **Anthropic API:** API key and billing account
 - **Network:** Internet access (proxy configuration supported)
 
