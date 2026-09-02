@@ -127,6 +127,12 @@
   ],
   "best-practices": [
     {
+      "hash": "c16c240c57bd79ae303d25deda5e7bbe27383840",
+      "shortHash": "c16c240",
+      "date": "2026-09-02T07:27:04+00:00",
+      "subject": "loop: presenter — fix real overflow in Enterprise Best Practices and Enterprise Readiness Assessment, root-cause a false-positive"
+    },
+    {
       "hash": "5094d9e45e75d6724da4338c385a12beaad3a374",
       "shortHash": "5094d9e",
       "date": "2026-08-17T07:28:49+00:00",
@@ -358,6 +364,12 @@
     }
   ],
   "readiness-assessment": [
+    {
+      "hash": "c16c240c57bd79ae303d25deda5e7bbe27383840",
+      "shortHash": "c16c240",
+      "date": "2026-09-02T07:27:04+00:00",
+      "subject": "loop: presenter — fix real overflow in Enterprise Best Practices and Enterprise Readiness Assessment, root-cause a false-positive"
+    },
     {
       "hash": "c65b4494d3fb0276eccea461b1156514f3deec25",
       "shortHash": "c65b449",
