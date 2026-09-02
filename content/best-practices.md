@@ -36,8 +36,10 @@ Draw this line before your team has to guess where it is.
 - Code patterns and examples
 - Test data (non-production)
 
-⚠️ **Share with caution:**
-- Business logic (review output carefully)
+## What to Share with Caution
+
+⚠️ **Share with caution — review the output carefully:**
+- Business logic
 - API designs (ensure no sensitive endpoints exposed)
 - Database schemas (mask sensitive table/field names)
 - Configuration templates (remove actual values)
@@ -184,7 +186,7 @@ fi
 - Include in security awareness training
 - Audit usage logs
 
-## Industry-Specific Compliance
+## Industry-Specific Compliance — Healthcare & Payments
 
 **HIPAA (Healthcare):**
 - Anthropic offers BAA for enterprise
@@ -196,7 +198,8 @@ fi
 - Don't use for payment processing code without review
 - Sanitize examples and test data
 
-**Financial Services:**
+## Industry-Specific Compliance — Financial Services
+
 - Review code for regulatory compliance
 - Maintain audit trails
 - Follow change management procedures
@@ -473,11 +476,9 @@ Constraints:
 - Use the Joi library (already in package.json)
 - Follow the pattern in src/validators/productValidator.js
 - Return 400 with clear error messages
+- Validate: name (2-50 chars, letters/spaces), email (valid, unique in DB),
+  password (min 8 chars, upper/lower/number)
 - Add unit tests
-- Must validate:
-  - Name: 2-50 chars, letters and spaces only
-  - Email: valid format, unique in DB
-  - Password: min 8 chars, must have uppercase, lowercase, number
 ```
 
 ## Pattern: Code Explanation — Template
@@ -526,21 +527,14 @@ Include: unit tests, documentation, error handling"
 "Implement a product search feature that allows filtering by category and price range
 
 Requirements:
-- GET /api/products/search endpoint
-- Query params: category, minPrice, maxPrice
-- Return paginated results (20 per page)
-- Sort by relevance (name match), then price
+- GET /api/products/search, params: category, minPrice, maxPrice
+- Return paginated results (20/page), sorted by relevance then price
 
-Follow:
-- Existing API pattern in src/routes/
-- Use ProductService for business logic
-- Sequelize for database queries
+Follow: existing API pattern in src/routes/, ProductService for business
+logic, Sequelize for queries
 
-Include:
-- Input validation
-- Unit tests for controller and service
-- API documentation in OpenAPI format
-- Error handling for invalid inputs"
+Include: input validation, unit tests (controller + service), OpenAPI
+docs, error handling for invalid inputs"
 ```
 
 ## Pattern: Debugging — Template
@@ -571,15 +565,11 @@ Please identify the root cause, implement a fix, and add a test to prevent regre
 Error message:
 TypeError: Cannot read property 'id' of undefined
   at UserService.update (src/services/user.js:67)
-  at UserController.updateProfile (src/controllers/user.js:45)
 
-Expected behavior:
-Should update user profile and return 200 with updated user
+Expected: update user profile, return 200 with the updated user
 
-Context:
-- Happens only when updating without changing email
-- Works fine when email is changed
-- Started after recent refactoring
+Context: happens only when updating without changing email; works fine
+when email is changed; started after recent refactoring
 
 Please identify the root cause, implement a fix, and add a test to prevent regression."
 ```
@@ -608,20 +598,14 @@ Constraints: maintain backward compatibility, keep tests passing, follow [patter
 ```
 "Refactor src/controllers/orderController.js to improve testability
 
-Current issues:
-- Direct database calls make testing hard
-- Tightly coupled to Express request/response
-- Business logic mixed with HTTP concerns
+Current issues: direct DB calls make testing hard; tightly coupled to
+Express request/response; business logic mixed with HTTP concerns
 
-Desired outcome:
-- Business logic in OrderService
-- Controller only handles HTTP
-- Easy to unit test both layers
+Desired outcome: business logic in OrderService, controller only
+handles HTTP, easy to unit test both layers
 
-Constraints:
-- Maintain exact same API contract
-- Keep all existing tests passing
-- Follow the pattern in UserController/UserService"
+Constraints: maintain exact same API contract, keep all existing tests
+passing, follow the pattern in UserController/UserService"
 ```
 
 ## Pattern: Testing — Template
@@ -637,10 +621,7 @@ Test scenarios:
 - [Scenario 2]
 - [...]
 
-Use:
-- [Test framework]
-- [Test patterns]
-- [Mocking approach]
+Use: [test framework], [test patterns], [mocking approach]
 
 Coverage goal: [X]%"
 ```
@@ -650,19 +631,10 @@ Coverage goal: [X]%"
 ```
 "Create comprehensive tests for PaymentService.processPayment()
 
-Test scenarios:
-- Successful payment
-- Insufficient funds
-- Invalid card
-- Network timeout
-- Duplicate transaction
-- Partial refund
-- Full refund
+Test scenarios: successful payment, insufficient funds, invalid card,
+network timeout, duplicate transaction, partial/full refund
 
-Use:
-- Jest
-- Mock external payment gateway
-- Follow AAA pattern (Arrange, Act, Assert)
+Use: Jest, mock external payment gateway, AAA pattern (Arrange, Act, Assert)
 
 Coverage goal: 100% of processPayment() function"
 ```
@@ -835,7 +807,7 @@ Claude: [Pushes branch and creates PR with:]
 Title: "Add product review functionality"
 ```
 
-## Pull Requests — Generated Body
+## Pull Requests — Generated Body: Summary & Changes
 
 ```
 Body:
@@ -848,7 +820,11 @@ Implements product reviews allowing customers to rate and comment on products.
 - Added review UI components
 - Implemented rating aggregation
 - Added moderation workflow
+```
 
+## Pull Requests — Generated Body: Testing & Checklist
+
+```
 ## Testing
 - Unit tests for Review model
 - Integration tests for API
@@ -1015,14 +991,9 @@ Company Wiki / Claude Code
 ### Pattern
 "I'm getting a [status code] error from [endpoint].
 
-Error response:
-[paste error]
-
-Request:
-[paste request]
-
-Expected:
-[describe expected behavior]
+Error response: [paste error]
+Request: [paste request]
+Expected: [describe expected behavior]
 
 Please debug and fix."
 ```
@@ -1033,16 +1004,8 @@ Please debug and fix."
 ### Real Example
 "I'm getting a 422 error from POST /api/orders.
 
-Error response:
-{"error": "Validation failed", "details": ["Invalid product ID"]}
-
-Request:
-{
-  "products": [123, 456],
-  "address": {...},
-  "payment": {...}
-}
-
+Error response: {"error": "Validation failed", "details": ["Invalid product ID"]}
+Request: {"products": [123, 456], "address": {...}, "payment": {...}}
 Expected: Should create order successfully
 
 Please debug and fix."
@@ -1082,20 +1045,22 @@ Please debug and fix."
 📅 Reminder: Office hours tomorrow at 2pm in #claude-office-hours
 ```
 
-## Human + Claude Pairing
+## Human + Claude Pairing — Driver-Navigator
 
-**Pattern 1: Driver-Navigator**
 ```
 Human: Navigator (high-level direction)
 Claude: Driver (implementation details)
 ```
 
-**Pattern 2: Reviewer-Implementer**
+Use this when the human knows the domain better than the codebase.
+
+## Human + Claude Pairing — Reviewer-Implementer
+
 ```
 Claude: Implementer (writes the first draft)
 Human: Reviewer (checks correctness, judges tradeoffs, approves)
 ```
 
-Rotate patterns by task: use Driver-Navigator when the human knows the domain better than the codebase, Reviewer-Implementer when the reverse is true.
+Use this when the reverse is true — Claude knows this corner of the codebase better than the human does. Rotate between the two patterns by task, not by habit.
 
 > **Where to go next:** these practices support the operating model in [The AI Architect's Perspective](/articles/ai-architect-perspective); for common issues, see [FAQ & Troubleshooting](/articles/faq-troubleshooting). They're the "how" — for the "why," see [Team-First AI](/articles/team-first-ai): this is what Question 4 (leverage, task-relevant maturity) looks like once a team is actually using the tool.

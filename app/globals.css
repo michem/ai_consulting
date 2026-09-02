@@ -547,6 +547,14 @@ a:hover {
   font-size: clamp(1rem, 1.7vw, 1.18rem);
   line-height: 1.6;
 }
+/* A trailing `---` divider (rendered as <hr>) before the next `##` heading
+   ends up as the last element in a slide's content. Its bottom margin was
+   counted in scrollHeight and flagged whole slides as overflowing even
+   though nothing was actually clipped — only empty space ran past the
+   fold. Drop the last child's bottom margin so it never does. */
+.slide-body > *:last-child {
+  margin-bottom: 0;
+}
 .slide-body p {
   margin: 0.7rem 0;
 }

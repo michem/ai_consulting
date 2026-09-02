@@ -104,7 +104,7 @@ Accelerate onboarding / Reduce technical debt / Enable innovation / Other: _____
 Can your developers actually reach and run Claude Code day to day?
 
 ## 2.1 Operating System Compatibility
-**Question:** What percentage of your developers are on a supported OS? (macOS, Linux, and Windows — native or WSL2 — are all supported; only sandboxed command execution is Windows-native/WSL1-limited.)
+**Question:** What percentage of your developers are on a supported OS? (macOS, Linux, Windows/WSL2 all supported; sandboxed execution needs WSL2, not native.)
 
 - [ ] 5 - 100% on a supported OS
 - [ ] 4 - 90-99% on a supported OS
@@ -118,7 +118,6 @@ Can your developers actually reach and run Claude Code day to day?
 ```
 Total developers: _____ · macOS: _____ (___%) · Linux: _____ (___%)
 Windows (native/WSL2): _____ (___%)
-
 Need sandboxed execution on Windows? Confirm WSL2, not native.
 ```
 
@@ -171,9 +170,8 @@ Timeline to enable access:
 
 **Notes:**
 ```
-Key development tools: Version control: _____ · CI/CD: _____
+Version control: _____ · CI/CD: _____
 Testing framework: _____ · Code quality tools: _____
-
 Integration concerns:
 ```
 
@@ -359,7 +357,6 @@ The team's baseline habits predict how well it will absorb AI-assisted work.
 Senior developers: _____ (___%)
 Mid-level: _____ (___%)
 Junior: _____ (___%)
-
 Mentorship program:
 ```
 
@@ -442,7 +439,6 @@ Budget, time, and champions — the resources a rollout actually consumes.
 ```
 Estimated costs: API €_____/month · Training €_____
 Consulting €_____ · Internal time _____ hours
-
 Budget status:
 Approval process:
 ```
@@ -479,11 +475,7 @@ Upcoming deadlines:
 
 **Notes:**
 ```
-Identified champions:
-1. _______________
-2. _______________
-3. _______________
-
+Identified champions: 1. _____________ 2. _____________ 3. _____________
 Champion capacity:
 Support for champions:
 ```
@@ -586,15 +578,12 @@ Based on your overall score, here are the recommended next steps:
 - Week 5: Pilot review and go/no-go
 - Week 6+: Phased rollout
 
-**Recommended package:**
-- Quick Start or Enterprise Deployment package
-- Consider consulting support for optimal results
+**Recommended package:** Quick Start or Enterprise Deployment — consider consulting support for optimal results.
 
 **Immediate actions:**
-1. Schedule kickoff meeting
-2. Select pilot team
-3. Set up billing and API access
-4. Plan training sessions
+1. Schedule kickoff meeting and select pilot team
+2. Set up billing and API access
+3. Plan training sessions
 
 ## If Score 3.0-3.9 (Nearly Ready)
 ⚠️ **Pilot program recommended, but address gaps first**
@@ -605,7 +594,7 @@ Based on your overall score, here are the recommended next steps:
 - Week 5-6: Review and remediation
 - Week 7+: Decision on full rollout
 
-**Focus areas:** Address any scores below 3.0 / Secure missing approvals / Resolve technical blockers / Build internal support
+**Focus areas:** scores below 3.0, missing approvals, technical blockers, internal support
 
 **Immediate actions:**
 1. Review gaps with leadership
