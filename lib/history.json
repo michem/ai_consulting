@@ -421,6 +421,12 @@
   ],
   "service-offerings": [
     {
+      "hash": "e6b4bd08f2569384eecde0ff7b716482cc6a90c5",
+      "shortHash": "e6b4bd0",
+      "date": "2026-09-03T07:15:04+00:00",
+      "subject": "loop: presenter — split two overflowing bundled-subsection slides in Service Offerings"
+    },
+    {
       "hash": "1a23afc109c3082240ab24ffbab8eecfff7bd786",
       "shortHash": "1a23afc",
       "date": "2026-08-14T07:36:01+00:00",
