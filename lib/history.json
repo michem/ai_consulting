@@ -491,6 +491,12 @@
   ],
   "training-deck": [
     {
+      "hash": "afab21f786c6b00004524f612eafd216cf2bb26a",
+      "shortHash": "afab21f",
+      "date": "2026-09-04T07:18:32+00:00",
+      "subject": "loop: presenter — fix 11 overflowing slides in Training Workshop"
+    },
+    {
       "hash": "1a23afc109c3082240ab24ffbab8eecfff7bd786",
       "shortHash": "1a23afc",
       "date": "2026-08-14T07:36:01+00:00",
