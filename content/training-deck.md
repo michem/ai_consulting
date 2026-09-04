@@ -45,6 +45,10 @@ Five parts, three hours: introduction, hands-on setup, core skills, advanced pat
 - **Context-aware:** Remembers your conversation and project structure
 - **Multi-modal:** Can view images and diagrams
 
+---
+
+## Slide: Like Pair Programming With an Expert
+
 **It's like pair programming with an expert who:**
 - Never gets tired
 - Has read millions of codebases
@@ -315,9 +319,8 @@ Claude:
 
 ---
 
-## Prompting Patterns: Exploration & Specification
+## Prompting Pattern 1: Exploration
 
-### Pattern 1: Exploration
 **When:** You don't know the codebase well
 
 **Prompt:**
@@ -325,7 +328,10 @@ Claude:
 - "Where is [functionality] implemented?"
 - "Show me examples of [pattern] in this codebase"
 
-### Pattern 2: Specification
+---
+
+## Prompting Pattern 2: Specification
+
 **When:** You know what you want
 
 **Prompt:**
@@ -335,9 +341,8 @@ Claude:
 
 ---
 
-## Prompting Patterns: Collaboration & Debugging
+## Prompting Pattern 3: Collaboration
 
-### Pattern 3: Collaboration
 **When:** You want to think through a problem
 
 **Prompt:**
@@ -345,7 +350,10 @@ Claude:
 - "What are the tradeoffs between [approach A] and [approach B]?"
 - "Review this approach and suggest improvements"
 
-### Pattern 4: Debugging
+---
+
+## Prompting Pattern 4: Debugging
+
 **When:** Something isn't working
 
 **Prompt:**
@@ -360,8 +368,7 @@ Claude:
 **Provide:**
 - What the code should do
 - Expected inputs and outputs
-- Error handling requirements
-- Performance considerations
+- Error handling and performance requirements
 - Existing patterns to follow
 
 **Example:**
@@ -455,7 +462,10 @@ Claude:
 - Relevant logs
 - What you were trying to do
 
-**Example:**
+---
+
+## Debugging: A Full Example
+
 ```
 "I'm getting this error when trying to create a new user:
 
@@ -607,7 +617,7 @@ try {
 
 ---
 
-## Refactoring Example: After
+## Refactoring Example: After — The Handler
 
 ### Centralized Error Handler
 ```javascript
@@ -621,7 +631,14 @@ class ErrorHandler {
     return res.status(500).json({ error: 'Internal error' });
   }
 }
+```
 
+---
+
+## Refactoring Example: After — The Controller
+
+### Every Controller Gets Simpler
+```javascript
 // UserController.js
 const user = await UserService.create(data);
 res.json(user);
@@ -707,7 +724,10 @@ What are the recommended alternatives?"
 "Commit these changes with a descriptive message"
 ```
 
-**Result:**
+---
+
+## Git: Example Commit Result
+
 ```bash
 git add src/services/user.js tests/user.test.js
 git commit -m "feat: add email validation to user creation
@@ -780,12 +800,16 @@ git commit -m "feat: add email validation to user creation
 
 ---
 
-## Do's: Stay Engaged and Keep Testing
+## Do's: Be Conversational
 
 ### ✅ Be Conversational
 - Ask questions naturally
 - Provide context
 - Iterate on responses
+
+---
+
+## Do's: Stay Engaged and Keep Testing
 
 ### ✅ Stay Engaged
 - Review all generated code
@@ -813,12 +837,16 @@ git commit -m "feat: add email validation to user creation
 
 ---
 
-## Don'ts: Don't Skip Review or Testing
+## Don'ts: Don't Blindly Accept Code
 
 ### ❌ Blindly Accept Code
 - Always review generated code
 - Understand before merging
 - Check for security issues
+
+---
+
+## Don'ts: Don't Over-rely or Skip Testing
 
 ### ❌ Over-rely
 - You're still the developer
@@ -1020,7 +1048,9 @@ git commit -m "feat: add email validation to user creation
 - What examples would help?
 - How can we support you better?
 
-### Report Issues
+---
+
+## Slide: Report Issues
 
 **If you encounter:**
 - Technical problems
@@ -1325,10 +1355,7 @@ A: No, it's a tool to augment developers, not replace them. You're still in cont
 - Schedule office hours
 - Post FAQs from session
 
-**Ongoing:**
-- Weekly office hours
-- Monthly tips email
-- Quarterly refresher sessions
+**Ongoing:** Weekly office hours, monthly tips email, quarterly refresher sessions.
 
 ---
 
