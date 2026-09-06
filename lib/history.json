@@ -83,6 +83,12 @@
   ],
   "ai-maturity-assessment": [
     {
+      "hash": "e5418e094ca418f393a67dd58098b25f548aadcb",
+      "shortHash": "e5418e0",
+      "date": "2026-09-06T07:15:20+00:00",
+      "subject": "loop: presenter — turn sparse Six Dimensions slide into a real overview"
+    },
+    {
       "hash": "38eee4598bf8252f8e3b908b0722b0de23b108cc",
       "shortHash": "38eee45",
       "date": "2026-08-20T07:22:13+00:00",
