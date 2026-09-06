@@ -40,6 +40,13 @@ The 2→3 transition is where most value is lost: [MIT's *GenAI Divide* study (A
 
 Score each dimension **1–5** using the stage descriptions above as anchors. Score what is *actually true today*, not what is planned.
 
+1. **Strategy & Leadership** — does spend follow a stated view of where AI creates value?
+2. **Use Cases & Value** — is AI deployed against real work, and is the value measured?
+3. **Data & Knowledge** — can AI reach the information it needs, safely?
+4. **Technology & Integration** — standalone chat tools, or integrated capability?
+5. **People & Culture** — fluency across the org, or a few enthusiasts?
+6. **Governance & Risk** — guardrails that enable, or block, or don't exist?
+
 ## Dimension 1: Strategy & Leadership
 Does leadership have a view on where AI creates value here — and does spending follow it?
 - 1: AI absent from strategy, or pure buzzword
