@@ -71,7 +71,7 @@ flowchart LR
     DA --> PL["Platform & security<br/>identity, logging, cost"]
 ```
 
-Read it as a value sandwich: the layers you own outlive every vendor decision in the middle. Every architecture review starts by checking that the middle is still swappable.
+Read it as two anchors, not a strict top/bottom pair: the workflows and data layers you own outlive every vendor decision made in the layers around them. Every architecture review starts by checking that orchestration, models, and platform are still swappable.
 
 ## Recurring Decision Frameworks
 
@@ -112,7 +112,7 @@ A well-run fractional engagement starts the same way regardless of company size:
 
 1. **Maturity audit** — run the [AI Maturity Audit](/articles/ai-maturity-assessment); interview leadership and the floor; inventory tools, data, and shadow usage
 2. **Positioning readout** — where you are vs. peers of your size; the two or three dimensions holding you back
-3. **Portfolio draft** — 10–20 candidate use cases from the business functions map, scored; top 3 selected with owners and baselines
+3. **Portfolio draft** — 10–20 candidate use cases from the [business functions map](/articles/ai-in-business-functions), scored; top 3 selected with owners and baselines
 4. **Foundations check** — sanctioned tooling, one-page policy, measurement habit in place
 5. **Roadmap & cadence** — a 2–3 quarter roadmap and the recurring operating loop agreed
 

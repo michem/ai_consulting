@@ -82,7 +82,7 @@ What it takes to get Claude Code installed, licensed, and reachable from behind 
 ## What are the system requirements?
 
 **Operating System:**
-- ✅ macOS (M1/M2/M3 and Intel)
+- ✅ macOS (Apple Silicon and Intel)
 - ✅ Linux (Ubuntu, Debian, Fedora, etc.)
 - ✅ Windows: native support (Windows 10 1809+ or Windows Server 2019+); WSL2 also works and is required for sandboxed command execution
 
@@ -173,10 +173,10 @@ Day-to-day questions teams ask once they're actually working with Claude Code.
 
 ## How do I get the best results from Claude Code?
 
-**Follow the 3 C's:**
+**Follow Context + Task + Constraints** — the same structure taught in [Enterprise Best Practices](/articles/best-practices) and the [training workshop](/articles/training-deck):
 
 1. **Context:** Provide relevant background
-2. **Clarity:** Be specific about what you want
+2. **Task:** Be specific about what you want to accomplish
 3. **Constraints:** Specify requirements and limitations
 
 **Example:**
@@ -338,7 +338,7 @@ What Claude Code actually costs, and how to keep it predictable.
 
 ## How much does Claude Code cost?
 
-**API pricing (as of Feb 2026):**
+**API pricing (pricing shifts quarterly — always confirm current rates directly with Anthropic before quoting a number; don't rely on a snapshot date here):**
 - Charged per token (input and output)
 - Varies by model (Sonnet, Opus, Haiku)
 - Volume discounts available for enterprise

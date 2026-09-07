@@ -573,10 +573,10 @@ Based on your overall score, here are the recommended next steps:
 ✅ **You're ready to proceed!**
 
 **Recommended timeline:**
-- Week 1-2: Pilot program setup
-- Week 3-4: Pilot execution
-- Week 5: Pilot review and go/no-go
-- Week 6+: Phased rollout
+- Week 1: Pilot program setup
+- Week 2-3: Pilot execution
+- Week 4: Pilot review and go/no-go
+- Week 5+: Phased rollout
 
 **Recommended package:** Quick Start or Enterprise Deployment — consider consulting support for optimal results.
 

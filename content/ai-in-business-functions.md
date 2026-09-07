@@ -149,10 +149,15 @@ Usually the most AI-mature function already — the architect's job is to system
 
 ## Executive & Cross-Functional
 
+**Quick wins**
 - Board and management reporting: first-draft narratives, consistency checks across decks
 - Meeting infrastructure: summaries, decisions, and action tracking as an organizational habit
+
+**Deeper plays**
 - Company-wide knowledge assistant — the single highest-leverage *shared* investment, and the natural first "deeper play" for most organizations
 - Strategic analysis sparring: scenario stress-testing, pre-mortems, red-teaming plans
+
+**Metrics:** report/deck prep time, meeting-to-action lag, cross-functional questions answered by the knowledge assistant instead of a person.
 
 ## How to Use This Map
 

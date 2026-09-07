@@ -53,7 +53,7 @@ Before any code gets written, align the business case, the technical footprint, 
 - Internal support resources: €X per month
 - Consulting services: €X (if applicable)
 
-**Typical ROI:** 3-6 month payback period
+**Typical ROI:** 1.5–6 month payback period for a full rollout — training, integration, and ramp-up included. The [flagship case study](/articles/service-offerings) landed at 1.5 months. That's a different number from the steady-state, per-developer marginal payback (ongoing API and support cost against ongoing time saved, once someone is already trained and rolled out) — see the worked example later in this guide, which pays back in about a week on that narrower basis.
 
 ## Strategic Questions to Answer
 
@@ -80,11 +80,11 @@ Before any code gets written, align the business case, the technical footprint, 
 
 ## Technical Readiness Assessment
 
-With the business case made, confirm the org can actually run Claude Code: operating systems, IDEs, network access, and a security review.
+With the business case made, confirm the org can actually run Claude Code: operating systems, IDEs, network access, and a security review. For a scored, structured version of this check, run the [Enterprise Readiness Assessment](/articles/readiness-assessment) alongside this section.
 
 ## Operating System Requirements
 
-- ✅ macOS: Fully supported (M1/M2 and Intel)
+- ✅ macOS: Fully supported (Apple Silicon and Intel)
 - ✅ Linux: Fully supported (Ubuntu, Debian, Fedora, etc.)
 - ✅ Windows: native support (Windows 10 1809+ or Windows Server 2019+); WSL2 needed only for sandboxed execution — see [FAQ](/articles/faq-troubleshooting) for details
 
@@ -349,7 +349,7 @@ export ANTHROPIC_API_KEY="sk-ant-..."
 
 With planning done, run a focused pilot before any wider rollout.
 
-## Phase 1: Pilot Planning (Weeks 1-2)
+## Phase 1: Pilot Planning (Pre-Launch)
 
 Select the team, define success criteria, and lay out the timeline before day one.
 
@@ -402,7 +402,7 @@ Select the team, define success criteria, and lay out the timeline before day on
 - Day 3: Stakeholder presentation
 - Day 4-5: Go/No-go decision
 
-## Phase 2: Pilot Execution (Weeks 3-6)
+## Phase 2: Pilot Execution (Weeks 1-4)
 
 Four weeks of setup, active use, and review.
 
@@ -429,7 +429,7 @@ Four weeks of setup, active use, and review.
 
 ## Training Workshop (3 hours)
 
-- Use the training deck
+- Use the [training deck](/articles/training-deck)
 - Live demonstrations
 - Hands-on exercises
 - Q&A
@@ -617,7 +617,9 @@ Wave 3: Everyone else
 - Highly autonomous culture
 - Limited support resources
 
-## Rollout Timeline: Months 1-3 (200 Developers)
+## Rollout Timeline: Months 1-3 — Extended Cadence (200 Developers)
+
+This example uses a deliberately slow, sequential wave cadence — long gaps between waves for limited support resources, per the Opt-In option above. It is not the default timeline for this headcount: for 50-500 developers, the standard [Enterprise Deployment Package](/articles/service-offerings) targets 6-12 weeks by running waves in parallel rather than sequentially. Use this extended cadence for orgs choosing a slower, lower-risk pace over the standard package timeline.
 
 **Month 1: Pilot (Complete)**
 - Week 1-2: Setup and training
@@ -632,7 +634,7 @@ Wave 3: Everyone else
 - Week 1: Setup and training (two cohorts)
 - Week 2-4: Active usage and support
 
-## Rollout Timeline: Months 4-6 (200 Developers)
+## Rollout Timeline: Months 4-6 — Extended Cadence (200 Developers)
 
 **Month 4: Wave 3 (40 developers)**
 - Week 1: Setup and training
@@ -940,9 +942,10 @@ We've made it very easy:
 3. First real value: First task you try
 
 Typical learning curve:
-- Day 1: Basic usage (explain code, simple changes)
-- Week 1: Confident with common tasks
-- Month 1: Advanced workflows, significant productivity gains
+- 15 minutes: Basic usage (explain code, simple changes)
+- 1 day: Comfortable with common tasks
+- 1 week: Proficient with most features
+- 1 month: Advanced workflows, significant productivity gains
 
 Most developers report it's much easier than learning a new
 programming language or framework.
@@ -1079,7 +1082,7 @@ Measure before/after:
 - Documentation completeness
 
 Expected improvements:
-- Feature velocity: +20-40%
+- Feature velocity: +30-40%
 - Bug resolution: -30-50% time
 - Code review: -20-30% time
 - Test coverage: +15-25%
@@ -1128,7 +1131,7 @@ Survey monthly:
 
 ## ROI Calculation Example: Time Saved & Value
 
-**Simple ROI Template:**
+**Simple ROI Template** (steady-state, per developer, once already trained and rolled out — excludes the one-time rollout costs in "Costs and Payback Period" above):
 ```
 Time Saved per Developer per Week:
   Code explanation: 1 hour
@@ -1598,7 +1601,5 @@ Claude Code @ [Company]  (continued)
 ## Keeping This Guide Current
 
 *This implementation guide is a living document. Update based on your experience and evolving best practices.*
-
-Last updated: February 2026
 
 > **Where to go next:** pair rollout with the [Training Workshop](/articles/training-deck) materials and [Enterprise Best Practices](/articles/best-practices) for day-to-day usage standards. This entire lifecycle is the practical answer to Question 5 in [Team-First AI](/articles/team-first-ai) — do you have the right team for AI — worked step by step.

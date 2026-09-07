@@ -59,12 +59,12 @@ Five parts, three hours: introduction, hands-on setup, core skills, advanced pat
 
 ## Where Developers' Time Actually Goes
 
-**Developers spend time on:**
-- 35% Writing new code
-- 25% Reading and understanding code
-- 20% Debugging and fixing issues
-- 15% Writing tests and documentation
-- 5% Other (meetings, research, etc.)
+**A typical breakdown, for framing this workshop (not a cited statistic — adjust to your own team's reality):**
+- ~35% Writing new code
+- ~25% Reading and understanding code
+- ~20% Debugging and fixing issues
+- ~15% Writing tests and documentation
+- ~5% Other (meetings, research, etc.)
 
 **Claude Code helps with ALL of these activities.**
 
@@ -72,12 +72,12 @@ Five parts, three hours: introduction, hands-on setup, core skills, advanced pat
 
 ## The Measured Benefits
 
-**From organizations using Claude Code:**
-- 30-50% faster feature development
-- 40% reduction in debugging time
-- 60% less time on boilerplate code
-- 40% faster onboarding for new developers
+**From the [flagship case study](/articles/service-offerings) (mid-size software company, 3 months in):**
+- 60% reduction in time spent on boilerplate code
+- 40% reduction in onboarding time
 - 25% improvement in test coverage
+- 35% increase in code review throughput
+- 92% developer adoption rate
 
 **But also:**
 - More enjoyable work (focus on creative problem-solving)
@@ -152,7 +152,7 @@ Five parts, three hours: introduction, hands-on setup, core skills, advanced pat
 ---
 
 ## Installation: Requirements
-- **OS:** macOS or Linux (Windows: see [FAQ](/articles/faq-troubleshooting) for current status)
+- **OS:** macOS, Linux, or Windows (native support, or WSL2 for sandboxed execution) — see [FAQ](/articles/faq-troubleshooting) for details
 - **API Access:** Anthropic API key
 - **Terminal:** Any modern terminal or IDE
 
@@ -1330,7 +1330,7 @@ A: No, it's a tool to augment developers, not replace them. You're still in cont
 ## Troubleshooting
 
 ### Issue: Can't install on Windows
-**Solution:** Use WSL2 — see the [FAQ](/articles/faq-troubleshooting) for current native-support status.
+**Solution:** Windows has native support (Windows 10 1809+ or Windows Server 2019+) — install directly from PowerShell or CMD, no WSL required. Use WSL2 only if you need sandboxed command execution; see the [FAQ](/articles/faq-troubleshooting) for details.
 
 ### Issue: API key errors
 **Solution:** Verify key is correct, check billing account is active, ensure network access.
