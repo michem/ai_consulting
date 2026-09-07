@@ -1,6 +1,12 @@
 {
   "ai-architect-perspective": [
     {
+      "hash": "4f9bf0350e330abdb9f68d51054fa8aa642042f8",
+      "shortHash": "4f9bf03",
+      "date": "2026-08-15T07:17:43+00:00",
+      "subject": "loop: presenter — fix slide overflow in AI Architect's Perspective and AI Across Business Functions"
+    },
+    {
       "hash": "6053317c4bdc17a3503a0510275df0d9664da777",
       "shortHash": "6053317",
       "date": "2026-08-03T07:13:59+00:00",
@@ -27,10 +33,34 @@
   ],
   "ai-in-business-functions": [
     {
+      "hash": "5002071136f6fa5826825a90e8910a26400bfbb8",
+      "shortHash": "5002071",
+      "date": "2026-08-21T07:12:06+00:00",
+      "subject": "loop: presenter — fix diagram/section mismatch in AI Across Business Functions"
+    },
+    {
+      "hash": "4f9bf0350e330abdb9f68d51054fa8aa642042f8",
+      "shortHash": "4f9bf03",
+      "date": "2026-08-15T07:17:43+00:00",
+      "subject": "loop: presenter — fix slide overflow in AI Architect's Perspective and AI Across Business Functions"
+    },
+    {
       "hash": "dc2480ea42653c298ef2a23cb4b06688e257f381",
       "shortHash": "dc2480e",
       "date": "2026-08-04T07:17:50+00:00",
       "subject": "loop: presenter — split diagram slide in AI Across Business Functions"
+    },
+    {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
+    },
+    {
+      "hash": "4bc6cbc6b2aedf9de6ebc2a8942638d839a561f9",
+      "shortHash": "4bc6cbc",
+      "date": "2026-07-30T21:44:17+00:00",
+      "subject": "loop: editor — refresh Windows/JetBrains support claims and EU AI Act status"
     },
     {
       "hash": "b6ecec5248d39d186d464501cd8d96ec44c84dc1",
@@ -53,10 +83,34 @@
   ],
   "ai-maturity-assessment": [
     {
+      "hash": "e5418e094ca418f393a67dd58098b25f548aadcb",
+      "shortHash": "e5418e0",
+      "date": "2026-09-06T07:15:20+00:00",
+      "subject": "loop: presenter — turn sparse Six Dimensions slide into a real overview"
+    },
+    {
+      "hash": "38eee4598bf8252f8e3b908b0722b0de23b108cc",
+      "shortHash": "38eee45",
+      "date": "2026-08-20T07:22:13+00:00",
+      "subject": "loop: presenter — split overloaded Size-Calibrated Benchmarks slide in AI Maturity Audit"
+    },
+    {
+      "hash": "e53a158af0b71ddf8235599fddaa20ab2f9db98c",
+      "shortHash": "e53a158",
+      "date": "2026-08-11T07:36:58+00:00",
+      "subject": "loop: presenter — fix clipped mermaid node labels in slideshow mode, split overflowing maturity-stages slide"
+    },
+    {
       "hash": "366a670dc1bb7388687f960cad8d63095d9e3696",
       "shortHash": "366a670",
       "date": "2026-08-01T07:13:52+00:00",
       "subject": "loop: presenter — split Service Offerings and AI Maturity Audit into slide-sized sections"
+    },
+    {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
     },
     {
       "hash": "b6ecec5248d39d186d464501cd8d96ec44c84dc1",
@@ -78,6 +132,30 @@
     }
   ],
   "best-practices": [
+    {
+      "hash": "c16c240c57bd79ae303d25deda5e7bbe27383840",
+      "shortHash": "c16c240",
+      "date": "2026-09-02T07:27:04+00:00",
+      "subject": "loop: presenter — fix real overflow in Enterprise Best Practices and Enterprise Readiness Assessment, root-cause a false-positive"
+    },
+    {
+      "hash": "5094d9e45e75d6724da4338c385a12beaad3a374",
+      "shortHash": "5094d9e",
+      "date": "2026-08-17T07:28:49+00:00",
+      "subject": "loop: presenter — fix overflowing and bundled slides in Enterprise Best Practices"
+    },
+    {
+      "hash": "8911554f7b6c1c62469092a7890c3a20eb467acf",
+      "shortHash": "8911554",
+      "date": "2026-08-05T07:21:27+00:00",
+      "subject": "loop: presenter — split bundled Template/Example and checklist slides in Enterprise Best Practices"
+    },
+    {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
+    },
     {
       "hash": "28b9cfd6e085a06176c357b5765c065264cc5d2b",
       "shortHash": "28b9cfd",
@@ -111,6 +189,36 @@
   ],
   "faq-troubleshooting": [
     {
+      "hash": "cc3c68d2d421644b85ab5799efd9b0c1bf0b3c85",
+      "shortHash": "cc3c68d",
+      "date": "2026-08-25T07:21:12+00:00",
+      "subject": "loop: presenter — fix 12 overflowing slides in FAQ & Troubleshooting"
+    },
+    {
+      "hash": "8ed311005437634a2a0cd462ad8663f95ef83997",
+      "shortHash": "8ed3110",
+      "date": "2026-08-10T07:21:42+00:00",
+      "subject": "loop: presenter — fix oversized and mismatched slides in FAQ & Troubleshooting"
+    },
+    {
+      "hash": "4bb00f38d0491d6a5b7bbab43f4a7fd140ff6764",
+      "shortHash": "4bb00f3",
+      "date": "2026-08-01T21:45:02+00:00",
+      "subject": "loop: editor — kill dead anchor links in FAQ TOC, close history-of-ai's missing tie-back"
+    },
+    {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
+    },
+    {
+      "hash": "4bc6cbc6b2aedf9de6ebc2a8942638d839a561f9",
+      "shortHash": "4bc6cbc",
+      "date": "2026-07-30T21:44:17+00:00",
+      "subject": "loop: editor — refresh Windows/JetBrains support claims and EU AI Act status"
+    },
+    {
       "hash": "5eceba07ef471cdfdceb76a900c19bec71b476f2",
       "shortHash": "5eceba0",
       "date": "2026-07-30T07:14:51+00:00",
@@ -142,6 +250,12 @@
     }
   ],
   "getting-started-with-ai": [
+    {
+      "hash": "a5c50ce8ff3c9fd17c6ba2d460864bb928a32d07",
+      "shortHash": "a5c50ce",
+      "date": "2026-08-18T07:19:13+00:00",
+      "subject": "loop: presenter — fix three overflowing slides in Getting Started with AI"
+    },
     {
       "hash": "6053317c4bdc17a3503a0510275df0d9664da777",
       "shortHash": "6053317",
@@ -175,6 +289,18 @@
   ],
   "history-of-ai": [
     {
+      "hash": "7ac0b2d4505cbaecbed76904f467e82764847a38",
+      "shortHash": "7ac0b2d",
+      "date": "2026-08-09T07:17:04+00:00",
+      "subject": "loop: presenter — land the 2023 enterprise-adoption slide with a closing synthesis line"
+    },
+    {
+      "hash": "4bb00f38d0491d6a5b7bbab43f4a7fd140ff6764",
+      "shortHash": "4bb00f3",
+      "date": "2026-08-01T21:45:02+00:00",
+      "subject": "loop: editor — kill dead anchor links in FAQ TOC, close history-of-ai's missing tie-back"
+    },
+    {
       "hash": "02b2f8633085ae5971f65cbdf94ba86bf3689b2b",
       "shortHash": "02b2f86",
       "date": "2026-07-26T12:28:08+00:00",
@@ -183,10 +309,34 @@
   ],
   "implementation-guide": [
     {
+      "hash": "3d8a715d1d1b80554203b8ef9d305cbd2aed0cec",
+      "shortHash": "3d8a715",
+      "date": "2026-08-22T07:22:15+00:00",
+      "subject": "loop: presenter — fix 25 overflowing slides in Implementation Guide"
+    },
+    {
+      "hash": "05453e117d44d6d5fa8a20ed2af6332211210567",
+      "shortHash": "05453e1",
+      "date": "2026-08-12T07:27:06+00:00",
+      "subject": "loop: presenter — fix six overflowing slides in Implementation Guide"
+    },
+    {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
+    },
+    {
       "hash": "96f4eceb9378b6e8d8480b90b1c35256f2898d44",
       "shortHash": "96f4ece",
       "date": "2026-07-31T07:18:44+00:00",
       "subject": "loop: presenter — split Implementation Guide into slide-sized sections"
+    },
+    {
+      "hash": "4bc6cbc6b2aedf9de6ebc2a8942638d839a561f9",
+      "shortHash": "4bc6cbc",
+      "date": "2026-07-30T21:44:17+00:00",
+      "subject": "loop: editor — refresh Windows/JetBrains support claims and EU AI Act status"
     },
     {
       "hash": "f012f25cfddee3355f3c1d4f12fcd78b8e0329da",
@@ -221,6 +371,30 @@
   ],
   "readiness-assessment": [
     {
+      "hash": "c16c240c57bd79ae303d25deda5e7bbe27383840",
+      "shortHash": "c16c240",
+      "date": "2026-09-02T07:27:04+00:00",
+      "subject": "loop: presenter — fix real overflow in Enterprise Best Practices and Enterprise Readiness Assessment, root-cause a false-positive"
+    },
+    {
+      "hash": "c65b4494d3fb0276eccea461b1156514f3deec25",
+      "shortHash": "c65b449",
+      "date": "2026-08-30T07:20:26+00:00",
+      "subject": "loop: presenter — fix 7 overflowing slides and a broken blank-fill bug in Readiness Assessment"
+    },
+    {
+      "hash": "e81fc993b503358b37018fe8299ca9a5df9b8641",
+      "shortHash": "e81fc99",
+      "date": "2026-08-13T07:28:13+00:00",
+      "subject": "loop: presenter — fix Team-First AI diagram overflow, worksheet Notes overflow site-wide"
+    },
+    {
+      "hash": "4bc6cbc6b2aedf9de6ebc2a8942638d839a561f9",
+      "shortHash": "4bc6cbc",
+      "date": "2026-07-30T21:44:17+00:00",
+      "subject": "loop: editor — refresh Windows/JetBrains support claims and EU AI Act status"
+    },
+    {
       "hash": "5eceba07ef471cdfdceb76a900c19bec71b476f2",
       "shortHash": "5eceba0",
       "date": "2026-07-30T07:14:51+00:00",
@@ -253,10 +427,28 @@
   ],
   "service-offerings": [
     {
+      "hash": "e6b4bd08f2569384eecde0ff7b716482cc6a90c5",
+      "shortHash": "e6b4bd0",
+      "date": "2026-09-03T07:15:04+00:00",
+      "subject": "loop: presenter — split two overflowing bundled-subsection slides in Service Offerings"
+    },
+    {
+      "hash": "1a23afc109c3082240ab24ffbab8eecfff7bd786",
+      "shortHash": "1a23afc",
+      "date": "2026-08-14T07:36:01+00:00",
+      "subject": "loop: presenter — fix slide overflow in Training Workshop and Service Offerings"
+    },
+    {
       "hash": "366a670dc1bb7388687f960cad8d63095d9e3696",
       "shortHash": "366a670",
       "date": "2026-08-01T07:13:52+00:00",
       "subject": "loop: presenter — split Service Offerings and AI Maturity Audit into slide-sized sections"
+    },
+    {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
     },
     {
       "hash": "34b4ab10894d01a86f0882852e751dffa000f1f9",
@@ -285,6 +477,12 @@
   ],
   "team-first-ai": [
     {
+      "hash": "e81fc993b503358b37018fe8299ca9a5df9b8641",
+      "shortHash": "e81fc99",
+      "date": "2026-08-13T07:28:13+00:00",
+      "subject": "loop: presenter — fix Team-First AI diagram overflow, worksheet Notes overflow site-wide"
+    },
+    {
       "hash": "b6ecec5248d39d186d464501cd8d96ec44c84dc1",
       "shortHash": "b6ecec5",
       "date": "2026-07-30T12:24:48+00:00",
@@ -299,10 +497,28 @@
   ],
   "training-deck": [
     {
+      "hash": "afab21f786c6b00004524f612eafd216cf2bb26a",
+      "shortHash": "afab21f",
+      "date": "2026-09-04T07:18:32+00:00",
+      "subject": "loop: presenter — fix 11 overflowing slides in Training Workshop"
+    },
+    {
+      "hash": "1a23afc109c3082240ab24ffbab8eecfff7bd786",
+      "shortHash": "1a23afc",
+      "date": "2026-08-14T07:36:01+00:00",
+      "subject": "loop: presenter — fix slide overflow in Training Workshop and Service Offerings"
+    },
+    {
       "hash": "6460583e219392475a230a69ced2e303960cb3f1",
       "shortHash": "6460583",
       "date": "2026-08-02T07:18:02+00:00",
       "subject": "loop: presenter — split Training Workshop deck into slide-sized sections"
+    },
+    {
+      "hash": "ceb9a8d7a6121ba9a80aa8912769cbec91e69ef3",
+      "shortHash": "ceb9a8d",
+      "date": "2026-07-31T21:47:07+00:00",
+      "subject": "loop: editor — close site coherence gaps: broken link, philosophy tie-backs, dated claims"
     },
     {
       "hash": "34b4ab10894d01a86f0882852e751dffa000f1f9",

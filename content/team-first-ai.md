@@ -16,7 +16,7 @@ That translates into six questions, asked in order. Skip one and AI initiatives 
 ## The Six Questions at a Glance
 
 ```mermaid
-flowchart TD
+flowchart LR
     Q1["1 · What is the business trying to do?"] --> Q2["2 · What team is on that problem?"]
     Q2 --> Q3["3 · How successful is that team today?<br/>baseline, measured"]
     Q3 --> Q4["4 · How could AI raise the team's output?<br/>leverage, task-relevant maturity"]

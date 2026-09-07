@@ -56,41 +56,32 @@ You do not need a data lake and a chief AI officer to start. You do need four th
 
 ## A 90-Day Starting Plan
 
-**Days 1–15: Orient.**
-- Run the [AI Maturity Audit](/articles/ai-maturity-assessment) to establish your baseline.
-- Inventory current AI usage — official and shadow.
-- Publish the one-page policy; procure an enterprise AI assistant.
-
-**Days 16–45: Enable.**
-- Train all knowledge workers (2–3 hours: capabilities, limits, prompting, data rules).
-- Collect use-case ideas from the floor; score them on value × feasibility.
-- Launch 2–3 Horizon-1 quick wins with named owners and baselines.
-
-**Days 46–90: Prove and decide.**
-- Measure the quick wins against baselines; kill what doesn't work, scale what does.
-- Select one Horizon-2 integration candidate (typically: internal knowledge assistant or document processing) and scope it properly.
-- Report results to leadership; decide the next quarter's portfolio and budget.
+| Days | Phase | Key actions |
+|---|---|---|
+| 1–15 | Orient | Run the [AI Maturity Audit](/articles/ai-maturity-assessment); inventory current usage (official and shadow); publish the one-page policy and procure an enterprise assistant |
+| 16–45 | Enable | Train all knowledge workers (2–3 hrs); collect and score use-case ideas; launch 2–3 Horizon-1 quick wins with named owners and baselines |
+| 46–90 | Prove and decide | Measure quick wins against baselines, kill or scale; select one Horizon-2 candidate and scope it; report results and next quarter's portfolio to leadership |
 
 ## The 90 Days, Visualized
 
 ```mermaid
 flowchart LR
     subgraph P1["Days 1–15 · Orient"]
-        direction TB
+        direction LR
         A1["Run the maturity audit"] --> A2["Inventory current usage"] --> A3["Publish policy,<br/>procure sanctioned tool"]
     end
     subgraph P2["Days 16–45 · Enable"]
-        direction TB
+        direction LR
         B1["Train all knowledge workers"] --> B2["Collect and score<br/>use-case ideas"] --> B3["Launch 2–3 quick wins<br/>with baselines"]
     end
     subgraph P3["Days 46–90 · Prove & decide"]
-        direction TB
+        direction LR
         C1["Measure vs baselines"] --> C2["Kill or scale"] --> C3["Scope first integration,<br/>set next-quarter portfolio"]
     end
     P1 --> P2 --> P3
 ```
 
-Each phase ends with something concrete: a baseline and policy, running quick wins, and a leadership decision backed by numbers.
+Each phase ends with something concrete: a baseline and policy, then quick wins, then a numbers-backed decision.
 
 ## The Team You Need
 
@@ -103,7 +94,7 @@ Adoption is carried by a small set of roles — in a small company several hats 
 ## The Team, Visualized
 
 ```mermaid
-flowchart TB
+flowchart LR
     S["Executive sponsor<br/>sets direction, unblocks, models usage"] --> O["AI owner<br/>portfolio, policy, scorekeeping"]
     ARCH["Fractional AI architect<br/>judgment, architecture, cadence"] -. advises .-> S
     ARCH -. coaches .-> O

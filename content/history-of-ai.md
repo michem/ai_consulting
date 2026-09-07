@@ -52,6 +52,8 @@ At this point AI was still a specialist's tool. That changed abruptly.
 - **Open-weight models** (Llama 2 and successors) gave organizations a self-hosted option for privacy-sensitive workloads.
 - **Governance arrived**: the EU AI Act advanced, and enterprises stood up AI usage policies for the first time.
 
+By year's end, the enterprise question had flipped from *whether* to adopt AI to *how fast* — and under what rules.
+
 ## 2024: Multimodal, Cheaper, and Grounded
 
 - **Multimodality became normal.** Frontier models could see images, process documents, and increasingly hear and speak — one model handling text, vision, and structured data.

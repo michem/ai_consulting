@@ -51,18 +51,7 @@ Claude Code is an AI-powered coding assistant from Anthropic that helps develope
 
 ## What programming languages does Claude Code support?
 
-Claude Code works with all major programming languages:
-- JavaScript/TypeScript
-- Python
-- Java
-- C/C++
-- Go
-- Rust
-- Ruby
-- PHP
-- Swift
-- Kotlin
-- And many more
+Claude Code works with all major programming languages — JavaScript/TypeScript, Python, Java, C/C++, Go, Rust, Ruby, PHP, Swift, Kotlin, and many more.
 
 It adapts to whatever language and framework your project uses.
 
@@ -115,6 +104,8 @@ npx @anthropic-ai/claude-code
 3. Search for "Claude Code"
 4. Install and configure API key
 
+## More Ways to Install: Cursor & JetBrains
+
 **Option 3: Cursor IDE**
 - Built-in support
 - Configure in preferences
@@ -147,6 +138,8 @@ npx @anthropic-ai/claude-code
 - Use Claude Code within a WSL2 environment
 - Required if you need sandboxed execution or a Linux-native toolchain
 
+## Windows Support: Cloud Alternatives
+
 **Option 3: Cloud development environments**
 - Use GitHub Codespaces
 - Use AWS Cloud9
@@ -154,27 +147,14 @@ npx @anthropic-ai/claude-code
 
 ## How do I configure Claude Code for my company's proxy?
 
-**Set proxy environment variables:**
+**Set standard proxy environment variables:**
 
 ```bash
-# HTTP proxy
-export HTTP_PROXY=http://proxy.company.com:8080
 export HTTPS_PROXY=http://proxy.company.com:8080
-
-# With authentication
-export HTTP_PROXY=http://username:password@proxy.company.com:8080
-export HTTPS_PROXY=http://username:password@proxy.company.com:8080
-
-# No proxy for certain domains
 export NO_PROXY=localhost,127.0.0.1,.company.local
 ```
 
-**Or in ~/.claude/config:**
-```json
-{
-  "proxy": "http://proxy.company.com:8080"
-}
-```
+Add `username:password@` before the hostname if your proxy requires authentication. Prefer setting `"proxy"` once in `~/.claude/config` if you want it applied in every shell without exporting variables.
 
 ## Can Claude Code work in air-gapped environments?
 
@@ -245,10 +225,7 @@ git checkout -- filename
 git reset --hard HEAD
 ```
 
-**If not using git:**
-- Use your IDE's undo feature (Cmd/Ctrl+Z)
-- Restore from backup
-- Ask Claude to revert: "Undo the last change"
+**If not using git:** use your IDE's undo feature (Cmd/Ctrl+Z), restore from backup, or ask Claude to revert ("Undo the last change").
 
 **Best practice:** Always commit working code before major Claude Code sessions.
 
@@ -371,10 +348,7 @@ What Claude Code actually costs, and how to keep it predictable.
 - Light users: €15-25/month
 - Heavy users: €60-100/month
 
-**Compare to:**
-- GitHub Copilot: ~€10-18/user/month (flat rate, as of Feb 2026)
-- Developer salary: €4,000-8,000/month
-- ROI typically 10-40x
+**Compare to:** GitHub Copilot at ~€10-18/user/month (flat rate, as of Feb 2026); developer salary at €4,000-8,000/month; ROI typically 10-40x.
 
 ## How do we control costs?
 
@@ -389,6 +363,8 @@ What Claude Code actually costs, and how to keep it predictable.
    - Be specific in prompts (reduces tokens)
    - Use search before full file reads
    - Clear, focused requests
+
+## Controlling Costs: Team & Monitoring
 
 3. **Educate team:**
    - Efficient prompting techniques
@@ -447,14 +423,13 @@ Problems that show up before Claude Code ever runs.
 
 **Solution:**
 ```bash
-# Install Node.js (macOS with Homebrew)
+# macOS (Homebrew)
 brew install node
 
-# Install Node.js (Linux)
-# Ubuntu/Debian
+# Linux (Ubuntu/Debian)
 sudo apt update && sudo apt install nodejs npm
 
-# Fedora
+# Linux (Fedora)
 sudo dnf install nodejs npm
 
 # Verify
@@ -626,9 +601,7 @@ git checkout feature-branch
 **Solution:**
 ```
 "Commit these changes using our conventional commits format:
-- feat: for features
-- fix: for bug fixes
-- refactor: for refactoring
+- feat: features · fix: bug fixes · refactor: refactoring
 
 Include ticket number in format: [PROJ-123]"
 ```
@@ -685,8 +658,7 @@ Problems that show up as cost or speed complaints rather than broken behavior.
 npm test
 
 # If failing, ask Claude to fix
-"These tests are failing: [test names]
-Here are the errors: [error messages]
+"These tests are failing: [test names], errors: [error messages].
 Please fix the code to make them pass."
 ```
 
@@ -705,22 +677,10 @@ Making Claude Code faster and cheaper, and knowing where it earns its keep.
 
 **Tips for faster responses:**
 
-1. **Be specific:**
-   - Reduces files Claude needs to read
-   - Faster processing
-
-2. **Use focused requests:**
-   - Break large tasks into smaller steps
-   - Work on one thing at a time
-
-3. **Choose appropriate model:**
-   - Haiku: Fast, simple tasks
-   - Sonnet: Balanced (default)
-   - Opus: Complex reasoning (slower)
-
-4. **Good internet connection:**
-   - Faster upload/download
-   - Reduces latency
+1. **Be specific:** reduces files Claude needs to read, faster processing
+2. **Use focused requests:** break large tasks into smaller steps, one thing at a time
+3. **Choose appropriate model:** Haiku (fast, simple tasks), Sonnet (balanced, default), Opus (complex reasoning, slower)
+4. **Good internet connection:** faster upload/download, reduces latency
 
 ## How can I reduce API costs?
 
@@ -737,6 +697,8 @@ Making Claude Code faster and cheaper, and knowing where it earns its keep.
    - Sonnet for most tasks
    - Opus only when needed
 
+## Reducing API Costs: Requests & Monitoring
+
 3. **Clear requests:**
    - Reduces back-and-forth
    - Gets it right first time
@@ -752,32 +714,12 @@ Making Claude Code faster and cheaper, and knowing where it earns its keep.
 
 ## What are the best use cases for Claude Code?
 
-**High value (most ROI):**
-- ✅ Writing tests
-- ✅ Debugging errors
-- ✅ Understanding unfamiliar code
-- ✅ Writing boilerplate
-- ✅ Updating documentation
-- ✅ Refactoring
-- ✅ Code review assistance
-
-**Medium value:**
-- ⚠️ Implementing well-defined features
-- ⚠️ Database queries
-- ⚠️ API integration
-- ⚠️ Configuration
-
-**Use with caution (needs careful review):**
-- ⚠️ Security-sensitive code
-- ⚠️ Performance-critical code
-- ⚠️ Complex business logic
-- ⚠️ Architecture decisions
-
-**Not recommended:**
-- ❌ Replacing human code review
-- ❌ Production database operations
-- ❌ Security audits
-- ❌ Deciding business requirements
+| Tier | Use cases |
+|---|---|
+| ✅ High value (most ROI) | Writing tests, debugging errors, understanding unfamiliar code, boilerplate, documentation, refactoring, code review assistance |
+| ⚠️ Medium value | Well-defined features, database queries, API integration, configuration |
+| ⚠️ Use with caution (needs careful review) | Security-sensitive code, performance-critical code, complex business logic, architecture decisions |
+| ❌ Not recommended | Replacing human code review, production database operations, security audits, deciding business requirements |
 
 ---
 
@@ -864,9 +806,12 @@ ANTHROPIC_API_KEY=sk-ant-... npx @anthropic-ai/claude-code
 
 # Check API connectivity
 curl https://api.anthropic.com -I
+```
 
-# View API usage
-# Go to console.anthropic.com → Usage
+## More Useful Commands
+
+```bash
+# View API usage — go to console.anthropic.com → Usage
 
 # Clear Claude Code cache (if issues)
 rm -rf ~/.claude/cache
@@ -897,6 +842,8 @@ For new users:
 - Type normally to chat
 
 ---
+
+## Before You Go
 
 *Last updated: July 2026*
 

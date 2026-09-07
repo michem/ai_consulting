@@ -22,7 +22,7 @@ Before deciding what to do with AI, an organization needs an honest answer to a 
 | **4** | **Industrializing** | AI is integrated into core systems and processes (RAG, document pipelines, agents). Evaluation, cost control, and governance are routine. Portfolio is actively managed. |
 | **5** | **Transforming** | Workflows and even offerings are redesigned around AI. AI capability shapes strategy and hiring. The organization absorbs new AI capabilities as a matter of routine. |
 
-Most organizations in 2026 sit between **1 and 3**. The 2→3 transition is where most value is lost: [MIT's *GenAI Divide* study (August 2025)](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) found ~95% of enterprise GenAI pilots delivered no measurable P&L impact, with the successful minority distinguished by workflow integration — not by better models. Stage 5 is rare and unnecessary for many; the right target depends on your industry's exposure to AI-driven change.
+Most organizations in 2026 sit between **1 and 3** — Stage 5 is rare and unnecessary for many; the right target depends on your industry's exposure to AI-driven change.
 
 ## The Journey, Visualized
 
@@ -34,11 +34,18 @@ flowchart LR
     S4 --> S5["5 · Transforming<br/>workflows redesigned"]
 ```
 
-The audit's job is to locate you on this line per dimension — and the wall between 2 and 3 is where the scorekeeping discipline of the [Team-First questions](/articles/team-first-ai) earns its keep.
+The 2→3 transition is where most value is lost: [MIT's *GenAI Divide* study (August 2025)](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf) found ~95% of enterprise GenAI pilots delivered no measurable P&L impact, with the successful minority distinguished by workflow integration — not by better models. The audit's job is to locate you on this line per dimension, and the wall between 2 and 3 is where the scorekeeping discipline of the [Team-First questions](/articles/team-first-ai) earns its keep.
 
 ## The Six Dimensions
 
 Score each dimension **1–5** using the stage descriptions above as anchors. Score what is *actually true today*, not what is planned.
+
+1. **Strategy & Leadership** — does spend follow a stated view of where AI creates value?
+2. **Use Cases & Value** — is AI deployed against real work, and is the value measured?
+3. **Data & Knowledge** — can AI reach the information it needs, safely?
+4. **Technology & Integration** — standalone chat tools, or integrated capability?
+5. **People & Culture** — fluency across the org, or a few enthusiasts?
+6. **Governance & Risk** — guardrails that enable, or block, or don't exist?
 
 ## Dimension 1: Strategy & Leadership
 Does leadership have a view on where AI creates value here — and does spending follow it?
@@ -85,22 +92,30 @@ Guardrails that enable rather than block.
   - High Strategy, low Use Cases → "slideware AI"
 - The lowest one or two dimensions are almost always the right place to spend the next quarter. Maturity rises as a convoy: the slowest dimension sets the pace.
 
-## Size-Calibrated Benchmarks
+## Size-Calibrated Benchmarks: What to Prioritize
 
 Raw scores mislead unless calibrated by organization size. Expectations for a healthy Stage-3 organization differ sharply:
 
 | Dimension | Small (≤50 FTE) | Mid-size (50–500) | Enterprise (500+) |
 |---|---|---|---|
-| Strategy | Owner-led priorities; one page | Exec sponsor + portfolio review each quarter | Board-level view; funded program |
-| Use cases | 2–3 in production, measured | 5–10 across ≥3 functions | Portfolio per division, value tracked centrally |
-| Data | Shared drive curated; classification rule | Knowledge base + first RAG; permissions mapped | Governed data products; AI-ready access layer |
-| Technology | Sanctioned assistant + no-code automations | First API integrations; usage/cost visibility | Platform team; model portfolio; evaluation infra |
-| People | Everyone trained once; 1 champion | Champions per department; role-based training | Academy/curriculum; fluency in job profiles |
+| Strategy | Owner-led priorities; one page | Exec sponsor; quarterly portfolio review | Board-level view; funded program |
+| Use cases | 2–3 in production, measured | 5–10 across ≥3 functions | Portfolio per division, tracked centrally |
+| Data | Shared drive curated; classification rule | Knowledge base + first RAG; permissions mapped | Governed data products; AI-ready access |
+
+## Size-Calibrated Benchmarks: How to Execute
+
+| Dimension | Small (≤50 FTE) | Mid-size (50–500) | Enterprise (500+) |
+|---|---|---|---|
+| Technology | Sanctioned assistant + no-code automations | First API integrations; usage/cost visibility | Platform team; model portfolio; evaluation |
+| People | Everyone trained once; 1 champion | Champions per department; role-based training | Academy/curriculum; fluency in roles |
 | Governance | One-page policy, sanctioned tools | Policy + intake + risk tiers | Review board, audit trails, regulatory program |
 
-**Reading the benchmark:** a 40-person firm at overall 3.0 with this profile is *ahead* of most peers — its next move is a first deep integration, not more governance. A 2,000-person enterprise at 3.0 with no platform strategy and no audit trail is *behind* — its constraint is industrialization, not enthusiasm.
+## Reading the Benchmark
 
-Small organizations should expect to move **one stage per 2–3 quarters** when deliberate; enterprises typically need **3–4 quarters per stage** due to coordination cost — which is why starting late is more expensive for them.
+- A 40-person firm at overall 3.0 with this profile is *ahead* of most peers — its next move is a first deep integration, not more governance
+- A 2,000-person enterprise at 3.0 with no platform strategy and no audit trail is *behind* — its constraint is industrialization, not enthusiasm
+- Small organizations should expect to move **one stage per 2–3 quarters** when deliberate
+- Enterprises typically need **3–4 quarters per stage** due to coordination cost — which is why starting late is more expensive for them
 
 ## The Positioning Readout
 
