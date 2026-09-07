@@ -36,8 +36,10 @@ Draw this line before your team has to guess where it is.
 - Code patterns and examples
 - Test data (non-production)
 
-⚠️ **Share with caution:**
-- Business logic (review output carefully)
+## What to Share with Caution
+
+⚠️ **Share with caution — review the output carefully:**
+- Business logic
 - API designs (ensure no sensitive endpoints exposed)
 - Database schemas (mask sensitive table/field names)
 - Configuration templates (remove actual values)
@@ -107,7 +109,8 @@ const user = {
 - Easy revocation
 - Personal usage limits
 
-**Setup Process:**
+## API Keys: Setup Process
+
 ```bash
 # Each developer creates their own key at console.anthropic.com
 # Store securely (never commit to git)
@@ -183,7 +186,7 @@ fi
 - Include in security awareness training
 - Audit usage logs
 
-## Industry-Specific Compliance
+## Industry-Specific Compliance — Healthcare & Payments
 
 **HIPAA (Healthcare):**
 - Anthropic offers BAA for enterprise
@@ -195,7 +198,8 @@ fi
 - Don't use for payment processing code without review
 - Sanitize examples and test data
 
-**Financial Services:**
+## Industry-Specific Compliance — Financial Services
+
 - Review code for regulatory compliance
 - Maintain audit trails
 - Follow change management procedures
@@ -212,7 +216,8 @@ fi
 - Insecure deserialization
 - Unvalidated redirects
 
-**Example security review prompt:**
+## Example Security Review Prompt
+
 ```
 "Review this authentication code for security vulnerabilities,
 specifically looking for:
@@ -471,11 +476,9 @@ Constraints:
 - Use the Joi library (already in package.json)
 - Follow the pattern in src/validators/productValidator.js
 - Return 400 with clear error messages
+- Validate: name (2-50 chars, letters/spaces), email (valid, unique in DB),
+  password (min 8 chars, upper/lower/number)
 - Add unit tests
-- Must validate:
-  - Name: 2-50 chars, letters and spaces only
-  - Email: valid format, unique in DB
-  - Password: min 8 chars, must have uppercase, lowercase, number
 ```
 
 ## Pattern: Code Explanation — Template
@@ -513,14 +516,9 @@ Requirements:
 - [Requirement 2]
 - [...]
 
-Follow:
-- [Existing pattern to match]
-- [Standards to apply]
+Follow: [existing pattern to match], [standards to apply]
 
-Include:
-- Unit tests
-- Documentation
-- Error handling"
+Include: unit tests, documentation, error handling"
 ```
 
 ## Pattern: Feature Implementation — Example
@@ -529,21 +527,14 @@ Include:
 "Implement a product search feature that allows filtering by category and price range
 
 Requirements:
-- GET /api/products/search endpoint
-- Query params: category, minPrice, maxPrice
-- Return paginated results (20 per page)
-- Sort by relevance (name match), then price
+- GET /api/products/search, params: category, minPrice, maxPrice
+- Return paginated results (20/page), sorted by relevance then price
 
-Follow:
-- Existing API pattern in src/routes/
-- Use ProductService for business logic
-- Sequelize for database queries
+Follow: existing API pattern in src/routes/, ProductService for business
+logic, Sequelize for queries
 
-Include:
-- Input validation
-- Unit tests for controller and service
-- API documentation in OpenAPI format
-- Error handling for invalid inputs"
+Include: input validation, unit tests (controller + service), OpenAPI
+docs, error handling for invalid inputs"
 ```
 
 ## Pattern: Debugging — Template
@@ -563,11 +554,7 @@ Expected behavior:
 Context:
 [Relevant code or steps to reproduce]
 
-Please:
-1. Identify the root cause
-2. Suggest a fix
-3. Implement the fix
-4. Add test to prevent regression"
+Please identify the root cause, implement a fix, and add a test to prevent regression."
 ```
 
 ## Pattern: Debugging — Example
@@ -578,21 +565,13 @@ Please:
 Error message:
 TypeError: Cannot read property 'id' of undefined
   at UserService.update (src/services/user.js:67)
-  at UserController.updateProfile (src/controllers/user.js:45)
 
-Expected behavior:
-Should update user profile and return 200 with updated user
+Expected: update user profile, return 200 with the updated user
 
-Context:
-- Happens only when updating without changing email
-- Works fine when email is changed
-- Started after recent refactoring
+Context: happens only when updating without changing email; works fine
+when email is changed; started after recent refactoring
 
-Please:
-1. Identify the root cause
-2. Suggest a fix
-3. Implement the fix
-4. Add test to prevent regression"
+Please identify the root cause, implement a fix, and add a test to prevent regression."
 ```
 
 ## Pattern: Refactoring — Template
@@ -611,10 +590,7 @@ Desired outcome:
 - [Outcome 1]
 - [Outcome 2]
 
-Constraints:
-- Maintain backward compatibility
-- Keep tests passing
-- Follow [pattern/principle]"
+Constraints: maintain backward compatibility, keep tests passing, follow [pattern/principle]"
 ```
 
 ## Pattern: Refactoring — Example
@@ -622,20 +598,14 @@ Constraints:
 ```
 "Refactor src/controllers/orderController.js to improve testability
 
-Current issues:
-- Direct database calls make testing hard
-- Tightly coupled to Express request/response
-- Business logic mixed with HTTP concerns
+Current issues: direct DB calls make testing hard; tightly coupled to
+Express request/response; business logic mixed with HTTP concerns
 
-Desired outcome:
-- Business logic in OrderService
-- Controller only handles HTTP
-- Easy to unit test both layers
+Desired outcome: business logic in OrderService, controller only
+handles HTTP, easy to unit test both layers
 
-Constraints:
-- Maintain exact same API contract
-- Keep all existing tests passing
-- Follow the pattern in UserController/UserService"
+Constraints: maintain exact same API contract, keep all existing tests
+passing, follow the pattern in UserController/UserService"
 ```
 
 ## Pattern: Testing — Template
@@ -651,10 +621,7 @@ Test scenarios:
 - [Scenario 2]
 - [...]
 
-Use:
-- [Test framework]
-- [Test patterns]
-- [Mocking approach]
+Use: [test framework], [test patterns], [mocking approach]
 
 Coverage goal: [X]%"
 ```
@@ -664,19 +631,10 @@ Coverage goal: [X]%"
 ```
 "Create comprehensive tests for PaymentService.processPayment()
 
-Test scenarios:
-- Successful payment
-- Insufficient funds
-- Invalid card
-- Network timeout
-- Duplicate transaction
-- Partial refund
-- Full refund
+Test scenarios: successful payment, insufficient funds, invalid card,
+network timeout, duplicate transaction, partial/full refund
 
-Use:
-- Jest
-- Mock external payment gateway
-- Follow AAA pattern (Arrange, Act, Assert)
+Use: Jest, mock external payment gateway, AAA pattern (Arrange, Act, Assert)
 
 Coverage goal: 100% of processPayment() function"
 ```
@@ -759,20 +717,15 @@ You: "Let's go with Redis. Implement it following the
 Claude: [Implementation]
 ```
 
-## Common Prompting Mistakes
+## Common Prompting Mistakes — Vague Requests
 
-❌ "Make it better" / "Fix this" / "Add a feature"
-✅ "Refactor this function to reduce cognitive complexity from 15 to under 10"
-✅ "Fix the race condition in the order processing queue"
-✅ "Add pagination to the product list API with cursor-based pagination"
+| Vague | Specific |
+|---|---|
+| "Make it better" / "Fix this" / "Add a feature" | "Refactor this function to reduce cognitive complexity from 15 to under 10" |
+| "Write a login function" (no context) | "Write a login function for our Express API that uses JWT tokens, validates against PostgreSQL, and follows our AuthController pattern" |
+| "Improve the performance" (unclear success criteria) | "Reduce the response time of /api/products from 800ms to under 200ms by adding database indexes and caching" |
 
-❌ "Write a login function" (no context)
-✅ "Write a login function for our Express API that uses JWT tokens,
-   validates against PostgreSQL, and follows our AuthController pattern"
-
-❌ "Improve the performance" (unclear success criteria)
-✅ "Reduce the response time of /api/products from 800ms to under 200ms
-   by adding database indexes and caching"
+## Common Prompting Mistakes — Too Much at Once
 
 ❌ "Refactor the entire authentication system to use OAuth2 instead of
    JWT, migrate the database schema, update all API endpoints, add
@@ -854,7 +807,7 @@ Claude: [Pushes branch and creates PR with:]
 Title: "Add product review functionality"
 ```
 
-## Pull Requests — Generated Body
+## Pull Requests — Generated Body: Summary & Changes
 
 ```
 Body:
@@ -867,7 +820,11 @@ Implements product reviews allowing customers to rate and comment on products.
 - Added review UI components
 - Implemented rating aggregation
 - Added moderation workflow
+```
 
+## Pull Requests — Generated Body: Testing & Checklist
+
+```
 ## Testing
 - Unit tests for Review model
 - Integration tests for API
@@ -900,13 +857,19 @@ Found 3 type errors:
 [errors]
 
 Shall I fix them?
+```
 
+## Pre-commit Hooks: Fixing and Committing
+
+```
 You: "Yes"
 
 Claude: [Fixes errors, reruns checks, commits]
 ```
 
-## Failing CI Pipelines
+The same loop applies to any pre-commit gate — linting, formatting, coverage thresholds. Let Claude read the failure and act on it instead of pasting errors back manually.
+
+## Failing CI Pipelines: Diagnosis
 
 **Debug CI failures with Claude:**
 
@@ -919,7 +882,11 @@ The error shows that the integration tests are failing because
 the database seed data is missing...
 
 [Explains root cause]
+```
 
+## Failing CI Pipelines: Fix
+
+```
 Let me fix this by:
 1. Adding seed data to test setup
 2. Updating test environment config
@@ -1007,16 +974,8 @@ Individual productivity gains don't compound until the team shares what works. T
 Company Wiki / Claude Code
 ├── Quick Start Guide
 ├── Common Prompts Library
-│   ├── By Task Type
-│   │   ├── Debugging
-│   │   ├── Testing
-│   │   ├── Refactoring
-│   │   └── Documentation
-│   └── By Technology
-│       ├── React
-│       ├── Node.js
-│       ├── Python
-│       └── Database
+│   ├── By Task Type: Debugging, Testing, Refactoring, Documentation
+│   └── By Technology: React, Node.js, Python, Database
 ├── Success Stories
 ├── Tips and Tricks
 └── Troubleshooting
@@ -1032,14 +991,9 @@ Company Wiki / Claude Code
 ### Pattern
 "I'm getting a [status code] error from [endpoint].
 
-Error response:
-[paste error]
-
-Request:
-[paste request]
-
-Expected:
-[describe expected behavior]
+Error response: [paste error]
+Request: [paste request]
+Expected: [describe expected behavior]
 
 Please debug and fix."
 ```
@@ -1050,16 +1004,8 @@ Please debug and fix."
 ### Real Example
 "I'm getting a 422 error from POST /api/orders.
 
-Error response:
-{"error": "Validation failed", "details": ["Invalid product ID"]}
-
-Request:
-{
-  "products": [123, 456],
-  "address": {...},
-  "payment": {...}
-}
-
+Error response: {"error": "Validation failed", "details": ["Invalid product ID"]}
+Request: {"products": [123, 456], "address": {...}, "payment": {...}}
 Expected: Should create order successfully
 
 Please debug and fix."
@@ -1084,7 +1030,8 @@ Please debug and fix."
 - Announcing new patterns
 - Office hours schedule
 
-**Example messages:**
+## Team Slack Channel: Example Messages
+
 ```
 💡 Tip: When refactoring, ask Claude to "create a plan first"
    then review the plan before implementation. Saves time!
@@ -1098,20 +1045,22 @@ Please debug and fix."
 📅 Reminder: Office hours tomorrow at 2pm in #claude-office-hours
 ```
 
-## Human + Claude Pairing
+## Human + Claude Pairing — Driver-Navigator
 
-**Pattern 1: Driver-Navigator**
 ```
 Human: Navigator (high-level direction)
 Claude: Driver (implementation details)
 ```
 
-**Pattern 2: Reviewer-Implementer**
+Use this when the human knows the domain better than the codebase.
+
+## Human + Claude Pairing — Reviewer-Implementer
+
 ```
 Claude: Implementer (writes the first draft)
 Human: Reviewer (checks correctness, judges tradeoffs, approves)
 ```
 
-Rotate patterns by task: use Driver-Navigator when the human knows the domain better than the codebase, Reviewer-Implementer when the reverse is true.
+Use this when the reverse is true — Claude knows this corner of the codebase better than the human does. Rotate between the two patterns by task, not by habit.
 
 > **Where to go next:** these practices support the operating model in [The AI Architect's Perspective](/articles/ai-architect-perspective); for common issues, see [FAQ & Troubleshooting](/articles/faq-troubleshooting). They're the "how" — for the "why," see [Team-First AI](/articles/team-first-ai): this is what Question 4 (leverage, task-relevant maturity) looks like once a team is actually using the tool.

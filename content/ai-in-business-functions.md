@@ -23,11 +23,7 @@ flowchart LR
         TR["Triaging"]
         KN["Knowledge retrieval"]
     end
-    FAM --> SA["Sales & Marketing"]
-    FAM --> CS["Customer Service"]
-    FAM --> OP["Operations & Finance"]
-    FAM --> HR["HR & Legal"]
-    FAM --> IT["IT & Product"]
+    FAM --> EVERY["Applied to every<br/>function below"]
 ```
 
 Every function section below is one of these five families, applied to a specific workflow.
@@ -107,7 +103,7 @@ Often the fastest payback in the company — high volume, language-heavy, well-d
 
 **Metrics:** time-to-hire, recruiter hours per hire, HR ticket deflection, onboarding time-to-productivity.
 
-**Risk note:** hiring and personnel decisions are **high-risk under the EU AI Act**. AI may assist analysis; humans decide, criteria stay transparent, and outcomes are monitored for bias. This is the domain where governance discipline is most load-bearing. On timing: high-risk (Annex III) obligations were originally set to apply from 2 August 2026, but the ["Digital Omnibus on AI"](https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/) — formally adopted and in force since 27 July 2026 — defers stand-alone Annex III obligations to 2 December 2027 (AI embedded in regulated products under Annex I moves to 2 August 2028) — treat the extra time as runway for building the practices above, not as a reason to wait.
+**Risk note:** hiring and personnel decisions are **high-risk under the EU AI Act** — AI assists analysis, humans decide, criteria stay transparent. The ["Digital Omnibus on AI"](https://artificialintelligenceact.eu/implementation-timeline/) pushed Annex III obligations to 2 December 2027; use the runway to build these practices, not to wait.
 
 ## Legal & Compliance
 

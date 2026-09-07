@@ -91,13 +91,8 @@ Success metrics defined:
 
 **Notes:**
 ```
-Primary goals (check all that apply):
-- [ ] Increase developer productivity
-- [ ] Improve code quality
-- [ ] Accelerate onboarding
-- [ ] Reduce technical debt
-- [ ] Enable innovation
-- [ ] Other: _______________
+Primary goals: Increase developer productivity / Improve code quality
+Accelerate onboarding / Reduce technical debt / Enable innovation / Other: _______________
 ```
 
 **Section 1 Average:** _____ / 5
@@ -109,7 +104,7 @@ Primary goals (check all that apply):
 Can your developers actually reach and run Claude Code day to day?
 
 ## 2.1 Operating System Compatibility
-**Question:** What percentage of your developers are on a supported OS? (macOS, Linux, and Windows — native or WSL2 — are all supported; sandboxed command execution specifically needs WSL2, since it isn't available on native Windows.)
+**Question:** What percentage of your developers are on a supported OS? (macOS, Linux, Windows/WSL2 all supported; sandboxed execution needs WSL2, not native.)
 
 - [ ] 5 - 100% on a supported OS
 - [ ] 4 - 90-99% on a supported OS
@@ -121,11 +116,8 @@ Can your developers actually reach and run Claude Code day to day?
 
 **Notes:**
 ```
-Total developers: _____
-macOS: _____ (___%)
-Linux: _____ (___%)
-Windows (native or WSL2): _____ (___%)
-
+Total developers: _____ · macOS: _____ (___%) · Linux: _____ (___%)
+Windows (native/WSL2): _____ (___%)
 Need sandboxed execution on Windows? Confirm WSL2, not native.
 ```
 
@@ -142,17 +134,8 @@ Need sandboxed execution on Windows? Confirm WSL2, not native.
 
 **Notes:**
 ```
-Primary IDEs used:
-- [ ] VS Code
-- [ ] Cursor
-- [ ] JetBrains IDEs
-- [ ] Other: _______________
-
-Environment setup:
-- [ ] Containerized (Docker)
-- [ ] Scripted setup
-- [ ] Manual documentation
-- [ ] None
+Primary IDEs used: VS Code / Cursor / JetBrains IDEs / Other: _______________
+Environment setup: Containerized (Docker) / Scripted setup / Manual documentation / None
 ```
 
 ## 2.3 Network Access
@@ -187,12 +170,8 @@ Timeline to enable access:
 
 **Notes:**
 ```
-Key development tools:
-- Version control:
-- CI/CD:
-- Testing framework:
-- Code quality tools:
-
+Version control: _____ · CI/CD: _____
+Testing framework: _____ · Code quality tools: _____
 Integration concerns:
 ```
 
@@ -244,15 +223,7 @@ PII handling requirements:
 ## 3.3 Compliance Requirements
 **Question:** What compliance frameworks apply to your organization?
 
-**Check all that apply:**
-- [ ] GDPR
-- [ ] HIPAA
-- [ ] SOC 2
-- [ ] ISO 27001
-- [ ] PCI-DSS
-- [ ] FedRAMP
-- [ ] None
-- [ ] Other: _______________
+**Check all that apply:** GDPR / HIPAA / SOC 2 / ISO 27001 / PCI-DSS / FedRAMP / None / Other: _______________
 
 **Readiness score:**
 - [ ] 5 - All compliance requirements understood and addressed
@@ -386,7 +357,6 @@ The team's baseline habits predict how well it will absorb AI-assisted work.
 Senior developers: _____ (___%)
 Mid-level: _____ (___%)
 Junior: _____ (___%)
-
 Mentorship program:
 ```
 
@@ -467,12 +437,8 @@ Budget, time, and champions — the resources a rollout actually consumes.
 
 **Notes:**
 ```
-Estimated costs:
-- API costs: €_____/month
-- Training: €_____
-- Consulting: €_____
-- Internal time: _____ hours
-
+Estimated costs: API €_____/month · Training €_____
+Consulting €_____ · Internal time _____ hours
 Budget status:
 Approval process:
 ```
@@ -509,11 +475,7 @@ Upcoming deadlines:
 
 **Notes:**
 ```
-Identified champions:
-1. _______________
-2. _______________
-3. _______________
-
+Identified champions: 1. _____________ 2. _____________ 3. _____________
 Champion capacity:
 Support for champions:
 ```
@@ -568,9 +530,9 @@ Roll the six sections up into one weighted score and a clear-eyed view of gaps.
 ## Strengths
 
 **Top 3 strengths:**
-1. _______________________________
-2. _______________________________
-3. _______________________________
+1. **Strength:** _______________________________
+2. **Strength:** _______________________________
+3. **Strength:** _______________________________
 
 ## Gaps & Risks
 
@@ -587,19 +549,19 @@ Roll the six sections up into one weighted score and a clear-eyed view of gaps.
 Turn the gaps above into a dated, owned plan across three time horizons.
 
 ## Immediate Actions (Before Pilot)
-1. _______________________________
-2. _______________________________
-3. _______________________________
+1. **Action:** _______________________________
+2. **Action:** _______________________________
+3. **Action:** _______________________________
 
 ## Short-term (0-3 months)
-1. _______________________________
-2. _______________________________
-3. _______________________________
+1. **Action:** _______________________________
+2. **Action:** _______________________________
+3. **Action:** _______________________________
 
 ## Long-term (3-6 months)
-1. _______________________________
-2. _______________________________
-3. _______________________________
+1. **Action:** _______________________________
+2. **Action:** _______________________________
+3. **Action:** _______________________________
 
 ---
 
@@ -616,15 +578,12 @@ Based on your overall score, here are the recommended next steps:
 - Week 4: Pilot review and go/no-go
 - Week 5+: Phased rollout
 
-**Recommended package:**
-- [Quick Start or Enterprise Deployment package](/articles/service-offerings)
-- Consider consulting support for optimal results
+**Recommended package:** Quick Start or Enterprise Deployment — consider consulting support for optimal results.
 
 **Immediate actions:**
-1. Schedule kickoff meeting
-2. Select pilot team
-3. Set up billing and API access
-4. Plan training sessions
+1. Schedule kickoff meeting and select pilot team
+2. Set up billing and API access
+3. Plan training sessions
 
 ## If Score 3.0-3.9 (Nearly Ready)
 ⚠️ **Pilot program recommended, but address gaps first**
@@ -635,11 +594,7 @@ Based on your overall score, here are the recommended next steps:
 - Week 5-6: Review and remediation
 - Week 7+: Decision on full rollout
 
-**Focus areas:**
-- Address any scores below 3.0
-- Secure missing approvals
-- Resolve technical blockers
-- Build internal support
+**Focus areas:** scores below 3.0, missing approvals, technical blockers, internal support
 
 **Immediate actions:**
 1. Review gaps with leadership
@@ -655,11 +610,7 @@ Based on your overall score, here are the recommended next steps:
 - Month 3: Small proof of concept
 - Month 4-6: Iterative expansion based on learning
 
-**Focus areas:**
-- Build executive support
-- Resolve security/compliance issues
-- Develop internal capabilities
-- Create change management plan
+**Focus areas:** Build executive support / Resolve security/compliance issues / Develop internal capabilities / Create change management plan
 
 **Immediate actions:**
 1. Executive education session
@@ -675,11 +626,7 @@ Based on your overall score, here are the recommended next steps:
 - Month 4: Reassess readiness
 - Month 5+: Consider starting if ready
 
-**Focus areas:**
-- Build strategic alignment
-- Resolve critical blockers
-- Develop organizational capability
-- Consider smaller scope initially
+**Focus areas:** Build strategic alignment / Resolve critical blockers / Develop organizational capability / Consider smaller scope initially
 
 **Immediate actions:**
 1. Identify #1 blocker and address
@@ -712,20 +659,14 @@ Every action needs an owner and a due date, or it doesn't happen.
 
 ## Follow-up
 
-**Assessment completed by:** _______________________
-**Date:** _______________________
-**Next review date:** _______________________
-**Decision maker:** _______________________
-**Decision deadline:** _______________________
+**Assessment completed by:** _______________ **Date:** _______________ **Next review date:** _______________
+**Decision maker:** _______________ **Decision deadline:** _______________
 
 **Consultation needed?**
 - [ ] Yes - schedule consultation call
 - [ ] No - proceeding with internal planning
 
-**Contact for questions:**
-- Name: _______________________
-- Email: _______________________
-- Phone: _______________________
+**Contact for questions:** Name: _______________ · Email: _______________ · Phone: _______________
 
 ---
 

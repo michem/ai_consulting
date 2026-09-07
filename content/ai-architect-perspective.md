@@ -59,16 +59,16 @@ The architect thinks in layers, and insists that each layer be swappable:
 | **Data & context** | Document stores, embeddings, MCP/connectors into business systems | Can AI reach the data it needs — safely, with the right permissions? |
 | **Platform & security** | Identity, secrets, logging, cost controls, tenancy | Who used what, with which data, at what cost? |
 
-**The core doctrine: your durable assets are workflows and data** — redesigned workflows at the top of the stack, well-organized, permission-aware data two layers down. Orchestration, models, and the platform layer around and below them are commodities that improve, cheapen, and get replaced on their own schedule. Architect so you can swap them without touching what you actually own.
+**The core doctrine: your durable assets are the top and bottom layers.** Models in between are a commodity — architect so you can swap them.
 
 ## The Stack, Visualized
 
 ```mermaid
-flowchart TB
-    UC["Use cases & workflows<br/>YOUR DURABLE ASSET"] --> OR["Orchestration<br/>prompts, RAG, agents, evaluation — keep portable"]
-    OR --> MO["Models<br/>SWAPPABLE COMMODITY — re-pick per task, per quarter"]
-    MO --> DA["Data & context<br/>YOUR DURABLE ASSET — permission-aware, AI-reachable"]
-    DA --> PL["Platform & security<br/>identity, logging, cost control"]
+flowchart LR
+    UC["Use cases & workflows<br/>DURABLE ASSET"] --> OR["Orchestration<br/>portable prompts, RAG, agents"]
+    OR --> MO["Models<br/>SWAPPABLE COMMODITY"]
+    MO --> DA["Data & context<br/>DURABLE ASSET"]
+    DA --> PL["Platform & security<br/>identity, logging, cost"]
 ```
 
 Read it as two anchors, not a strict top/bottom pair: the workflows and data layers you own outlive every vendor decision made in the layers around them. Every architecture review starts by checking that orchestration, models, and platform are still swappable.
@@ -79,14 +79,19 @@ Read it as two anchors, not a strict top/bottom pair: the workflows and data lay
 
 **Model selection per task.** Match model tier to task stakes and volume: frontier models for complex reasoning and customer-visible quality; fast, cheap models for high-volume classification and extraction. Re-evaluate quarterly — yesterday's frontier capability is today's budget tier.
 
-**Human-in-the-loop by risk tier.**
+**Lock-in calculus.** Some lock-in is fine (it buys speed); unpriced lock-in is not. Keep prompts, evaluation sets, and data pipelines portable. An evaluation suite you own is the single best anti-lock-in asset: it lets you re-test any new model against your real tasks in a day.
+
+**Evaluate before you scale.** No AI workflow goes to production without a test set of real cases and an agreed quality bar. "It looked good in the demo" is not an acceptance criterion.
+
+## Human-in-the-Loop by Risk Tier
+
+The recurring frameworks above all funnel into one judgment call: how much does a human check? Match the tier to the stakes.
+
 - *Low stakes, reversible* (internal drafts, search): AI autonomous, spot-check
 - *Medium stakes* (customer replies, code): AI drafts, human approves
 - *High stakes* (financial, legal, safety, personnel decisions): AI assists analysis only; humans decide — often also a regulatory requirement
 
-**Lock-in calculus.** Some lock-in is fine (it buys speed); unpriced lock-in is not. Keep prompts, evaluation sets, and data pipelines portable. An evaluation suite you own is the single best anti-lock-in asset: it lets you re-test any new model against your real tasks in a day.
-
-**Evaluate before you scale.** No AI workflow goes to production without a test set of real cases and an agreed quality bar. "It looked good in the demo" is not an acceptance criterion.
+The same judgment a good manager applies to people, applied to machines: task-relevant maturity earns autonomy.
 
 ## What Changes with Organization Size
 

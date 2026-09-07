@@ -19,25 +19,26 @@ Three tiers, scaled to organization size and ambition: a pilot-sized Quick Start
 2. Enterprise Deployment Package (6-12 weeks)
 3. Strategic AI Transformation (3-6 months)
 
-## Quick Start Package: Assessment & Setup (2-4 weeks)
+## Quick Start Package: Initial Assessment (2-4 weeks)
 
 **Ideal for:** Organizations with 10-50 developers wanting to pilot Claude Code
 
-**What's Included:**
-- **Initial Assessment** (Half-day)
-  - Technical environment review (OS, IDE, tooling compatibility)
-  - Security and compliance requirements gathering
-  - Use case identification
-  - Pilot team selection
+**Initial Assessment** (Half-day):
+- Technical environment review (OS, IDE, tooling compatibility)
+- Security and compliance requirements gathering
+- Use case identification
+- Pilot team selection
 
-- **Setup & Configuration** (1 week)
-  - API key and billing setup guidance
-  - Installation support for pilot team (macOS, Linux, or Windows)
-  - IDE integration setup (VS Code, Cursor, JetBrains via plugin, or CLI)
-  - Custom prompt templates for your tech stack
-  - Git workflow integration
+## Quick Start Package: Setup & Configuration
 
-## Quick Start Package: Training, Support & Review
+**Setup & Configuration** (1 week):
+- API key and billing setup guidance
+- Installation support for pilot team (Mac/Linux)
+- IDE integration setup (VS Code, Cursor, or CLI)
+- Custom prompt templates for your tech stack
+- Git workflow integration
+
+## Quick Start Package: Training & Pilot Support
 
 - **Kick-off Training** (Half-day workshop)
   - Claude Code fundamentals
@@ -52,11 +53,13 @@ Three tiers, scaled to organization size and ambition: a pilot-sized Quick Start
   - Success metrics tracking
   - User feedback collection
 
-- **Pilot Review & Recommendations** (Half-day)
-  - Results presentation
-  - ROI analysis
-  - Rollout recommendations
-  - Policy and guidelines document
+## Quick Start Package: Pilot Review & Recommendations
+
+**Half-day, at the end of the pilot:**
+- Results presentation
+- ROI analysis
+- Rollout recommendations
+- Policy and guidelines document
 
 ## Quick Start Package: Deliverables & Investment
 
@@ -69,26 +72,25 @@ Three tiers, scaled to organization size and ambition: a pilot-sized Quick Start
 
 **Investment:** €8,500 - €12,000
 
-## Enterprise Deployment Package: Architecture & Policy (6-12 weeks)
+## Enterprise Deployment Package: Architecture Review (6-12 weeks)
 
-**Ideal for:** Organizations with 50-500 developers planning full-scale deployment
+**Ideal for:** Organizations with 50-500 developers planning full-scale deployment. Everything in Quick Start Package, plus:
 
-**What's Included:**
-Everything in Quick Start Package, plus:
+**Enterprise Architecture Review** (1 week):
+- Security architecture assessment
+- Network and proxy configuration
+- SSO/SAML integration planning
+- Data governance and compliance review
+- Multi-region deployment planning
 
-- **Enterprise Architecture Review** (1 week)
-  - Security architecture assessment
-  - Network and proxy configuration
-  - SSO/SAML integration planning
-  - Data governance and compliance review
-  - Multi-region deployment planning
+## Enterprise Deployment Package: Policy Development
 
-- **Policy Development** (1 week)
-  - Acceptable use policy creation
-  - Security and data handling guidelines
-  - Code review and audit procedures
-  - Incident response procedures
-  - License management policies
+**Policy Development** (1 week):
+- Acceptable use policy creation
+- Security and data handling guidelines
+- Code review and audit procedures
+- Incident response procedures
+- License management policies
 
 ## Enterprise Deployment Package: Training & Rollout
 

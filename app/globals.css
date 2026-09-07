@@ -359,6 +359,12 @@ a:hover {
   border-radius: var(--radius);
   overflow-x: auto;
   margin: 1.25rem 0;
+  /* Mermaid measures node-label text at the page's base font size before
+     the SVG is inserted here; the slideshow's larger, viewport-scaled
+     .slide-body font size would then render text wider than the boxes
+     it was measured for, clipping labels. Pin it so measurement and
+     paint always agree. */
+  font-size: 1rem;
 }
 .mermaid-diagram svg {
   max-width: 100%;
@@ -381,6 +387,11 @@ a:hover {
   background: none;
   border: none;
   padding: 0;
+  /* Undo the browser default pre{font-family:monospace}: Mermaid measures
+     node-label text using the surrounding sans-serif font, so inheriting
+     monospace here (wider per character) makes labels overflow the boxes
+     they were measured for and get clipped by the foreignObject bounds. */
+  font-family: inherit;
 }
 .slide-body .mermaid-diagram {
   border-color: rgba(255, 255, 255, 0.15);
@@ -536,6 +547,14 @@ a:hover {
   font-size: clamp(1rem, 1.7vw, 1.18rem);
   line-height: 1.6;
 }
+/* A trailing `---` divider (rendered as <hr>) before the next `##` heading
+   ends up as the last element in a slide's content. Its bottom margin was
+   counted in scrollHeight and flagged whole slides as overflowing even
+   though nothing was actually clipped — only empty space ran past the
+   fold. Drop the last child's bottom margin so it never does. */
+.slide-body > *:last-child {
+  margin-bottom: 0;
+}
 .slide-body p {
   margin: 0.7rem 0;
 }
@@ -565,6 +584,11 @@ a:hover {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 0.9rem 1.1rem;
+  /* Browser default `pre { margin: 1em 0 }` otherwise adds ~38px of
+     unstyled vertical space per code block — on worksheet-style articles
+     with several Notes blocks per slide, that alone was enough to push
+     slides into scrolling. Match the surrounding paragraph rhythm instead. */
+  margin: 0.7rem 0;
   overflow-x: auto;
 }
 .slide-body pre code {
